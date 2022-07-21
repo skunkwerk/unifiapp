@@ -1,0 +1,417 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:2:1-158:12
+	xmlns:tools
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:2:11-69
+	package
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:4:5-27
+	android:versionName
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:6:5-29
+	android:versionCode
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:5:5-29
+		INJECTED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:19.1.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:20.0.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/AndroidManifest.xml:16:5-42
+MERGED from [com.viewpagerindicator:library:2.4.1] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.viewpagerindicator/library/2.4.1/AndroidManifest.xml:3:5-42
+MERGED from [de.hdodenhof:circleimageview:1.2.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/1.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.google.maps.android:android-maps-utils:0.3.4] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.google.maps.android/android-maps-utils/0.3.4/AndroidManifest.xml:5:5-43
+MERGED from [unifi:facebook:unspecified] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/unifi/facebook/unspecified/AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support:support-v4:20.0.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/AndroidManifest.xml:16:5-42
+MERGED from [unifi:google-directions:unspecified] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/unifi/google-directions/unspecified/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services:3.2.65] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.2.65/AndroidManifest.xml:7:5-42
+MERGED from [com.android.support:support-v4:20.0.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/AndroidManifest.xml:16:5-42
+MERGED from [com.pascalwelsch.holocircularprogressbar:circular-progress-bar:1.3] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.pascalwelsch.holocircularprogressbar/circular-progress-bar/1.3/AndroidManifest.xml:7:5-10:42
+MERGED from [unifi.libraries:AndroidBootstrap:unspecified] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/unifi.libraries/AndroidBootstrap/unspecified/AndroidManifest.xml:7:5-9:41
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.2.1] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics/2.2.1/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.1.1] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.crashlytics.sdk.android/answers/1.1.1/AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.1.1] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.1.1/AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.1.1] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.1.1/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.1.1] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.crashlytics.sdk.android/beta/1.1.1/AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.1.1] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.1.1/AndroidManifest.xml:7:5-43
+	android:targetSdkVersion
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:10:9-38
+		INJECTED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:9:9-35
+		INJECTED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml
+	tools:ignore
+		ADDED from [com.pascalwelsch.holocircularprogressbar:circular-progress-bar:1.3] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.pascalwelsch.holocircularprogressbar/circular-progress-bar/1.3/AndroidManifest.xml:10:9-39
+uses-permission#android.permission.INTERNET
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:12:5-67
+MERGED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:7:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.2.1] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics/2.2.1/AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:12:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:13:5-79
+MERGED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:13:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:14:5-76
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:14:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:15:5-76
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:15:22-73
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:16:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:17:5-81
+MERGED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:17:22-78
+uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:18:5-88
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:18:22-85
+uses-permission#com.android.browser.permission.WRITE_HISTORY_BOOKMARKS
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:19:5-94
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:19:22-91
+uses-permission#com.android.browser.permission.READ_HISTORY_BOOKMARKS
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:20:5-93
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:20:22-90
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:21:5-72
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:21:22-69
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:22:5-71
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:22:22-68
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:23:5-74
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:23:22-71
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:24:22-65
+uses-permission#com.android.vending.BILLING
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:25:5-67
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:25:22-64
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:26:22-79
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:27:5-80
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:27:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:28:5-75
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:28:22-72
+permission#com.unifiapp.permission.C2D_MESSAGE
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:30:5-32:47
+	android:protectionLevel
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:32:9-44
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:31:9-59
+uses-permission#com.unifiapp.permission.C2D_MESSAGE
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:34:5-75
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:34:22-72
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:36:5-98
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:36:22-95
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:37:5-81
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:37:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:38:5-79
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:38:22-76
+uses-feature#0x00020000
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:40:5-42:35
+	android:required
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:42:9-32
+	android:glEsVersion
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:41:9-41
+application
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:44:5-156:19
+MERGED from [com.android.support:appcompat-v7:19.1.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/AndroidManifest.xml:19:5-20
+MERGED from [com.android.support:support-v4:20.0.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/AndroidManifest.xml:17:5-19
+MERGED from [de.hdodenhof:circleimageview:1.2.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/1.2.0/AndroidManifest.xml:9:5-20
+MERGED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:15:5-63:19
+MERGED from [com.google.maps.android:android-maps-utils:0.3.4] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.google.maps.android/android-maps-utils/0.3.4/AndroidManifest.xml:7:5-20
+MERGED from [unifi:facebook:unspecified] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/unifi/facebook/unspecified/AndroidManifest.xml:24:5-20
+MERGED from [com.android.support:support-v4:20.0.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/AndroidManifest.xml:17:5-19
+MERGED from [com.android.support:support-v4:20.0.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/AndroidManifest.xml:17:5-19
+MERGED from [unifi.libraries:AndroidBootstrap:unspecified] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/unifi.libraries/AndroidBootstrap/unspecified/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.2.1] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics/2.2.1/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.1.1] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.crashlytics.sdk.android/answers/1.1.1/AndroidManifest.xml:9:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.1.1] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.1.1/AndroidManifest.xml:9:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.1.1] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.1.1/AndroidManifest.xml:9:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.1.1] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.crashlytics.sdk.android/beta/1.1.1/AndroidManifest.xml:9:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.1.1] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.1.1/AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:46:9-41
+	android:icon
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:45:9-44
+activity#com.unifiapp.view.SplashScreen
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:47:9-56:20
+	android:label
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:49:13-45
+	android:theme
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:50:13-71
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:48:13-46
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:51:13-55:29
+action#android.intent.action.MAIN
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:52:17-69
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:52:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:54:17-77
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:54:27-74
+activity#com.unifiapp.MainActivity
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:57:9-66:20
+	android:windowSoftInputMode
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:62:13-52
+	android:label
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:60:13-45
+	android:theme
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:61:13-52
+	android:hardwareAccelerated
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:59:13-47
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:58:13-41
+intent-filter#android.intent.category.DEFAULT
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:63:13-65:29
+category#android.intent.category.DEFAULT
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:64:17-76
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:64:27-73
+activity#com.facebook.LoginActivity
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:67:9-70:75
+	android:label
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:69:13-45
+	android:theme
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:70:13-72
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:68:13-54
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:72:9-81:25
+data
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:73:13-75:45
+	android:host
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:74:17-36
+	android:scheme
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:75:17-42
+action#android.intent.action.VIEW
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:77:13-65
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:77:21-62
+category#android.intent.category.BROWSABLE
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:80:13-74
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:80:23-71
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:83:9-85:46
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:84:13-58
+	android:value
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:85:13-43
+provider#com.facebook.NativeAppCallContentProvider
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:87:9-90:39
+	android:exported
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:90:13-36
+	android:authorities
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:89:13-95
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:88:13-69
+receiver#com.unifiapp.receiver.GcmBroadcastReceiver
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:92:9-100:20
+	android:permission
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:94:13-73
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:93:13-58
+intent-filter#com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION+com.unifiapp
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:95:13-99:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:96:17-81
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:96:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:97:17-86
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:97:25-83
+category#com.unifiapp
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:98:17-57
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:98:27-54
+receiver#com.unifiapp.receiver.BootReceiver
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:102:9-109:20
+	android:exported
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:105:13-37
+	android:enabled
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:104:13-35
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:103:13-50
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:106:13-108:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:107:17-79
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:107:25-76
+service#com.unifiapp.service.GcmIntentService
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:111:9-61
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:111:18-58
+service#com.unifiapp.service.ConnectToWifi
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:112:9-58
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:112:18-55
+service#com.unifiapp.service.Statistics
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:113:9-55
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:113:18-52
+meta-data#com.crashlytics.ApiKey
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:115:9-117:72
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:116:13-50
+	android:value
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:117:13-69
+meta-data#com.google.android.maps.v2.API_KEY
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:118:9-120:71
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:119:13-62
+	android:value
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:120:13-68
+service#com.unifiapp.vpn.logic.VpnStateService
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:131:9-134:19
+	android:exported
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:133:13-37
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:132:13-54
+service#com.unifiapp.vpn.logic.CharonVpnService
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:135:9-142:19
+	android:exported
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:137:13-37
+	android:permission
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:138:13-69
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:136:13-55
+intent-filter#android.net.VpnService
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:139:13-141:29
+action#android.net.VpnService
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:140:17-65
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:140:25-62
+provider#com.unifiapp.vpn.data.LogContentProvider
+ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:144:9-154:20
+	android:exported
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:147:13-36
+	android:authorities
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:146:13-63
+	android:name
+		ADDED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:145:13-56
+activity#com.helpshift.HSConversation
+ADDED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:16:9-20:54
+	android:label
+		ADDED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:19:13-60
+	android:configChanges
+		ADDED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:18:13-82
+	android:theme
+		ADDED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:20:13-51
+	android:name
+		ADDED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:17:13-56
+activity#com.helpshift.HSQuestionsList
+ADDED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:21:9-24:54
+	android:configChanges
+		ADDED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:23:13-59
+	android:theme
+		ADDED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:24:13-51
+	android:name
+		ADDED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:22:13-57
+activity#com.helpshift.HSQuestion
+ADDED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:25:9-30:54
+	android:label
+		ADDED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:29:13-56
+	android:configChanges
+		ADDED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:27:13-59
+	android:theme
+		ADDED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:30:13-51
+	android:hardwareAccelerated
+		ADDED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:28:13-47
+	android:name
+		ADDED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:26:13-52
+activity#com.helpshift.HSSection
+ADDED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:31:9-36:55
+	android:windowSoftInputMode
+		ADDED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:36:13-52
+	android:configChanges
+		ADDED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:33:13-59
+	android:theme
+		ADDED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:35:13-51
+	android:hardwareAccelerated
+		ADDED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:34:13-47
+	android:name
+		ADDED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:32:13-51
+activity#com.helpshift.HSFaqs
+ADDED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:37:9-43:55
+	android:windowSoftInputMode
+		ADDED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:43:13-52
+	android:label
+		ADDED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:41:13-52
+	android:configChanges
+		ADDED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:39:13-59
+	android:theme
+		ADDED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:42:13-51
+	android:hardwareAccelerated
+		ADDED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:40:13-47
+	android:name
+		ADDED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:38:13-48
+activity#com.helpshift.HSReview
+ADDED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:44:9-47:66
+	android:configChanges
+		ADDED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:46:13-59
+	android:theme
+		ADDED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:47:13-63
+	android:name
+		ADDED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:45:13-50
+activity#com.helpshift.ScreenshotPreviewActivity
+ADDED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:48:9-50:54
+	android:theme
+		ADDED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:50:13-51
+	android:name
+		ADDED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:49:13-67
+activity#com.helpshift.SearchResultActivity
+ADDED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:51:9-53:54
+	android:theme
+		ADDED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:53:13-51
+	android:name
+		ADDED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:52:13-62
+service#com.helpshift.HSService
+ADDED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:55:9-58:19
+	android:label
+		ADDED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:57:13-46
+	android:name
+		ADDED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:56:13-51
+service#com.helpshift.HSRetryService
+ADDED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:59:9-62:19
+	android:label
+		ADDED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:61:13-46
+	android:name
+		ADDED from [com.helpshift:android-aar:3.6.0] /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/AndroidManifest.xml:60:13-56
+android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /Volumes/Backup Original 1/final june/Code/android/unifi/unifi/src/main/AndroidManifest.xml:2:1-158:12 reason: com.helpshift requested WRITE_EXTERNAL_STORAGE

@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+  <item android:id="@+id/hs__attach_screenshot"
+        android:icon="@drawable/hs__attach_screenshot"
+        android:title="@string/hs__attach_screenshot_btn"
+        android:showAsAction="always"/>
+</menu>
+<!-- From: file:/Users/rhishikeshjoshi/workspace/android/r2d2/Helpshift/src/main/res/menu/hs__messages_menu.xml --><!-- From: file:/Users/imran/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/res/menu/hs__messages_menu.xml -->

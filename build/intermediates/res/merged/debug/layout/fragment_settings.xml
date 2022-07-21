@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/gradient_background_2"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <TextView
+        android:id="@+id/share_points"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="34"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:text="@string/points_every_time_share"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/shareLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="14"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="@string/percent_wifi_share_label"/>
+
+    <SeekBar
+        android:id="@+id/percentShare"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:layout_margin="5dp"
+        android:max="95"
+    />
+
+    <TextView
+        android:id="@+id/percentText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="14"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:text="@string/settings_text_size"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:layout_margin="10dp">
+
+        <CheckBox
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="65"
+            android:text="@string/cap_usage_label"
+            android:id="@+id/checkbox_cap_monthly_usage"
+            android:checked="false" />
+
+        <NumberPicker
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="35"
+            android:id="@+id/numberPicker" />
+
+    </LinearLayout>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/auto_connect_checkbox_label"
+        android:id="@+id/checkbox_auto_connect"
+        android:layout_margin="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:checked="true" />
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/update_password_button_label"
+        android:id="@+id/update_password"
+        bootstrapbutton:bb_type="success"
+        bootstrapbutton:bb_roundedCorners="true"
+        bootstrapbutton:bb_icon_right="fa-refresh"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
+<!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/src/main/res/layout/fragment_settings.xml -->

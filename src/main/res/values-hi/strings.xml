@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UnifiApp</string>
+    <string name="settings_text_size">5</string>
+    <string name="app_id">830154490350849</string>
+    <string name="hs__review_message">यदि आप हमारे ऐप से प्यार करते हैं, तो कृपया इसे रेट करने के लिए कुछ क्षण लें और इसका प्रसार करें :)</string>
+    <string name="hs__review_title">मुंबई में हमारी कवरेज को बढ़ाने में हमारी मदद करें</string>
+    <string name="permission_not_granted">चयनित क्रिया करने में असमर्थ है, क्योंकि अनुमति प्रदान नहीं की गई है।</string>
+    <string name="exception">अपवाद:%1$s</string>
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+    <!-- Nav Drawer Menu Items -->
+        <item>होम</item>
+    <!-- Nav Drawer Menu Items -->
+        <item>वाईफ़ाई कवरेज मैप</item>
+    <!-- Nav Drawer Menu Items -->
+        <item>वाईफाई शेयरिंग</item>
+    <!-- Nav Drawer Menu Items -->
+        <item>लीडरबोर्ड</item>
+    <!-- Nav Drawer Menu Items -->
+        <item>सेटिंग्स</item>
+    <!-- Nav Drawer Menu Items -->
+        <item>सामान्य प्रश्न</item>
+    <!-- Nav Drawer Menu Items -->
+        <item>सपोर्ट के साथ चैट करें</item>
+    </string-array>
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <string name="seen_walkthrough">पूर्वाभ्यास देखें</string>
+    <string name="desc_list_item_icon">आइटम आइकन</string>
+    <string name="total_karma_points">कुल कर्म अंक:</string>
+    <string name="percent_share_label">आप सेट करें कि\n\nआप कितना शेयर करना चाहते हैं</string>
+    <string name="walkthrough_2_label_connect_wifi">आप के आसपास होने पर,\nहम आपको स्वचालित रूप से हमारे वाईफाई नेटवर्क से कनेक्ट करेंगे</string>
+    <string name="points_every_time_share">आपके वाईफाई नेटवर्क से किसी के कनेक्ट होने पर हर बार आपको अंक मिलते हैं</string>
+    <string name="preshare_city_wifi_title">अपना वाईफ़ाई साझा करने के बदले में, मुंबई में मुफ्त वाईफ़ाई पाएं</string>
+    <string name="default_network_size">5015 नेटवर्क ऑनलाइन</string>
+    <string name="verifying_location_connection">\nअपकी लोकेशन और कनेक्षन को \nसत्यापित कर रहा है.....</string>
+    <string name="leaderboard_name_title">नाम</string>
+    <string name="percent_wifi_share_label">आप अपने वाईफाई का कितना % साझा करना चाहते हैं:</string>
+    <string name="enter_wifi_password">यहाँ वाईफाई पासवर्ड दर्ज करें</string>
+    <string name="karma_points_label">कर्म अंक</string>
+    <string name="safe_and_secure">यह सचेत और सुरक्षित है</string>
+    <string name="verify_password_button_label">पासवर्ड की पुष्टि करें</string>
+    <string name="get_more_karma_points">अधिक कर्मा अंक प्राप्त करें!</string>
+    <string name="your_mobile_phone_number">आपका मोबाइल फोन नंबर</string>
+    <string name="cap_usage_label">(GB/ माह) पर कैप उपयोग:</string>
+    <string name="next_step_button_label">अगला कदम</string>
+    <string name="share_button_label">" UnifiApp को अपने दोस्तों के साथ शेयर करें"</string>
+    <string name="firewall_description">हमारा फ़ायरवॉल दुरुपयोग को रोकता है</string>
+    <string name="get_directions_button_label">दिशा-निर्देश प्राप्त करें</string>
+    <string name="auto_connect_checkbox_label">स्वचालित रूप से सीमा के भीतर कम्यूनिटी वाईफ़ाई हाटस्पाट से मुझे कनेक्ट करें</string>
+    <string name="update_password_button_label">पासवर्ड अपडेट करें</string>
+    <string name="add_wifi_network_points_label">वाईफाई नेटवर्क जोड़ें\n+5</string>
+    <string name="access_label">\u092a\u0939\u0941\u0901\u091a:</string>
+    <string name="invite_friends_points_label">मित्रों को आमंत्रित करें\n+10</string>
+    <string name="thanks_received_points_label">धन्यवाद प्राप्त हुआ</string>
+    <string name="share_more_points_label">अधिक शेयर करें\n+5 और अधिक</string>
+    <string name="connections_made_label">कनेक्शन बनाएं</string>
+    <string name="please_upgrade_title">अपग्रेड करें</string>
+    <string name="please_upgrade_text">अब UnifiApp  का एक नया संस्करण उपलब्ध है - कृपया प्ले स्टोर ऐप पर जाएँ, मेनू पर क्लिक करें ‘माई ऐप्स जाएं’ और अपग्रेड करने के लिए UnifiApp  से अगले \'अपडेट\' बटन पर क्लिक करें।</string>
+    <string name="send_credit_problem_title">क्रेडिट भेजने में समस्या आ रही है</string>
+    <string name="send_credit_problem_text">हम आपको अपना क्रेडिट भेजने में सक्षम नहीं थे लेकिन हम इसे हर 15 मिनट में भेजने की कोशिश तब तक करेंगे, जब तक हम इसे सफलतापूर्वक न भेज दें। हमारी ग्राहक सहायता टीम शीघ्र ही आपसे सम्पर्क करेगी।</string>
+    <string name="sent_credit_title">आपका क्रेडिट भेज दिया गया है!</string>
+    <string name="sent_credit_text">"हमने सफलतापूर्वक आपके मोबाइल फोन के लिए 50 रुपए का बैलेंस भेज दिया है। आपको शीघ्र ही अपने कैरियर से एक एसएमएस प्राप्त होगा। अन्य नेटवर्क जोड़ने से पहले कम से कम 5 मिनट तक प्रतीक्षा करें। धन्यवाद!
+"</string>
+    <string name="send_credit_failed_title">क्रेडिट भेजने में समस्या आ रही है</string>
+    <string name="send_credit_failed_text">हम आपको अपना क्रेडिट भेजने में सक्षम नहीं थे लेकिन हम इसे हर 15 मिनट में भेजने की कोशिश तब तक करेंगे, जब तक हम इसे सफलतापूर्वक न भेज दें। हमारी ग्राहक सहायता टीम शीघ्र ही आपसे सम्पर्क करेगी।,</string>
+    <string name="update_password_title">कृपया अपना वाईफाई पासवर्ड अपडेट करें</string>
+    <string name="update_password_text">हम आपके वाईफाई से कनेक्ट करने में सक्षम नहीं थे - हमारे नेटवर्क तक पहुँच बनाए रखने के लिए अपना वाईफाई पासवर्ड अपडेट करें</string>
+    <string name="coverage_map_error_title">ऐरर</string>
+    <string name="coverage_map_error_text">हम कवरेज मैप प्रदर्शित नहीं कर सकते हैं - सहायता प्राप्त करने के लिए सपोर्ट टीम से संपर्क करें।</string>
+    <string name="loading">लोड हो रहा है...</string>
+    <string name="unsupported_device_vpn_title">असमर्थित डिवाइस</string>
+    <string name="unsupported_device_vpn_text">आपकी डिवाइसए वीपीएन कनेक्शन समर्थन नहीं करता है जो सुरक्षा सुनिश्चित करने के लिए आवश्यक हैं। सहायता प्राप्त करने सपोर्ट टीम से संपर्क करें।</string>
+    <string name="operator_dialog_title">UnifiApp क्रेडिट की पुष्टि</string>
+    <string name="operator_dialog_text">"अपने मोबाइल ऑपरेटर का चयन करें, ताकि हम आपको आपका क्रेडिट भेज सकेंः
+"</string>
+    <string name="home_rotating_title_1">" जब हम आपसे कनेक्ट करते हैं, तब सुरक्षा सुनिश्चित करने के लिए आपको वीपीएन की अनुमति देने के प्रेरित किया जाएगा
+"</string>
+    <string name="home_rotating_title_2">\u0928\u0947\u091f\u0935\u0930\u094d\u0915 \u0911\u0928\u0932\u093e\u0907\u0928</string>
+    <string name="home_in_range_attempting_connect">कम्युनिटी वाईफाई की रेंज में\nकनेक्ट करने का प्रयास कर रहा है</string>
+    <string name="home_location_timeout_title">लोकेशन सक्षम करें</string>
+    <string name="home_location_timeout_text">क्षमा करें, हम आपके स्थान को निर्धारित नहीं कर सके।\nअपनी Android सेटिंग ऐप्स, लोकेशन मेनू, पर जाएं, Google लोकेशन सेवाओं को सक्षम करेंए और रीस्टार्ट होने के बाद पुनः प्रयास करें।\nयदि आपको मदद की जरूरत है, तो मेनू में \'समर्थन के साथ चैट करें\' पर क्लिक करें।</string>
+    <string name="home_waiting_for_location">लोकेशन के लिए इंतजार कर रहा है.......</string>
+    <string name="nearest_wifi_prefix">\u0928\u093f\u0915\u091f\u0924\u092e \u0935\u093e\u0908\u092b\u093e\u0908</string>
+    <string name="nearest_wifi_suffix">\u0915\u0941\u091b \u0915\u092e\u0940\u091f\u0930 \u0915\u0940 \u0926\u0942\u0930\u0940 \u092a\u0930</string>
+    <string name="home_scanning_nearby_wifi">आसपास के वाईफाई \nनेटवर्क से कनेक्ट करने के लिए स्कैन कर रहा है।\nकनेक्ट करने के लिए 30 मीटर की दूरी के भीतर रहें।</string>
+    <string name="home_connected_community_hotspot">एक UnifiApp कम्युनिटी \nहॉटस्पॉट से कनेक्टेड!</string>
+    <string name="home_connected_own_hotspot">अपने खुद के वाईफाई \nनेटवर्क से कनेक्ट हैं</string>
+    <string name="home_turn_on_wifi">अपने वाईफाई को चालू करें\n\nताकि हम आसपास के नेटवर्क से कनेक्ट करने की \nकोशिश कर सकें।\n\nसहायता प्राप्त करने के लिए,\nमेनू में ‘सपोर्ट के साथ चैट’ पर क्लिक करें।</string>
+    <string name="home_no_data_connection">आसपास के नेटवर्क से कनेक्ट करने के लिए \nअपने 2G/3G कनेक्शन को\n चालू करें।\nऑफलाइन मोड समर्थित है, लेकिन हाल ही में इसे समन्वयित नहीं किया गया है।</string>
+    <string name="home_device_rooted">सुरक्षा कारणों से, हम निहित डिवाइस से \nवाईफाई नेटवर्क को कनेक्ट करने का समर्थन नहीं करते हैं।\n\nसहायता प्राप्त करने के मेनू में \n‘सपोर्ट के साथ चैट’ पर क्लिक करें।</string>
+    <string name="home_access">\u092a\u0939\u0941\u0901\u091a:</string>
+    <string name="friend_referral_points">आपके दोस्त द्वारा साइन अप करने और एक वाईफाई नेटवर्क जोड़ने पर आपको 10 अंक मिलेंगे!</string>
+    <string name="leaderboard_competition_dialog_title">लीडरबोर्ड प्रतियोगिता</string>
+    <string name="leaderboard_competition_dialog_text">"हर महीने, हम लीडरबोर्ड पर शीर्ष 3 सदस्यों को पुरस्कार देते हैं। इस महीने, हम Amazon उपहार कार्ड देंगे, और हमारे फेसबुक पेज पर विजेताओं की घोषणा करेंगे।
+"</string>
+    <string name="leaderboard_you">आप</string>
+    <string name="leaderboard_all_time_points">ऑल-टाइम प्वाइंट्सः</string>
+    <string name="leaderboard_community_tab_title">कम्युनिटी</string>
+    <string name="leaderboard_friends_tab_title">मित्र</string>
+    <string name="leaderboard_no_friends">UnifiApp पर अभी तक आपका कोई दोस्त नहीं है - उन्हें आमंत्रित करें!</string>
+    <string name="report_network_problem_title">\u0928\u0947\u091f\u0935\u0930\u094d\u0915 \u0915\u093e \u0928\u093e\u092e:</string>
+    <string name="report_network_problem_text_1">"किसी समस्या की रिपोर्ट करने के लिए यहां क्लिक करें
+"</string>
+    <string name="report_network_problem_text_2">"इस नेटवर्क से कनेक्ट हो रहा है
+"</string>
+    <string name="dialog_ok">ठीक है</string>
+    <string name="dialog_contact_support">सपोर्ट से सम्पर्क करें</string>
+    <string name="dialog_send">भेजें</string>
+    <string name="dialog_select_operator_label">अपने मोबाइल ऑपरेटर का चयन करें</string>
+    <string name="dialog_select_operator_text">अपने मोबाइल ऑपरेटर का चयन करें, ताकि हम आपको आपके क्रेडिट भेज सकेंः</string>
+    <string name="operator_aircel_ap">"Aircel एपी
+"</string>
+    <string name="operator_aircel_assam">Aircel असम</string>
+    <string name="operator_aircel_bihar">Aircel बिहार</string>
+    <string name="operator_aircel_chennai">Aircel चेन्नई</string>
+    <string name="operator_aircel_delhi">Aircel दिल्ली</string>
+    <string name="operator_aircel_hp">Aircel एचपी</string>
+    <string name="operator_aircel_jk">Aircel जेके</string>
+    <string name="operator_aircel_karnataka">Aircel कर्नाटक</string>
+    <string name="operator_aircel_kolkata">Aircel कोलकाता</string>
+    <string name="operator_aircel_maharashtra">Aircel महाराष्ट्र</string>
+    <string name="operator_aircel_mumbai">"Aircel मुंबई
+"</string>
+    <string name="operator_aircel_north_east">Aircel उत्तर पूर्व</string>
+    <string name="operator_aircel_orissa">Aircel उड़ीसा</string>
+    <string name="operator_aircel_punjab">Aircel पंजाब</string>
+    <string name="operator_aircel_rajasthan">Aircel राजस्थान</string>
+    <string name="operator_aircel_tamil_nadu">Aircel तमिलनाडु</string>
+    <string name="operator_aircel_upe">Aircel यूपीई</string>
+    <string name="operator_aircel_west_bengal">Aircel पश्चिम बंगाल</string>
+    <string name="operator_airtel_india">Airtel इंडिया</string>
+    <string name="operator_bsnl">BSNL</string>
+    <string name="operator_idea">IDEA</string>
+    <string name="operator_loop_mobile">लूप मोबाइल</string>
+    <string name="operator_mtnl_delhi">MTNL दिल्ली</string>
+    <string name="operator_mtnl_mumbai">MTNL मुंबई</string>
+    <string name="operator_mts">MTS</string>
+    <string name="operator_reliance_cdma">Reliance जीएसएम</string>
+    <string name="operator_reliance_gsm">Reliance जीएसएम</string>
+    <string name="operator_tata_docomo">TATA DOCOMO</string>
+    <string name="operator_tata_indicom">Tata Indicom</string>
+    <string name="operator_unicor">Uninor</string>
+    <string name="operator_videocon_gsm">Videocon जीएसएम</string>
+    <string name="operator_vodafone_ap">Vodafone एपी</string>
+    <string name="operator_vodafone_bangalore">Vodafone बंगलौर</string>
+    <string name="operator_vodafone_bengal">Vodafone चेन्नई</string>
+    <string name="operator_vodafone_chennai">Vodafone चेन्नई</string>
+    <string name="operator_vodafone_delhi">Vodafone गुजरात</string>
+    <string name="operator_vodafone_gujarat">Vodafone गुजरात</string>
+    <string name="operator_vodafone_haryana">Vodafone  हरियाणा</string>
+    <string name="operator_vodafone_kerala">Vodafone केरल</string>
+    <string name="operator_vodafone_kolkata">Vodafone कोलकाता</string>
+    <string name="operator_vodafone_maharashtra">Vodafoneमहाराष्ट्र</string>
+    <string name="operator_vodafone_mumbai">Vodafone मुंबई</string>
+    <string name="operator_vodafone_punjab">Vodafone राजस्थान</string>
+    <string name="operator_vodafone_rajasthan">Vodafone राजस्थान</string>
+    <string name="operator_vodafone_tamil_nadu">Vodafone तमिलनाडु</string>
+    <string name="operator_vodafone_upe">Vodafone यूपीई</string>
+    <string name="operator_vodafone_upw">Vodafone यूपीडब्ल्यू</string>
+    <string name="incorrect_number_dialog_title">गलत नंबर</string>
+    <string name="incorrect_number_dialog_text">कृपया सुनिश्चित करें कि आपके द्वारा दर्ज किया गया फ़ोन नंबर 10 अंकों का है, और पुनः प्रयास करें।</string>
+    <string name="prepaid_number_field_for_credit">"अपने प्रीपेड मोबाइल # से  50 रु "</string>
+    <string name="prepaid_number_field_for_no_credit">" आपके मोबाइल फोन नंबर पर क्रेडिट किए गए हैं।"</string>
+    <string name="invite_friends_message">मुंबई में मुफ्त वाईफ़ाई पाएं - UnifiApp डाउनलोड करें</string>
+    <string name="helpshift_default_message">हम कैसे आपकी मदद कर सकते हैं? हम 1:30 - 7:30 के बीच छोड़कर बाकी पूरा समय उपलब्ध रहते हैं। हम आम तौर पर 3 घंटे के भीतर या उससे जल्दी जवाब देते हैं।</string>
+    <string name="rs_50_credit">50 रु का मोबाइल क्रेडिट!</string>
+    <string name="five_karma_points">लीडरबोर्ड पर 5 कर्म अंक!</string>
+    <string name="add_wifi_network_title">वाईफाई नेटवर्क जोड़ें</string>
+    <string name="add_wifi_network_text_prefix">पहुंच को शेयर करें</string>
+    <string name="add_wifi_network_text_suffix">वाईफाई नेटवर्क के लिए</string>
+    <string name="share_could_not_connect_internet">क्षमा करें, हम इस नेटवर्क के माध्यम से इंटरनेट से कनेक्ट नहीं कर पा रहे हैं। जब आप एक अलग नेटवर्क से कनेक्ट हों, तब पुन: प्रयास करें।\n\nयदि आपको मदद की जरूरत है, तो मेनू में ‘सपोर्ट के साथ चैट’ पर क्लिक करें।\n</string>
+    <string name="share_could_not_detect_location">क्षमा करें, हम अापकी लोकेशन का पता नहीं कर पा रहे हैं।\nअपने Android सेटिंग ऐप्स, स्थान मेनू पर जाएं, लोकेशन चालू करें, और पुनः प्रयास करें (आपको अपने डिवाइस को पुनः आरंभ करने की आवश्यकता हो सकती है)।\nयदि आपको मदद की जरूरत है, तो मेनू में ‘सपोर्ट के साथ चैट’ पर क्लिक करें।\n</string>
+    <string name="share_located_outside">क्षमा करें, हमारी सेवा वर्तमान में मुंबई के बाहर उपलब्ध नहीं है। हम आपको जल्द ही बताएंगे कि हम अपके शहर में कब लांच करेंगे।</string>
+    <string name="share_location_failure">क्षमा करें, हम आपकी लोकेशन को प्राप्त नहीं कर पा रहे थे। Google Play सर्विस ऐप्स इंस्टॉल करें और पुन: प्रयास करें।\n\nयदि आपको मदद की जरूरत है, तो मेनू में ‘सपोर्ट के साथ चैट’ पर क्लिक करें।</string>
+    <string name="share_duplicate_found">क्षमा करें, यह वाईफाई नेटवर्क पहले से ही सबमिट कर दिया गया है। जब आप एक अलग नेटवर्क से कनेक्ट हों, तब पुनरू प्रयास करें।\n\nयदि आपको मदद की जरूरत है, तो मेनू में ‘सपोर्ट के साथ चैट’ पर क्लिक करें।</string>
+    <string name="share_tethered">ऐसा लगता है कि आप वर्तमान में हमारे द्वारा असमर्थित नेटवर्क, या मोबाइल वाईफाई हॉटस्पॉट से कनेक्ट हैं, (जो हमेशा चालू नहीं रहता है, या जिसमें साझा करने के लिए असीमित डेटा है)\nजब आप एक नियमित वाईफाई राऊटर से कनेक्ट हों, तब पुन% प्रयास करें,\nया सहायता प्राप्त करने के लिए मेनू में ‘सपोर्ट के साथ चैट’ पर क्लिक करें।</string>
+    <string name="share_password_failure">क्षमा करें, यह सही प्रतीत नहीं हो रहा है।\nपुन: प्रयास करें।\nयदि आप अपना पासवर्ड भूल गए हैं, तो मेनू में ‘अक्सर पूछे जाने वाले प्रष्न’ पर क्लिक करें।\nअन्यथा, सहायता प्राप्त करने के ‘सपोर्ट के साथ चैट’ पर क्लिक करें।</string>
+    <string name="thanks_bootstrap_inactive">धन्यवाद!\n\nहम आपको अपने कम्युनिटी वाईफाई से कनेक्ट करेंगे क्योंकि आप स्वचालित रूप से रेंज में आ रहे हैं\n</string>
+    <string name="thanks_boostrap_active">धन्यवाद! अब हम आपके सिम कार्ड के लिए 50 रुपए भेज रहे हैं।\nहम आपको अपने कम्युनिटी वाईफाई से कनेक्ट करेंगे क्योंकि आप स्वचालित रूप से रेंज में आ रहे हैं\n\nआपके द्वारा आमंत्रित हर दोस्त के लिए मुंबई में कई हजार वाईफाई नेटवर्क के लिए पहुँच पाएं!\n\n</string>
+    <string name="share_select_operator">अपने ऑपरेटर का चयन करें</string>
+    <string name="share_select_operator_message">अपने मोबाइल ऑपरेटर का चयन करें, ताकि हम आपको आपके क्रेडिट भेज सकें। प्रक्रिया करने के लिए एक मिनट से एक घंटे से अधिक लगने वाला समय आपके ऑपरेटर पर निर्भर करता है - यदि आपको कुछ घंटों के भीतर यह प्राप्त नहीं होता है, तो कृपया मेनू में ‘सपोर्ट के साथ चैट’ पर जाएं।</string>
+    <string name="share_thanks_password_updated">"धन्यवाद! आपका पासवर्ड अपडेट कर दिया गया है।
+"</string>
+    <string name="share_verifying">सत्यापित कर रहा है ...\n(15 सेकंड तक का समय लग सकता है)</string>
+    <string name="share_password_length_title">पासवर्ड</string>
+    <string name="share_password_length_text_prefix">"कृपया सुनिश्चित करें कि पासवर्ड कम से कम
+"</string>
+    <string name="share_password_length_text_suffix">अक्षर लंबा हो, और पुनः प्रयास करें।</string>
+    <string name="share_please_enter_password_prefix">पासवर्ड दर्ज करें</string>
+    <string name="share_please_enter_password_suffix">वाईफाई नेटवर्क के लिए।\nआप किसी भी समय सेटिंग्स मेनू में जाकर शेयर करने के लिए इच्छित राशि सेट कर सकते हैं।</string>
+    <string name="share_please_enter_new_password_prefix">कृपया नया पासवर्ड दर्ज करें</string>
+    <string name="share_please_enter_new_password_suffix">वाईफाई नेटवर्क के लिए\nइसे अपडेट करने के लिए।</string>
+    <string name="share_exceeded_router_limit">आप अपने द्वारा जोड़े जा सकने वाले नेटवर्क की रेंज तक पहुंच गए हैं (सुरक्षा कारणों से, हम चाहते है कि आप अपने स्वयं के नेटवर्क, न कि अन्य लोगों के नेटवर्क को सबमिट करें)।\nयदि आपका कोई सवाल है तो ‘सपोर्ट के साथ चैट’ पर क्लिक करें।</string>
+    <string name="share_open_network">आप वर्तमान में एक ओपन वाईफाई नेटवर्क से कनेक्ट हैं\nजिसे हम पहुंच के लिए सत्यापित या हमारी कम्युनिटी के साथ साझा नहीं कर सकते हैं।\n\nजब आप पासवर्ड से सुरक्षित नेटवर्क जिसे आप शेयर करना चाहते हैं, से कनेक्ट हों, तब पुन: प्रयास करें, या मेनू में ‘सपोर्ट के साथ चैट’ विकल्प के माध्यम से हमसे संपर्क करें।</string>
+    <string name="share_already_added">"आपने पहले से ही इस वाईफाई नेटवर्क जोड़ दिया है - जब आप एक अलग नेटवर्क से कनेक्ट हों, तब पुन: प्रयास करें।
+"</string>
+    <string name="wifi_check_not_connected_wifi">\"आप एक वाईफाई नेटवर्क से कनेक्ट नही हैं।\nकृपया वाईफाई नेटवर्क से कनेक्ट करें, और पुनः प्रयास करें।\nयदि आपको मदद की जरूरत है, तो मेनू में ‘सपोर्ट के साथ चैट’ पर क्लिक करें।</string>
+    <string name="wifi_check_wifi_not_enabled">अपने फ़ोन के वाईफाई को चालू करें, किसी नेटवर्क से कनेक्ट करें, और पुनः प्रयास करें।\nयदि आपको मदद की जरूरत है, तो मेनू में ‘सपोर्ट के साथ चैट’ पर क्लिक करें।</string>
+    <string name="wifi_check_exception">"हम आपके वाईफाई कनेक्शन सेटिंग्स को निर्धारित नहीं कर पा रहे हैं - सहायता प्राप्त करने के लिए मेनू में ‘सपोर्ट के साथ चैटश् पर क्लिक करें।
+"</string>
+    <string name="splash_screen_believe">हमारा मानना है कि इंटरनेट का उपयोग एक मानव अधिकार होना चाहिए</string>
+    <string name="splash_screen_city">मुंबई को दुनिया का पहला वाईफाई - शेयरिंग शहर बनाने में हमारी मदद करें!</string>
+</resources>

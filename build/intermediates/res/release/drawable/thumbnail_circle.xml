@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <shape xmlns:android="http://schemas.android.com/apk/res/android"
+        android:shape="oval">
+        <solid android:color="@color/bthumbnail_placeholder"/>
+    </shape>
+<!-- From: file:/Users/imran/Code/android/unifi/libraries/AndroidBootstrap/res/drawable/thumbnail_circle.xml --><!-- From: file:/Users/imran/Code/android/unifi/unifi/build/intermediates/exploded-aar/unifi.libraries/AndroidBootstrap/unspecified/res/drawable/thumbnail_circle.xml -->

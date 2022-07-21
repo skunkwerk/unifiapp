@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="list_item_title">#fff</color>
+    <color name="list_background">#303030</color>
+    <color name="list_background_pressed">#992416</color>
+    <color name="list_divider">#272727</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="emerald">#048A61</color>
+    <color name="ocean_blue">#79a9fe</color>
+    <color name="wifi_blue">#276E95</color>
+    <color name="tan">#FFF0B2</color>
+    <color name="yellow">#FFFF00</color>
+</resources>

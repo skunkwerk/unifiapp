@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <!--Your Segment project write key-->
+    <string name="analytics_write_key">wwrbt0a0aw</string>
+
+    <!--Whether to print additional debug information as you develop.-->
+    <string name="analytics_debug">false</string>
+</resources>

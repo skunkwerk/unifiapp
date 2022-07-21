@@ -1,0 +1,1631 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/map</item>
+        <item>@drawable/antenna</item>
+        <item>@drawable/award</item>
+        <item>@drawable/settings</item>
+        <item>@drawable/faq</item>
+        <item>@drawable/ic_whats_hot</item>
+    </array>
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Wifi Coverage Map</item>
+        <item>Wifi Sharing</item>
+        <item>Leaderboard</item>
+        <item>Settings</item>
+        <item>F.A.Q.</item>
+        <item>Chat with Support</item>
+    </string-array>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <eat-comment/>
+    <attr format="reference" name="actionBarDivider"/>
+    <attr format="reference" name="actionBarItemBackground"/>
+    <attr format="dimension" name="actionBarSize"/>
+    <attr format="reference" name="actionBarSplitStyle"/>
+    <attr format="reference" name="actionBarStyle"/>
+    <attr format="reference" name="actionBarTabBarStyle"/>
+    <attr format="reference" name="actionBarTabStyle"/>
+    <attr format="reference" name="actionBarTabTextStyle"/>
+    <attr format="reference" name="actionBarWidgetTheme"/>
+    <attr format="reference" name="actionButtonStyle"/>
+    <attr format="reference" name="actionMenuTextAppearance"/>
+    <attr format="color|reference" name="actionMenuTextColor"/>
+    <attr format="reference" name="actionModeBackground"/>
+    <attr format="reference" name="actionModeCloseButtonStyle"/>
+    <attr format="reference" name="actionModeCloseDrawable"/>
+    <attr format="reference" name="actionModeCopyDrawable"/>
+    <attr format="reference" name="actionModeCutDrawable"/>
+    <attr format="reference" name="actionModeFindDrawable"/>
+    <attr format="reference" name="actionModePasteDrawable"/>
+    <attr format="reference" name="actionModePopupWindowStyle"/>
+    <attr format="reference" name="actionModeSelectAllDrawable"/>
+    <attr format="reference" name="actionModeShareDrawable"/>
+    <attr format="reference" name="actionModeSplitBackground"/>
+    <attr format="reference" name="actionModeStyle"/>
+    <attr format="reference" name="actionModeWebSearchDrawable"/>
+    <attr format="reference" name="actionOverflowButtonStyle"/>
+    <attr format="reference" name="activityChooserViewStyle"/>
+    <attr format="reference" name="buttonBarButtonStyle"/>
+    <attr format="reference" name="buttonBarStyle"/>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.viewpagerindicator/library/2.4.1/res/values/values.xml -->
+    <eat-comment/>
+    <attr format="boolean" name="centered"/>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.pascalwelsch.holocircularprogressbar/circular-progress-bar/1.3/res/values/values.xml -->
+    <eat-comment/>
+    <attr format="reference" name="circularProgressBarStyle"/>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <eat-comment/>
+    <attr format="reference" name="dividerHorizontal"/>
+    <attr format="reference" name="dividerVertical"/>
+    <attr format="reference" name="dropDownListViewStyle"/>
+    <attr format="dimension" name="height"/>
+    <attr format="reference" name="homeAsUpIndicator"/>
+    <attr format="boolean" name="isLightTheme"/>
+    <attr format="reference" name="listPopupWindowStyle"/>
+    <attr format="dimension" name="listPreferredItemHeight"/>
+    <attr format="dimension" name="listPreferredItemHeightLarge"/>
+    <attr format="dimension" name="listPreferredItemHeightSmall"/>
+    <attr format="dimension" name="listPreferredItemPaddingLeft"/>
+    <attr format="dimension" name="listPreferredItemPaddingRight"/>
+    <attr format="reference" name="searchDropdownBackground"/>
+    <attr format="dimension" name="searchResultListItemHeight"/>
+    <attr format="reference" name="searchViewAutoCompleteTextView"/>
+    <attr format="reference" name="searchViewCloseIcon"/>
+    <attr format="reference" name="searchViewEditQuery"/>
+    <attr format="reference" name="searchViewEditQueryBackground"/>
+    <attr format="reference" name="searchViewGoIcon"/>
+    <attr format="reference" name="searchViewSearchIcon"/>
+    <attr format="reference" name="searchViewTextField"/>
+    <attr format="reference" name="searchViewTextFieldRight"/>
+    <attr format="reference" name="searchViewVoiceIcon"/>
+    <attr format="reference" name="selectableItemBackground"/>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.viewpagerindicator/library/2.4.1/res/values/values.xml -->
+    <eat-comment/>
+    <attr format="color" name="selectedColor"/>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <eat-comment/>
+    <attr format="reference" name="spinnerDropDownItemStyle"/>
+    <attr format="reference" name="spinnerStyle"/>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.viewpagerindicator/library/2.4.1/res/values/values.xml -->
+    <eat-comment/>
+    <attr format="dimension" name="strokeWidth"/>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <eat-comment/>
+    <attr format="reference" name="textAppearanceLargePopupMenu"/>
+    <attr format="reference" name="textAppearanceListItem"/>
+    <attr format="reference" name="textAppearanceListItemSmall"/>
+    <attr format="reference" name="textAppearanceSearchResultSubtitle"/>
+    <attr format="reference" name="textAppearanceSearchResultTitle"/>
+    <attr format="reference" name="textAppearanceSmallPopupMenu"/>
+    <attr format="reference|color" name="textColorSearchUrl"/>
+    <attr format="string" name="title"/>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.viewpagerindicator/library/2.4.1/res/values/values.xml -->
+    <eat-comment/>
+    <attr format="color" name="unselectedColor"/>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <eat-comment/>
+    <bool name="abc_action_bar_embed_tabs_pre_jb">false</bool>
+    <bool name="abc_action_bar_expanded_action_views_exclusive">true</bool>
+    <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="abc_config_allowActionMenuItemTextWithIcon">false</bool>
+    <bool name="abc_config_showMenuShortcutsWhenKeyboardPresent">false</bool>
+    <bool name="abc_split_action_bar_is_narrow">true</bool>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.viewpagerindicator/library/2.4.1/res/values/values.xml -->
+    <eat-comment/>
+    <bool name="default_circle_indicator_centered">true</bool>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <bool name="default_line_indicator_centered">true</bool>
+    <bool name="default_title_indicator_selected_bold">true</bool>
+    <bool name="default_underline_indicator_fades">true</bool>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/res/values/values.xml -->
+    <eat-comment/>
+    <bool name="limit_to_single_line">false</bool>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <eat-comment/>
+    <color name="abc_search_url_text_normal">#7fa87f</color>
+    <color name="abc_search_url_text_pressed">@android:color/black</color>
+    <color name="abc_search_url_text_selected">@android:color/black</color>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/unifi.libraries/AndroidBootstrap/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="bbutton_danger">#ffd9534f</color>
+    <color name="bbutton_danger_disabled">#a5d9534f</color>
+    <color name="bbutton_danger_disabled_edge">#a5d43f3a</color>
+    <color name="bbutton_danger_edge">#ffd43f3a</color>
+    <color name="bbutton_danger_pressed">#ffd2322d</color>
+    <color name="bbutton_danger_pressed_edge">#ffac2925</color>
+    <color name="bbutton_default">#ffffffff</color>
+    <color name="bbutton_default_disabled">#a5ffffff</color>
+    <color name="bbutton_default_disabled_edge">#a5cccccc</color>
+    <color name="bbutton_default_edge">#ffcccccc</color>
+    <color name="bbutton_default_pressed">#ffebebeb</color>
+    <color name="bbutton_default_pressed_edge">#ffadadad</color>
+    <color name="bbutton_edittext_border">#ccc</color>
+    <color name="bbutton_edittext_disabled">#ffe0e0e0</color>
+    <color name="bbutton_info">#ff5bc0de</color>
+    <color name="bbutton_info_disabled">#a55bc0de</color>
+    <color name="bbutton_info_disabled_edge">#a546b8da</color>
+    <color name="bbutton_info_edge">#ff46b8da</color>
+    <color name="bbutton_info_pressed">#ff39b3d7</color>
+    <color name="bbutton_info_pressed_edge">#ff269abc</color>
+    <color name="bbutton_inverse">#ff0a0a0a</color>
+    <color name="bbutton_inverse_disabled">#a50a0a0a</color>
+    <color name="bbutton_inverse_disabled_edge">#a5141414</color>
+    <color name="bbutton_inverse_edge">#ff141414</color>
+    <color name="bbutton_inverse_pressed">#ff1f1f1f</color>
+    <color name="bbutton_inverse_pressed_edge">#ff292929</color>
+    <color name="bbutton_primary">#ff428bca</color>
+    <color name="bbutton_primary_disabled">#a5428bca</color>
+    <color name="bbutton_primary_disabled_edge">#a5357ebd</color>
+    <color name="bbutton_primary_edge">#ff357ebd</color>
+    <color name="bbutton_primary_pressed">#ff3276b1</color>
+    <color name="bbutton_primary_pressed_edge">#ff285e8e</color>
+    <color name="bbutton_success">#ff5cb85c</color>
+    <color name="bbutton_success_disabled">#a55cb85c</color>
+    <color name="bbutton_success_disabled_edge">#a54cae4c</color>
+    <color name="bbutton_success_edge">#ff4cae4c</color>
+    <color name="bbutton_success_pressed">#ff47a447</color>
+    <color name="bbutton_success_pressed_edge">#ff398439</color>
+    <color name="bbutton_warning">#fff0ad4e</color>
+    <color name="bbutton_warning_disabled">#a5f0ad4e</color>
+    <color name="bbutton_warning_disabled_edge">#a5eea236</color>
+    <color name="bbutton_warning_edge">#ffeea236</color>
+    <color name="bbutton_warning_pressed">#ffed9c28</color>
+    <color name="bbutton_warning_pressed_edge">#ffd58512</color>
+    <color name="black">#ff000000</color>
+    <color name="bthumbnail_background">#ffffffff</color>
+    <color name="bthumbnail_border">#dbdbdb</color>
+    <color name="bthumbnail_font">#7e7e7e</color>
+    <color name="bthumbnail_placeholder">#e9e9e9</color>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/unifi/facebook/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="com_facebook_blue">#3B5998</color>
+    <color name="com_facebook_loginview_text_color">#FFFFFF</color>
+    <color name="com_facebook_picker_search_bar_background">#f5f5f7</color>
+    <color name="com_facebook_picker_search_bar_text">#bcbdc2</color>
+    <color name="com_facebook_usersettingsfragment_connected_shadow_color">#000000</color>
+    <color name="com_facebook_usersettingsfragment_connected_text_color">#FFFFFF</color>
+    <color name="com_facebook_usersettingsfragment_not_connected_text_color">#A6AED7</color>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.2.65/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="common_action_bar_splitter">#d2d2d2</color>
+    <color name="common_signin_btn_dark_text_default">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_disabled">#FFAAAAAA</color>
+    <color name="common_signin_btn_dark_text_focused">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_pressed">@android:color/white</color>
+    <color name="common_signin_btn_default_background">#FFDD4B39</color>
+    <color name="common_signin_btn_light_text_default">#FF737373</color>
+    <color name="common_signin_btn_light_text_disabled">#FFAAAAAA</color>
+    <color name="common_signin_btn_light_text_focused">#FF737373</color>
+    <color name="common_signin_btn_light_text_pressed">@android:color/white</color>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.viewpagerindicator/library/2.4.1/res/values/values.xml -->
+    <eat-comment/>
+    <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+    <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
+    <color name="default_line_indicator_selected_color">#FF33B5E5</color>
+    <color name="default_line_indicator_unselected_color">#FFBBBBBB</color>
+    <color name="default_title_indicator_footer_color">#FF33B5E5</color>
+    <color name="default_title_indicator_selected_color">#FFFFFFFF</color>
+    <color name="default_title_indicator_text_color">#BBFFFFFF</color>
+    <color name="default_underline_indicator_selected_color">#FF33B5E5</color>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="emerald">#048A61</color>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/res/values/values.xml -->
+    <eat-comment/>
+    <color name="hs__actionBarBackgroundColor">#222222</color>
+    <color name="hs__actionBarStackedColor">#000000</color>
+    <color name="hs__actionBarTabIndicatorColor">#33b5e5</color>
+    <color name="hs__actionBarTextColorPrimary">#F3F3F3</color>
+    <color name="hs__actionBarTextColorSecondary">#000000</color>
+    <color name="hs__confirmationAcceptedTextColor">#669900</color>
+    <color name="hs__confirmationRejectedTextColor">#cc0000</color>
+    <color name="hs__light_horizontal_stub_bg">#B1B1B1</color>
+    <color name="hs__messages_text_color">#000000</color>
+    <color name="hs__msg_user_chat_bubble_separator">#0099cc</color>
+    <color name="hs__notificationIconColor">#FF4444</color>
+    <color name="hs__question_footer_color">#D6D6DB</color>
+    <color name="hs__send_reply_icon_color">#0099CC</color>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="list_background">#303030</color>
+    <color name="list_background_pressed">#992416</color>
+    <color name="list_divider">#272727</color>
+    <color name="list_item_title">#fff</color>
+    <color name="ocean_blue">#79a9fe</color>
+    <color name="tan">#FFF0B2</color>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.viewpagerindicator/library/2.4.1/res/values/values.xml -->
+    <eat-comment/>
+    <color name="vpi__background_holo_dark">#ff000000</color>
+    <color name="vpi__background_holo_light">#fff3f3f3</color>
+    <color name="vpi__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="vpi__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="vpi__bright_foreground_holo_dark">@color/vpi__background_holo_light</color>
+    <color name="vpi__bright_foreground_holo_light">@color/vpi__background_holo_dark</color>
+    <color name="vpi__bright_foreground_inverse_holo_dark">@color/vpi__bright_foreground_holo_light</color>
+    <color name="vpi__bright_foreground_inverse_holo_light">@color/vpi__bright_foreground_holo_dark</color>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/unifi.libraries/AndroidBootstrap/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="white">#ffffffff</color>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="wifi_blue">#276E95</color>
+    <color name="yellow">#FFFF00</color>
+    <declare-styleable name="ActionBar"><attr name="navigationMode"><enum name="normal" value="0"/><enum name="listMode" value="1"/><enum name="tabMode" value="2"/></attr><attr name="displayOptions"><flag name="useLogo" value="0x1"/><flag name="showHome" value="0x2"/><flag name="homeAsUp" value="0x4"/><flag name="showTitle" value="0x8"/><flag name="showCustom" value="0x10"/><flag name="disableHome" value="0x20"/></attr><attr name="title"/><attr format="string" name="subtitle"/><attr format="reference" name="titleTextStyle"/><attr format="reference" name="subtitleTextStyle"/><attr format="reference" name="icon"/><attr format="reference" name="logo"/><attr format="reference" name="divider"/><attr format="reference" name="background"/><attr format="reference|color" name="backgroundStacked"/><attr format="reference|color" name="backgroundSplit"/><attr format="reference" name="customNavigationLayout"/><attr name="height"/><attr format="reference" name="homeLayout"/><attr format="reference" name="progressBarStyle"/><attr format="reference" name="indeterminateProgressStyle"/><attr format="dimension" name="progressBarPadding"/><attr format="dimension" name="itemPadding"/></declare-styleable>
+    <declare-styleable name="ActionBarLayout"><attr name="android:layout_gravity"/></declare-styleable>
+    <declare-styleable name="ActionBarWindow"><attr format="boolean" name="windowActionBar"/><attr format="boolean" name="windowActionBarOverlay"/><attr format="boolean" name="windowSplitActionBar"/><attr format="dimension|fraction" name="windowFixedWidthMajor"/><attr format="dimension|fraction" name="windowFixedHeightMinor"/><attr format="dimension|fraction" name="windowFixedWidthMinor"/><attr format="dimension|fraction" name="windowFixedHeightMajor"/></declare-styleable>
+    <declare-styleable name="ActionMenuItemView"><attr name="android:minWidth"/></declare-styleable>
+    <declare-styleable name="ActionMenuView"/>
+    <declare-styleable name="ActionMode"><attr name="titleTextStyle"/><attr name="subtitleTextStyle"/><attr name="background"/><attr name="backgroundSplit"/><attr name="height"/></declare-styleable>
+    <declare-styleable name="ActivityChooserView"><attr format="string" name="initialActivityCount"/><attr format="reference" name="expandActivityOverflowButtonDrawable"/></declare-styleable>
+    <declare-styleable name="BootstrapButton"><attr format="string" name="bb_type"/><attr format="string" name="bb_icon_left"/><attr format="string" name="bb_icon_right"/><attr format="boolean" name="bb_roundedCorners"/><attr format="string" name="bb_text_alignment"/><attr format="string" name="bb_size"/><attr format="string" name="bb_text_gravity"/><attr name="android:textSize"/><attr name="android:text"/><attr name="android:enabled"/><attr name="android:layout_width"/><attr name="android:layout_weight"/></declare-styleable>
+    <declare-styleable name="BootstrapCircleThumbnail"><attr format="integer" name="bct_image"/><attr format="string" name="bct_size"/><attr format="boolean" name="bct_minimal"/><attr name="android:text"/></declare-styleable>
+    <declare-styleable name="BootstrapEditText"><attr format="boolean" name="be_roundedCorners"/><attr format="string" name="be_state"/><attr name="android:textSize"/><attr name="android:text"/><attr name="android:hint"/><attr name="android:enabled"/></declare-styleable>
+    <declare-styleable name="BootstrapThumbnail"><attr format="boolean" name="bt_roundedCorners"/><attr format="integer" name="bt_image"/><attr format="dimension" name="bt_width"/><attr format="dimension" name="bt_height"/><attr format="dimension" name="bt_inside_padding"/><attr name="android:text"/></declare-styleable>
+    <declare-styleable name="CircleImageView"><attr format="dimension" name="border_width"/><attr format="color" name="border_color"/></declare-styleable>
+    <declare-styleable name="CirclePageIndicator"><attr name="centered"/><attr format="color" name="fillColor"/><attr format="color" name="pageColor"/><attr name="android:orientation"/><attr format="dimension" name="radius"/><attr format="boolean" name="snap"/><attr format="color" name="strokeColor"/><attr name="strokeWidth"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="CompatTextView"><attr format="reference|boolean" name="textAllCaps"/></declare-styleable>
+    <declare-styleable name="FontAwesomeText"><attr format="string" name="fa_icon"/><attr name="android:textSize"/><attr name="android:textColor"/></declare-styleable>
+    <declare-styleable name="Fragment"><attr format="boolean" name="read_only"/></declare-styleable>
+    <declare-styleable name="HoloCircularProgressBar"><attr format="dimension" name="stroke_width"/><attr format="float" name="progress"/><attr format="float" name="marker_progress"/><attr format="color" name="progress_color"/><attr format="color" name="progress_background_color"/><attr format="boolean" name="thumb_visible"/><attr format="boolean" name="marker_visible"/><attr name="android:gravity"/></declare-styleable>
+    <declare-styleable name="LinePageIndicator"><attr name="centered"/><attr name="unselectedColor"/><attr name="selectedColor"/><attr format="dimension" name="lineWidth"/><attr name="strokeWidth"/><attr format="dimension" name="gapWidth"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="LinearLayoutICS"><attr name="divider"/><attr name="showDividers"><flag name="none" value="0"/><flag name="beginning" value="1"/><flag name="middle" value="2"/><flag name="end" value="4"/></attr><attr format="dimension" name="dividerPadding"/></declare-styleable>
+    <declare-styleable name="MapAttrs"><attr format="enum" name="mapType"><enum name="none" value="0"/><enum name="normal" value="1"/><enum name="satellite" value="2"/><enum name="terrain" value="3"/><enum name="hybrid" value="4"/></attr><attr format="float" name="cameraBearing"/><attr format="float" name="cameraTargetLat"/><attr format="float" name="cameraTargetLng"/><attr format="float" name="cameraTilt"/><attr format="float" name="cameraZoom"/><attr format="boolean" name="uiCompass"/><attr format="boolean" name="uiRotateGestures"/><attr format="boolean" name="uiScrollGestures"/><attr format="boolean" name="uiTiltGestures"/><attr format="boolean" name="uiZoomControls"/><attr format="boolean" name="uiZoomGestures"/><attr format="boolean" name="useViewLifecycle"/><attr format="boolean" name="zOrderOnTop"/></declare-styleable>
+    <declare-styleable name="MenuGroup"><attr name="android:id"/><attr name="android:menuCategory"/><attr name="android:orderInCategory"/><attr name="android:checkableBehavior"/><attr name="android:visible"/><attr name="android:enabled"/></declare-styleable>
+    <declare-styleable name="MenuItem"><attr name="android:id"/><attr name="android:menuCategory"/><attr name="android:orderInCategory"/><attr name="android:title"/><attr name="android:titleCondensed"/><attr name="android:icon"/><attr name="android:alphabeticShortcut"/><attr name="android:numericShortcut"/><attr name="android:checkable"/><attr name="android:checked"/><attr name="android:visible"/><attr name="android:enabled"/><attr name="android:onClick"/><attr name="showAsAction"><flag name="never" value="0"/><flag name="ifRoom" value="1"/><flag name="always" value="2"/><flag name="withText" value="4"/><flag name="collapseActionView" value="8"/></attr><attr format="reference" name="actionLayout"/><attr format="string" name="actionViewClass"/><attr format="string" name="actionProviderClass"/></declare-styleable>
+    <declare-styleable name="MenuView"><attr name="android:itemTextAppearance"/><attr name="android:horizontalDivider"/><attr name="android:verticalDivider"/><attr name="android:headerBackground"/><attr name="android:itemBackground"/><attr name="android:windowAnimationStyle"/><attr name="android:itemIconDisabledAlpha"/><attr name="android:preserveIconSpacing"/></declare-styleable>
+    <declare-styleable name="SearchView"><attr format="boolean" name="iconifiedByDefault"/><attr name="android:maxWidth"/><attr format="string" name="queryHint"/><attr name="android:imeOptions"/><attr name="android:inputType"/></declare-styleable>
+    <declare-styleable name="Spinner"><attr format="reference" name="prompt"/><attr format="enum" name="spinnerMode"><enum name="dialog" value="0"/><enum name="dropdown" value="1"/></attr><attr name="android:dropDownSelector"/><attr name="android:popupBackground"/><attr name="android:dropDownVerticalOffset"/><attr name="android:dropDownHorizontalOffset"/><attr name="android:dropDownWidth"/><attr format="reference" name="popupPromptView"/><attr name="android:gravity"/><attr format="boolean" name="disableChildrenWhenDisabled"/></declare-styleable>
+    <declare-styleable name="Theme"><attr format="reference" name="actionDropDownStyle"/><attr format="dimension" name="dropdownListPreferredItemHeight"/><attr format="reference" name="popupMenuStyle"/><attr format="dimension" name="panelMenuListWidth"/><attr format="reference" name="panelMenuListTheme"/><attr format="reference" name="listChoiceBackgroundIndicator"/></declare-styleable>
+    <declare-styleable name="Theme.Helpshift"><attr format="reference" name="hs__actionbarCompatTitleStyle"/><attr format="reference" name="hs__actionbarCompatItemBaseStyle"/><attr format="reference" name="hs__actionBarTabTextStyle"/><attr format="reference" name="hs__selectableItemBackground"/><attr format="reference" name="hs__actionbarCompatProgressIndicatorStyle"/></declare-styleable>
+    <declare-styleable name="TitlePageIndicator"><attr format="dimension" name="clipPadding"/><attr format="color" name="footerColor"/><attr format="dimension" name="footerLineHeight"/><attr name="footerIndicatorStyle"><enum name="none" value="0"/><enum name="triangle" value="1"/><enum name="underline" value="2"/></attr><attr format="dimension" name="footerIndicatorHeight"/><attr format="dimension" name="footerIndicatorUnderlinePadding"/><attr format="dimension" name="footerPadding"/><attr name="linePosition"><enum name="bottom" value="0"/><enum name="top" value="1"/></attr><attr name="selectedColor"/><attr format="boolean" name="selectedBold"/><attr name="android:textColor"/><attr name="android:textSize"/><attr format="dimension" name="titlePadding"/><attr format="dimension" name="topPadding"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="UnderlinePageIndicator"><attr format="boolean" name="fades"/><attr format="integer" name="fadeDelay"/><attr format="integer" name="fadeLength"/><attr name="selectedColor"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="View"><attr format="dimension" name="paddingStart"/><attr format="dimension" name="paddingEnd"/><attr name="android:focusable"/></declare-styleable>
+    <declare-styleable name="ViewPagerIndicator"><attr format="reference" name="vpiCirclePageIndicatorStyle"/><attr format="reference" name="vpiIconPageIndicatorStyle"/><attr format="reference" name="vpiLinePageIndicatorStyle"/><attr format="reference" name="vpiTitlePageIndicatorStyle"/><attr format="reference" name="vpiTabPageIndicatorStyle"/><attr format="reference" name="vpiUnderlinePageIndicatorStyle"/></declare-styleable>
+    <declare-styleable name="com_facebook_friend_picker_fragment"><attr format="boolean" name="multi_select"/></declare-styleable>
+    <declare-styleable name="com_facebook_login_view"><attr format="boolean" name="confirm_logout"/><attr format="boolean" name="fetch_user_info"/><attr format="string" name="login_text"/><attr format="string" name="logout_text"/></declare-styleable>
+    <declare-styleable name="com_facebook_picker_fragment"><attr format="boolean" name="show_pictures"/><attr format="string" name="extra_fields"/><attr format="boolean" name="show_title_bar"/><attr format="string" name="title_text"/><attr format="string" name="done_button_text"/><attr format="reference" name="title_bar_background"/><attr format="reference" name="done_button_background"/></declare-styleable>
+    <declare-styleable name="com_facebook_place_picker_fragment"><attr format="integer" name="radius_in_meters"/><attr format="integer" name="results_limit"/><attr format="string" name="search_text"/><attr format="boolean" name="show_search_box"/></declare-styleable>
+    <declare-styleable name="com_facebook_profile_picture_view"><attr name="preset_size"><enum name="small" value="-2"/><enum name="normal" value="-3"/><enum name="large" value="-4"/></attr><attr format="boolean" name="is_cropped"/></declare-styleable>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="abc_action_bar_default_height">48dip</dimen>
+    <dimen name="abc_action_bar_icon_vertical_padding">8dip</dimen>
+    <dimen name="abc_action_bar_progress_bar_size">40dp</dimen>
+    <dimen name="abc_action_bar_stacked_max_height">48dp</dimen>
+    <dimen name="abc_action_bar_stacked_tab_max_width">180dp</dimen>
+    <dimen name="abc_action_bar_subtitle_bottom_margin">5dip</dimen>
+    <dimen name="abc_action_bar_subtitle_text_size">14dp</dimen>
+    <dimen name="abc_action_bar_subtitle_top_margin">-3dp</dimen>
+    <dimen name="abc_action_bar_title_text_size">18dp</dimen>
+    <dimen name="abc_action_button_min_width">56dip</dimen>
+    <dimen name="abc_config_prefDialogWidth">320dp</dimen>
+    <dimen name="abc_dropdownitem_icon_width">32dip</dimen>
+    <dimen name="abc_dropdownitem_text_padding_left">8dip</dimen>
+    <dimen name="abc_dropdownitem_text_padding_right">8dip</dimen>
+    <dimen name="abc_panel_menu_list_width">296dp</dimen>
+    <dimen name="abc_search_view_preferred_width">320dip</dimen>
+    <dimen name="abc_search_view_text_min_width">160dip</dimen>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/unifi.libraries/AndroidBootstrap/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="bbuton_rounded_corner_radius">5dp</dimen>
+    <dimen name="bthumbnail_rounded_corner_radius">3dp</dimen>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/unifi/facebook/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="com_facebook_loginview_compound_drawable_padding">12dp</dimen>
+    <dimen name="com_facebook_loginview_padding_bottom">12dp</dimen>
+    <dimen name="com_facebook_loginview_padding_left">12dip</dimen>
+    <dimen name="com_facebook_loginview_padding_right">16dp</dimen>
+    <dimen name="com_facebook_loginview_padding_top">12dp</dimen>
+    <dimen name="com_facebook_loginview_text_size">16.0sp</dimen>
+    <dimen name="com_facebook_picker_place_image_size">64dp</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_large">180dp</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_normal">100dp</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_small">50dp</dimen>
+    <dimen name="com_facebook_tooltip_horizontal_padding">10dp</dimen>
+    <dimen name="com_facebook_usersettingsfragment_profile_picture_height">64dp</dimen>
+    <dimen name="com_facebook_usersettingsfragment_profile_picture_width">64dp</dimen>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.viewpagerindicator/library/2.4.1/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="default_circle_indicator_radius">3dp</dimen>
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_line_indicator_gap_width">4dp</dimen>
+    <dimen name="default_line_indicator_line_width">12dp</dimen>
+    <dimen name="default_line_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_title_indicator_clip_padding">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_height">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_underline_padding">20dp</dimen>
+    <dimen name="default_title_indicator_footer_line_height">2dp</dimen>
+    <dimen name="default_title_indicator_footer_padding">7dp</dimen>
+    <dimen name="default_title_indicator_text_size">15dp</dimen>
+    <dimen name="default_title_indicator_title_padding">5dp</dimen>
+    <dimen name="default_title_indicator_top_padding">7dp</dimen>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <eat-comment/>
+    <item name="dialog_fixed_height_major" type="dimen">80%</item>
+    <item name="dialog_fixed_height_minor" type="dimen">100%</item>
+    <item name="dialog_fixed_width_major" type="dimen">320dp</item>
+    <item name="dialog_fixed_width_minor" type="dimen">320dp</item>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="hs__actionbar_compat_button_home_width">56dp</dimen>
+    <dimen name="hs__actionbar_compat_button_width">48dp</dimen>
+    <dimen name="hs__actionbar_compat_height">48dp</dimen>
+    <dimen name="hs__actionbar_compat_icon_vertical_padding">8dip</dimen>
+    <dimen name="hs__button_padding_right">17dp</dimen>
+    <dimen name="hs__content_wrapper_padding">10dp</dimen>
+    <dimen name="hs__content_wrapper_top_padding">30dp</dimen>
+    <dimen name="hs__faqs_sync_status_height">18sp</dimen>
+    <dimen name="hs__listPreferredItemHeightSmall">48dp</dimen>
+    <dimen name="hs__listPreferredItemPaddingBottom">12dp</dimen>
+    <dimen name="hs__listPreferredItemPaddingLeft">6dip</dimen>
+    <dimen name="hs__listPreferredItemPaddingRight">6dip</dimen>
+    <dimen name="hs__listPreferredItemPaddingTop">12dp</dimen>
+    <dimen name="hs__marginLeft">8dp</dimen>
+    <dimen name="hs__msgActionButtonPadding">8dp</dimen>
+    <dimen name="hs__msgPreferredItemPaddingBottom">11dp</dimen>
+    <dimen name="hs__msgPreferredItemPaddingLeft">12dp</dimen>
+    <dimen name="hs__msgPreferredItemPaddingRight">12dp</dimen>
+    <dimen name="hs__msgPreferredItemPaddingTop">10dp</dimen>
+    <item format="float" name="hs__msg_timestamp_alpha" type="dimen">0.5</item>
+    <dimen name="hs__msg_timestamp_padding">13dp</dimen>
+    <dimen name="hs__question_text_padding">10dp</dimen>
+    <dimen name="hs__textSizeSmall">10sp</dimen>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/unifi.libraries/AndroidBootstrap/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="padding_medium">12dp</dimen>
+    <dimen name="padding_micro">4dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/unifi/facebook/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <drawable name="com_facebook_picker_default_separator_color">#33464c59</drawable>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <eat-comment/>
+    <item name="action_bar_activity_content" type="id"/>
+    <item name="action_menu_divider" type="id"/>
+    <item name="action_menu_presenter" type="id"/>
+    <item name="home" type="id"/>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/res/values/values.xml -->
+    <eat-comment/>
+    <item name="hs__actionbar_compat_item_refresh_progress" type="id"/>
+    <item name="hs__actionbar_compat_title" type="id"/>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <eat-comment/>
+    <item name="progress_circular" type="id"/>
+    <item name="progress_horizontal" type="id"/>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.google.maps.android/android-maps-utils/0.3.4/res/values/values.xml -->
+    <eat-comment/>
+    <item name="text" type="id"/>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/src/main/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="wifi_icon_1" type="id"/>
+    <item name="wifi_icon_2" type="id"/>
+    <item name="wifi_icon_3" type="id"/>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <eat-comment/>
+    <integer name="abc_max_action_buttons">2</integer>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.viewpagerindicator/library/2.4.1/res/values/values.xml -->
+    <eat-comment/>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <integer name="default_title_indicator_footer_indicator_style">2</integer>
+    <integer name="default_title_indicator_line_position">0</integer>
+    <integer name="default_underline_indicator_fade_delay">300</integer>
+    <integer name="default_underline_indicator_fade_length">400</integer>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/res/values/values.xml -->
+    <eat-comment/>
+    <integer name="hs__chat_max_lines">3</integer>
+    <integer name="hs__conversation_detail_lines">5</integer>
+    <plurals name="hs__notification_content_title">
+        <item quantity="one">New message from Support</item>
+        <item quantity="other">%d new messages from Support</item>
+    </plurals>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <eat-comment/>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="access_label">ACCESS:\u0020</string>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/unifi.libraries/AndroidBootstrap/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="add_wifi_network_points_label">Add WiFi Network\n+5</string>
+    <string name="add_wifi_network_text_prefix">Share access to the </string>
+    <string name="add_wifi_network_text_suffix"> WiFi network for </string>
+    <string name="add_wifi_network_title">Add WiFi Network</string>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/src/main/res/values/analytics.xml -->
+    <eat-comment/>
+    <string name="analytics_debug">false</string>
+    <string name="analytics_write_key">wwrbt0a0aw</string>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_id">830154490350849</string>
+    <string name="app_name">UnifiApp</string>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.2.65/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="auth_client_needs_enabling_title">
+      An application requires Google Play Services to be enabled.
+  </string>
+    <string name="auth_client_needs_installation_title">
+      An application requires installation of Google Play Services.
+  </string>
+    <string name="auth_client_needs_update_title">
+      An application requires an update for Google Play Services.
+  </string>
+    <string name="auth_client_play_services_err_notification_msg">Google Play services error</string>
+    <string name="auth_client_requested_by_msg">Requested by <ns1:g id="app_name">%1$s</ns1:g></string>
+    <string name="auth_client_using_bad_version_title">
+      An application attempted to use a bad version of Google Play Services.
+  </string>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="auto_connect_checkbox_label">Automatically connect me to community WiFi hotspots within range</string>
+    <string name="cap_usage_label">Cap usage at (GB/month):</string>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/unifi/facebook/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="com_facebook_choose_friends">Choose Friends</string>
+    <string name="com_facebook_dialogloginactivity_ok_button">OK</string>
+    <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest Error</string>
+    <string name="com_facebook_loading">Loading...</string>
+    <string name="com_facebook_loginview_cancel_action">Cancel</string>
+    <string name="com_facebook_loginview_log_in_button">Log in with Facebook</string>
+    <string name="com_facebook_loginview_log_out_action">Log out</string>
+    <string name="com_facebook_loginview_log_out_button">Log out</string>
+    <string name="com_facebook_loginview_logged_in_as">Logged in as: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Logged in using Facebook</string>
+    <string name="com_facebook_logo_content_description">Facebook Logo</string>
+    <string name="com_facebook_nearby">Nearby</string>
+    <string name="com_facebook_picker_done_button_text">Done</string>
+    <string name="com_facebook_placepicker_subtitle_catetory_only_format">%1$s</string>
+    <string name="com_facebook_placepicker_subtitle_format">%1$s • %2$,d were here</string>
+    <string name="com_facebook_placepicker_subtitle_were_here_only_format">%1$,d were here</string>
+    <string name="com_facebook_requesterror_password_changed">Your Facebook password has changed. Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_permissions">This app doesn’t have permission to do this. To change permissions, try logging into the app again.</string>
+    <string name="com_facebook_requesterror_reconnect">Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_relogin">Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_web_login">Your Facebook account is locked. Please log into www.facebook.com to continue.</string>
+    <string name="com_facebook_tooltip_default">New! You\'re in control - choose what info you want to share with apps.</string>
+    <string name="com_facebook_usersettingsfragment_log_in_button">Log in…</string>
+    <string name="com_facebook_usersettingsfragment_logged_in">Logged in</string>
+    <string name="com_facebook_usersettingsfragment_not_logged_in">Not logged in</string>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.2.65/res/values/strings.xml -->
+    <eat-comment/>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable Google Play services</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">This app won\'t work unless you enable Google Play services.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Get Google Play services</string>
+    <string msgid="2122112764540849864" name="common_google_play_services_install_text_phone">This app won\'t run without Google Play services, which are missing from your phone.</string>
+    <string msgid="7351599665250191022" name="common_google_play_services_install_text_tablet">This app won\'t run without Google Play services, which are missing from your tablet.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_invalid_account_text">The specified account does not exist on this device. Please choose a different account.</string>
+    <string name="common_google_play_services_invalid_account_title">Invalid Account</string>
+    <string name="common_google_play_services_network_error_text">A data connection is required to connect to Google Play services.</string>
+    <string name="common_google_play_services_network_error_title">Network Error</string>
+    <string name="common_google_play_services_unknown_issue">Unknown issue with Google Play services.</string>
+    <string name="common_google_play_services_unsupported_text">Google Play services, which some of your applications rely on, is not supported by your device. Please contact the manufacturer for assistance.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play services</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Update</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">This app won\'t run unless you update Google Play services.</string>
+    <string msgid="1788179980625863495" name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="connections_made_label">Connections made</string>
+    <string name="coverage_map_error_text">We could not display the coverage map - please contact support to get help.</string>
+    <string name="coverage_map_error_title">Error</string>
+    <string name="default_network_size">5,015 networks online</string>
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="dialog_contact_support">Contact Support</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_select_operator_label">Select your Mobile Operator</string>
+    <string name="dialog_select_operator_text">Please select your mobile operator, so we can send you your credit:</string>
+    <string name="dialog_send">Send</string>
+    <string name="enter_wifi_password">enter the WiFi password here</string>
+    <string name="exception">Exception: %1$s</string>
+    <string name="firewall_description">Our firewall prevents misuse</string>
+    <string name="five_karma_points">5 karma points on the leaderboard!</string>
+    <string name="friend_referral_points">You\'ll get 10 points when your friend signs up and adds a WiFi network!</string>
+    <string name="get_directions_button_label">Get Directions</string>
+    <string name="get_more_karma_points">Get more Karma Points!</string>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/unifi/google-directions/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="hello_world">Hello world!</string>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="helpshift_default_message">How can we help?  We are available most hours except between 1:30 - 7:30 PM.  We normally respond within 3 hours, and often sooner.</string>
+    <string name="home_access">ACCESS:\u0020</string>
+    <string name="home_connected_community_hotspot">Connected to a UnifiApp \ncommunity hotspot!</string>
+    <string name="home_connected_own_hotspot">Connected to \nyour own WiFi network</string>
+    <string name="home_device_rooted">For security reasons, we do not \nsupport connecting to WiFi networks from rooted devices.  \nPlease click on \'chat with support\' \nin the menu to get help.</string>
+    <string name="home_in_range_attempting_connect">In Range of Community WiFi\nAttempting to connect</string>
+    <string name="home_location_timeout_text">Sorry, we couldn\'t determine your location.  \nPlease go to your Android Settings app, the Location menu, turn on Location/enable Google Location Services, and try again after restarting.\nIf you need help, please click on \'Chat with Support\' in the menu.</string>
+    <string name="home_location_timeout_title">Please enable Location</string>
+    <string name="home_no_data_connection">Please turn on your 2G/3G \nconnection in order to\n connect to nearby networks.  \nOffline mode is supported, but hasn\'t been synced recently.</string>
+    <string name="home_rotating_title_1">You will be prompted to allow the VPN when we connect you, to ensure security</string>
+    <string name="home_rotating_title_2">\u0020networks online</string>
+    <string name="home_scanning_nearby_wifi">Scanning for nearby WiFi \nnetworks to connect to.\nPlease be within 30 meters to connect.</string>
+    <string name="home_turn_on_wifi">Please turn on your WiFi so that \nwe can try to connect you to\n nearby networks.  \nPlease click on \'chat with support\' \nin the menu to get help.</string>
+    <string name="home_waiting_for_location">Waiting for location...</string>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/res/values/values.xml -->
+    <eat-comment/>
+    <string name="hs__attach_btn">Ok, attach</string>
+    <string name="hs__attach_screenshot_btn">Attach Screenshot</string>
+    <string name="hs__ca_msg">We\'re happy to help you!</string>
+    <string name="hs__change_btn">Change</string>
+    <string name="hs__chat_hint">Type your message</string>
+    <string name="hs__confirmation_footer_msg">Thanks for messaging us!</string>
+    <string name="hs__confirmation_msg">Did we answer all your questions?</string>
+    <string name="hs__contact_us_btn">CONTACT US</string>
+    <string name="hs__conversation_detail_error">Please describe your problem</string>
+    <string name="hs__conversation_end_msg">This conversation has ended.</string>
+    <string name="hs__conversation_header">Conversation</string>
+    <string name="hs__conversation_started_message">    Your message has been received. Thanks for contacting us!</string>
+    <string name="hs__cr_msg">What else can we help you with?</string>
+    <string name="hs__csat_additonal_feedback_message">Any other feedback (optional)</string>
+    <string name="hs__csat_dislike_message">Hated It!</string>
+    <string name="hs__csat_like_message">Loved It!</string>
+    <string name="hs__csat_message">What\'s your feedback about our customer support?</string>
+    <string name="hs__csat_option_message">or</string>
+    <string name="hs__csat_submit_toast">Thanks for rating us.</string>
+    <string name="hs__data_not_found_msg">Data not found</string>
+    <string name="hs__default_notification_content_title">Support</string>
+    <string name="hs__dm_video_loading">Loading Video...</string>
+    <string name="hs__done_btn">Done</string>
+    <string name="hs__email_hint">Email (optional)</string>
+    <string name="hs__email_required_hint">Email</string>
+    <string name="hs__empty_section">Sorry! No questions available in this section.</string>
+    <string name="hs__faq_header">FAQ</string>
+    <string name="hs__faq_helpful_msg">Helpful</string>
+    <string name="hs__faq_unhelpful_msg">Not Helpful</string>
+    <string name="hs__faqs_search_footer">No FAQs found.</string>
+    <string name="hs__faqs_updating">Updating FAQs...</string>
+    <string name="hs__faqs_updation_failure">Failed to update FAQs</string>
+    <string name="hs__faqs_uptodate">FAQs up-to-date</string>
+    <string name="hs__feedback_button">Send Feedback</string>
+    <string name="hs__help_header">Help</string>
+    <string name="hs__invalid_description_error">Invalid description</string>
+    <string name="hs__invalid_email_error">Please enter a valid email</string>
+    <string name="hs__mark_helpful_toast">Question has been marked as Helpful</string>
+    <string name="hs__mark_no">NO</string>
+    <string name="hs__mark_unhelpful_toast">Question has been marked as Not Helpful</string>
+    <string name="hs__mark_yes">YES</string>
+    <string name="hs__mark_yes_no_question">Was this helpful?</string>
+    <string name="hs__network_error_msg">Oops! Something went wrong</string>
+    <string name="hs__network_unavailable_msg">Network not available.</string>
+    <string name="hs__new_conversation_btn">START A NEW CONVERSATION</string>
+    <string name="hs__new_conversation_header">New Conversation</string>
+    <string name="hs__new_conversation_hint">What\'s on your mind?</string>
+    <string name="hs__new_conversation_msg">Tap the icon below to start a new conversation</string>
+    <string name="hs__notification_content_text">RE:</string>
+    <string name="hs__privacy_policy">    We will only ask for your details when you report your first
+    issue. For more details read our %1$s privacy policy %2$s</string>
+    <string name="hs__question_header">Question</string>
+    <string name="hs__question_helpful_message">You found this helpful.</string>
+    <string name="hs__question_unhelpful_message">You didn\'t find this helpful.</string>
+    <string name="hs__rate_button">Rate</string>
+    <string name="hs__review_accepted_message">Accepted review request</string>
+    <string name="hs__review_btn">Ok, review</string>
+    <string name="hs__review_close_button">Close</string>
+    <string name="hs__review_dialog_msg">    Would you mind taking a moment to review our app? It won\'t take more than a minute. Thanks
+    for your support!</string>
+    <string name="hs__review_dialog_negative_btn">Never ask me again</string>
+    <string name="hs__review_dialog_neutral_btn">Remind me later</string>
+    <string name="hs__review_dialog_positive_btn">Rate and Review</string>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="hs__review_message">If you love our app, please take a moment to rate it and spread the word :)</string>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/res/values/values.xml -->
+    <eat-comment/>
+    <string name="hs__review_request_message">Would you like to review the app?</string>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="hs__review_title">Help us increase our coverage in Mumbai</string>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/res/values/values.xml -->
+    <eat-comment/>
+    <string name="hs__rsc_progress_msg">Sending screenshot.</string>
+    <string name="hs__screenshot_add">Add</string>
+    <string name="hs__screenshot_cloud_attach_error">    Error attaching screenshot. Please choose an image available locally on the device.</string>
+    <string name="hs__screenshot_limit_error">Screenshot size should not exceed %.2f MB</string>
+    <string name="hs__screenshot_remove">Remove</string>
+    <string name="hs__screenshot_sent_msg">Screenshot sent</string>
+    <string name="hs__screenshot_upload_error_msg">Error uploading screenshot</string>
+    <string name="hs__search_footer">Can\'t find what you were looking for?</string>
+    <string name="hs__search_hint">Describe your problem</string>
+    <string name="hs__search_result_message">Questions that may already have your answer</string>
+    <string name="hs__search_result_title">Suggestions</string>
+    <string name="hs__search_title">Search</string>
+    <string name="hs__send_anyway">SEND ANYWAY</string>
+    <string name="hs__send_msg_btn">Send</string>
+    <string name="hs__sending_fail_msg">Not delivered. Tap to retry.</string>
+    <string name="hs__sending_msg">Sending...</string>
+    <string name="hs__solved_btn">Yes, solved!</string>
+    <string name="hs__submit_conversation_btn">Submit</string>
+    <string name="hs__unsolved_btn">No, unsolved</string>
+    <string name="hs__username_blank_error">Please enter a valid name</string>
+    <string name="hs__username_hint">Name</string>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="incorrect_number_dialog_text">Please ensure the phone number you entered is 10 digits long, and try again.</string>
+    <string name="incorrect_number_dialog_title">Incorrect Number</string>
+    <string name="invite_friends_message">Get free WiFi throughout Mumbai - download UnifiApp at </string>
+    <string name="invite_friends_points_label">Invite Friends\n+10</string>
+    <string name="karma_points_label">Karma Points</string>
+    <string name="leaderboard_all_time_points">All-Time Points: </string>
+    <string name="leaderboard_community_tab_title">Commuity</string>
+    <string name="leaderboard_competition_dialog_text">Every month, we give away prizes to the top 3 members on the leaderboard.  This month, we\'re giving away Amazon gift cards, and will be announcing the winners on our Facebook page.</string>
+    <string name="leaderboard_competition_dialog_title">Leaderboard Competition</string>
+    <string name="leaderboard_friends_tab_title">Friends</string>
+    <string name="leaderboard_name_title">Name</string>
+    <string name="leaderboard_no_friends">You don\'t have any friends on UnifiApp yet - invite them!</string>
+    <string name="leaderboard_you">You</string>
+    <string name="loading">Loading...</string>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/unifi/google-directions/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="menu_settings">Settings</string>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="nearest_wifi_prefix">Nearest WiFi\u0020</string>
+    <string name="nearest_wifi_suffix">\u0020meters away</string>
+    <string name="next_step_button_label">Next Step</string>
+    <string name="operator_aircel_ap">Aircel AP</string>
+    <string name="operator_aircel_assam">Aircel Assam</string>
+    <string name="operator_aircel_bihar">Aircel Bihar</string>
+    <string name="operator_aircel_chennai">Aircel Chennai</string>
+    <string name="operator_aircel_delhi">Aircel Delhi</string>
+    <string name="operator_aircel_hp">Aircel HP</string>
+    <string name="operator_aircel_jk">Aircel JK</string>
+    <string name="operator_aircel_karnataka">Aircel Karnataka</string>
+    <string name="operator_aircel_kolkata">Aircel Kolkata</string>
+    <string name="operator_aircel_maharashtra">Aircel Maharashtra</string>
+    <string name="operator_aircel_mumbai">Aircel Mumbai</string>
+    <string name="operator_aircel_north_east">Aircel North East</string>
+    <string name="operator_aircel_orissa">Aircel Orissa</string>
+    <string name="operator_aircel_punjab">Aircel Punjab</string>
+    <string name="operator_aircel_rajasthan">Aircel Rajasthan</string>
+    <string name="operator_aircel_tamil_nadu">Aircel Tamil Nadu</string>
+    <string name="operator_aircel_upe">Aircel UPE</string>
+    <string name="operator_aircel_west_bengal">Aircel West Bengal</string>
+    <string name="operator_airtel_india">Airtel India</string>
+    <string name="operator_bsnl">BSNL</string>
+    <string name="operator_dialog_text">Please select your mobile operator, so we can send you your credit:</string>
+    <string name="operator_dialog_title">UnifiApp Credit Confirmation</string>
+    <string name="operator_idea">IDEA</string>
+    <string name="operator_loop_mobile">Loop Mobile</string>
+    <string name="operator_mtnl_delhi">MTNL Delhi</string>
+    <string name="operator_mtnl_mumbai">MTNL Mumbai</string>
+    <string name="operator_mts">MTS</string>
+    <string name="operator_reliance_cdma">Reliance CDMA</string>
+    <string name="operator_reliance_gsm">Reliance GSM</string>
+    <string name="operator_tata_docomo">Tata Docomo</string>
+    <string name="operator_tata_indicom">Tata Indicom</string>
+    <string name="operator_unicor">Uninor</string>
+    <string name="operator_videocon_gsm">Videocon GSM</string>
+    <string name="operator_vodafone_ap">Vodafone AP</string>
+    <string name="operator_vodafone_bangalore">Vodafone Bangalore</string>
+    <string name="operator_vodafone_bengal">Vodafone Bengal</string>
+    <string name="operator_vodafone_chennai">Vodafone Chennai</string>
+    <string name="operator_vodafone_delhi">Vodafone Delhi</string>
+    <string name="operator_vodafone_gujarat">Vodafone Gujarat</string>
+    <string name="operator_vodafone_haryana">Vodafone Haryana</string>
+    <string name="operator_vodafone_kerala">Vodafone Kerala</string>
+    <string name="operator_vodafone_kolkata">Vodafone Kolkata</string>
+    <string name="operator_vodafone_maharashtra">Vodafone Maharashtra</string>
+    <string name="operator_vodafone_mumbai">Vodafone Mumbai</string>
+    <string name="operator_vodafone_punjab">Vodafone Punjab</string>
+    <string name="operator_vodafone_rajasthan">Vodafone Rajasthan</string>
+    <string name="operator_vodafone_tamil_nadu">Vodafone Tamil Nadu</string>
+    <string name="operator_vodafone_upe">Vodafone UPE</string>
+    <string name="operator_vodafone_upw">Vodafone UPW</string>
+    <string name="percent_share_label">You set how much\nyou\'d like to share</string>
+    <string name="percent_wifi_share_label">% of your WiFi you\'d like to share:</string>
+    <string name="permission_not_granted">Unable to perform selected action because permissions were not granted.</string>
+    <string name="please_upgrade_text">There\'s a newer version of UnifiApp now available - please go to the Play Store app, click the menu, go to \'My Apps\' and click the \'Update\' button next to UnifiApp to upgrade.</string>
+    <string name="please_upgrade_title">Please Upgrade</string>
+    <string name="points_every_time_share">You get points every time someone connects to your WiFi network</string>
+    <string name="prepaid_number_field_for_credit">Your prepaid mobile # to send 50 Rs. credit to</string>
+    <string name="prepaid_number_field_for_no_credit">Your mobile phone number</string>
+    <string name="preshare_city_wifi_title">Get free WiFi in Mumbai, in exchange for sharing some of yours</string>
+    <string name="report_network_problem_text_1">Click here to report a problem</string>
+    <string name="report_network_problem_text_2">connecting to this network</string>
+    <string name="report_network_problem_title">Network name:\u0020</string>
+    <string name="rs_50_credit">Rs. 50 of mobile credit!</string>
+    <string name="safe_and_secure">It\'s safe and secure</string>
+    <string name="seen_walkthrough">seen_walkthrough</string>
+    <string name="send_credit_failed_text">We weren\'t able to send you your credit, but we will keep trying to send it every 15 minutes until it gets sent successfully.  Our customer support team will be in touch with you shortly.</string>
+    <string name="send_credit_failed_title">Problem Sending Credit</string>
+    <string name="send_credit_problem_text">We weren\'t able to send you your credit, but we will keep trying to send it every 15 minutes until it gets sent successfully.  Our customer support team will be in touch with you shortly.</string>
+    <string name="send_credit_problem_title">Problem Sending Credit</string>
+    <string name="sent_credit_text">We\'ve succesfully sent you 50 Rupees to your mobile phone balance.  You will receive an SMS from your carrier shortly.  Please wait at least 5 minutes before adding another network.  Thanks!</string>
+    <string name="sent_credit_title">Your credit has been sent!</string>
+    <string name="settings_text_size">5</string>
+    <string name="share_already_added">You\'ve already added this WiFi network - please try again later when you\'re connected to a different network.</string>
+    <string name="share_button_label">Share UnifiApp with your Friends</string>
+    <string name="share_could_not_connect_internet">Sorry, we couldn\'t connect to the Internet through this network.  Please try again when you\'re connected to a different network.\nIf you need help, please click on \'Chat with Support\' in the menu.</string>
+    <string name="share_could_not_detect_location">Sorry, we couldn\'t detect your location.  \nPlease go to your Android Settings app, the Location menu, turn on Location, and try again (you may need to restart your device).\nIf you need help, please click on \'Chat with Support\' in the menu.</string>
+    <string name="share_duplicate_found">Sorry, this WiFi network already has been submitted.  Please try again when you\'re connected to a different network.\nIf you need help, please click on \'Chat with Support\' in the menu.</string>
+    <string name="share_exceeded_router_limit">You\'ve reached the limit of networks you can add (for security reasons, we only want you to submit your own networks, not those of other people).\nPlease click on \'chat with support\' if you have questions.</string>
+    <string name="share_located_outside">Sorry, our service is not currently available outside of Mumbai.  We\'ll let you know when we launch in your city.</string>
+    <string name="share_location_failure">Sorry, we could not retrieve your location.  Please install the Google Play Services app and try again.\nIf you need help, please click on \'Chat with Support\' in the menu.</string>
+    <string name="share_more_points_label">Share More\n+5 &amp; up</string>
+    <string name="share_open_network">You\'re currently connected to an open WiFi network\n that we can\'t verify access to &amp; share with our community.\n\n  Please try again later when you\'re connected to a password-protected network that you\'d like to share, or contact us via the \'Chat with Support\' option in the menu.</string>
+    <string name="share_password_failure">Sorry, that doesn\'t seem to be correct.  \nPlease try again.\nIf you forgot your password, please click on \'F.A.Q.\' in the menu.\n  Otherwise, click on \'Chat with Support\' to get help.</string>
+    <string name="share_password_length_text_prefix">Please ensure the password is at least </string>
+    <string name="share_password_length_text_suffix"> letters long, and try again.</string>
+    <string name="share_password_length_title">Password</string>
+    <string name="share_please_enter_new_password_prefix">Please enter in the new password to the \'</string>
+    <string name="share_please_enter_new_password_suffix">\' WiFi network\n in order to update it.</string>
+    <string name="share_please_enter_password_prefix">Please enter in the password to the \'</string>
+    <string name="share_please_enter_password_suffix">\' WiFi network.\nYou can set the amount you\'d like to share by going to the Settings menu at any time.</string>
+    <string name="share_select_operator">Select your Operator</string>
+    <string name="share_select_operator_message">Please select your mobile operator, so we can send you your credit.  Depending on your operator, it may take between a minute to over an hour to process - please go to \'Chat with Support\' in the menu if you haven\'t received it within a few hours.</string>
+    <string name="share_tethered">It looks like you\'re currently connected to a network we don\'t support, or a mobile WiFi hotspot (which won\'t always be on, or have unlimited data to share).\nPlease try again later when you\'re connected to a regular WiFi router,\nor click on \'chat with support\' in the menu to get help.</string>
+    <string name="share_thanks_password_updated">Thanks!  Your password has been updated.</string>
+    <string name="share_verifying">Verifying... \n(could take up to 15 seconds)</string>
+    <string name="splash_screen_believe">We believe Internet access should be a human right</string>
+    <string name="splash_screen_city">Help us make Mumbai the first WiFi-sharing city in the world!</string>
+    <string name="thanks_boostrap_active">Thanks!  We\'re sending 50 Rs. to your SIM card now.\nWe\'ll connect you to our community\'s WiFi as you come within range automatically\n\nGet access to another thousand WiFi networks in Mumbai for every friend you invite!\n\n</string>
+    <string name="thanks_bootstrap_inactive">Thanks!  \n\nWe\'ll connect you to our community\'s WiFi as you come within range automatically.\n</string>
+    <string name="thanks_received_points_label">Thanks received</string>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/unifi/google-directions/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="title_activity_map">MapActivity</string>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="total_karma_points">total karma points:</string>
+    <string name="unsupported_device_vpn_text">Your device does not support VPN connections, which are needed to ensure security.  Please contact support to get help.</string>
+    <string name="unsupported_device_vpn_title">Unsupported Device</string>
+    <string name="update_password_button_label">Update Password</string>
+    <string name="update_password_text">We weren\'t able to connect to your WiFi - please update your WiFi password to continue accessing our network</string>
+    <string name="update_password_title">Please Update your WiFi Password</string>
+    <string name="verify_password_button_label">Verify Password</string>
+    <string name="verifying_location_connection">Verifying your location \n and connection...</string>
+    <string name="walkthrough_2_label_connect_wifi">As you move around, we\'ll\nautomatically connect you to our WiFi networks</string>
+    <string name="wifi_check_exception">We could not determine your WiFi connection settings - please click on \'Chat with Support\' in the menu to get help.</string>
+    <string name="wifi_check_not_connected_wifi">"You\'re not connected to a WiFi network.  \nPlease connect to a WiFi network, and try again.\nIf you need help, please click on \'Chat with Support\' in the menu.</string>
+    <string name="wifi_check_wifi_not_enabled">Please turn on your phone\'s WiFi, connect to a network, and try again.\nIf you need help, please click on \'Chat with Support\' in the menu.</string>
+    <string name="your_mobile_phone_number">Your mobile phone number</string>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/unifi.libraries/AndroidBootstrap/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/unifi/google-directions/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="android:Theme.Light"/>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="ApplicationTheme" parent="@android:style/Theme.Holo">
+    </style>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.google.maps.android/android-maps-utils/0.3.4/res/values/values.xml -->
+    <eat-comment/>
+    <style name="Bubble.TextAppearance.Dark" parent="android:TextAppearance.Medium">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#ff7f7f7f</item>
+    </style>
+    <style name="Bubble.TextAppearance.Light" parent="Bubble.TextAppearance.Dark">
+        <item name="android:textColor">#ffeeeeee</item>
+    </style>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="CircularProgressBar">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="stroke_width">5dp</item>
+        <item format="float" name="progress">0.1</item>
+        <item name="progress_color">#ffff4444</item>
+        <item name="progress_background_color">#ffffffff</item>
+        <item name="marker_visible">false</item>
+        <item name="thumb_visible">false</item>
+    </style>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.pascalwelsch.holocircularprogressbar/circular-progress-bar/1.3/res/values/values.xml -->
+    <eat-comment/>
+    <style name="CircularProgressBarLight">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="stroke_width">5dp</item>
+        <item format="float" name="progress">0.1</item>
+        <item name="progress_color">#ffff4444</item>
+        <item name="progress_background_color">#aaa</item>
+        <item name="marker_visible">true</item>
+        <item name="thumb_visible">true</item>
+    </style>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.google.maps.android/android-maps-utils/0.3.4/res/values/values.xml -->
+    <eat-comment/>
+    <style name="ClusterIcon.TextAppearance" parent="android:TextAppearance">
+        <item name="android:textColor">#ffeeeeee</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="CustomCirclePageIndicator">
+        <item name="fillColor">#FF000000</item>
+        <item name="strokeColor">#FF000000</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="radius">10dp</item>
+        <item name="centered">true</item>
+    </style>
+    <style name="CustomLinePageIndicator">
+        <item name="strokeWidth">4dp</item>
+        <item name="lineWidth">30dp</item>
+        <item name="unselectedColor">#FF888888</item>
+        <item name="selectedColor">#FF880000</item>
+    </style>
+    <style name="CustomTabPageIndicator.Text" parent="android:TextAppearance.Medium">
+        <item name="android:typeface">monospace</item>
+    </style>
+    <style name="CustomTitlePageIndicator">
+        <item name="android:background">#18FF0000</item>
+        <item name="footerColor">#FFAA2222</item>
+        <item name="footerLineHeight">1dp</item>
+        <item name="footerIndicatorHeight">3dp</item>
+        <item name="footerIndicatorStyle">underline</item>
+        <item name="android:textColor">#AA000000</item>
+        <item name="selectedColor">#FF000000</item>
+        <item name="selectedBold">true</item>
+    </style>
+    <style name="CustomUnderlinePageIndicator">
+        <item name="selectedColor">#FFCC0000</item>
+        <item name="android:background">#FFCCCCCC</item>
+        <item name="fadeLength">1000</item>
+        <item name="fadeDelay">1000</item>
+    </style>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/res/values/values.xml -->
+    <eat-comment/>
+    <style name="HSActionBarCompat">
+
+        <!-- Action Bar background -->
+        <item name="android:background">@color/hs__actionBarBackgroundColor</item>
+    </style>
+    <style name="HSActionBarCompatItemBase">
+        <item name="android:scaleType">center</item>
+        <item name="android:background">?attr/hs__selectableItemBackground</item>
+    </style>
+    <style name="HSActionBarCompatProgressIndicator" parent="android:style/Widget.ProgressBar.Large">
+        <item name="android:indeterminate">true</item>
+    </style>
+    <style name="HSActionBarCompatTitle" parent="HSActionBarCompatTitleBase">
+        <item name="android:textColor">@color/hs__actionBarTextColorPrimary</item>
+    </style>
+    <style name="HSActionBarCompatTitleBase">
+        <item name="android:id">@id/hs__actionbar_compat_title</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:paddingLeft">6dp</item>
+        <item name="android:paddingRight">6dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+    </style>
+    <style name="HSActionBarThemedContext">
+
+        <!-- Action Bar text color primary and secondary colors -->
+        <item name="android:textColorPrimary">@color/hs__actionBarTextColorPrimary</item>
+        <item name="android:textColorSecondary">@color/hs__actionBarTextColorSecondary</item>
+    </style>
+    <style name="HSDivider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+    <style name="HSEditTextAppTheme" parent="android:Widget.EditText">
+        <item name="android:background">@drawable/hs__edit_text_holo_light</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="StyledIndicators" parent="@style/Theme.AppCompat">
+        <item name="vpiCirclePageIndicatorStyle">@style/CustomCirclePageIndicator</item>
+        <item name="vpiLinePageIndicatorStyle">@style/CustomLinePageIndicator</item>
+        <item name="vpiTitlePageIndicatorStyle">@style/CustomTitlePageIndicator</item>
+        <item name="vpiUnderlinePageIndicatorStyle">@style/CustomUnderlinePageIndicator</item>
+        <item name="circularProgressBarStyle">@style/CircularProgressBar</item>
+    </style>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <eat-comment/>
+    <style name="TextAppearance.AppCompat.Base.CompactMenu.Dialog" parent="android:TextAppearance.Medium">
+        <item name="android:textColor">@android:color/primary_text_light</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Base.SearchResult" parent="">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColorHint">?android:textColorHint</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Base.SearchResult.Subtitle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Base.SearchResult.Title">
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Base.Widget.PopupMenu.Large" parent="android:TextAppearance.Widget">
+        <item name="android:textColor">?android:attr/textColorPrimaryDisableOnly</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Base.Widget.PopupMenu.Small" parent="android:TextAppearance.Widget">
+        <item name="android:textColor">?android:attr/textColorPrimaryDisableOnly</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Light.Base.SearchResult" parent="TextAppearance.AppCompat.Base.SearchResult">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColorHint">?android:textColorHint</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Light.Base.SearchResult.Subtitle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Light.Base.SearchResult.Title">
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Light.Base.Widget.PopupMenu.Large" parent="TextAppearance.AppCompat.Base.Widget.PopupMenu.Large"/>
+    <style name="TextAppearance.AppCompat.Light.Base.Widget.PopupMenu.Small" parent="TextAppearance.AppCompat.Base.Widget.PopupMenu.Small"/>
+    <style name="TextAppearance.AppCompat.Light.SearchResult.Subtitle" parent="TextAppearance.AppCompat.Light.Base.SearchResult.Subtitle"/>
+    <style name="TextAppearance.AppCompat.Light.SearchResult.Title" parent="TextAppearance.AppCompat.Light.Base.SearchResult.Title"/>
+    <style name="TextAppearance.AppCompat.Light.Widget.PopupMenu.Large" parent="TextAppearance.AppCompat.Light.Base.Widget.PopupMenu.Large"/>
+    <style name="TextAppearance.AppCompat.Light.Widget.PopupMenu.Small" parent="TextAppearance.AppCompat.Light.Base.Widget.PopupMenu.Small"/>
+    <style name="TextAppearance.AppCompat.SearchResult.Subtitle" parent="TextAppearance.AppCompat.Base.SearchResult.Subtitle"/>
+    <style name="TextAppearance.AppCompat.SearchResult.Title" parent="TextAppearance.AppCompat.Base.SearchResult.Title"/>
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Menu" parent="TextAppearance.AppCompat.Widget.Base.ActionBar.Menu"/>
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Subtitle" parent="TextAppearance.AppCompat.Widget.Base.ActionBar.Subtitle"/>
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse" parent="TextAppearance.AppCompat.Widget.Base.ActionBar.Subtitle.Inverse"/>
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title" parent="TextAppearance.AppCompat.Widget.Base.ActionBar.Title"/>
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse" parent="TextAppearance.AppCompat.Widget.Base.ActionBar.Title.Inverse"/>
+    <style name="TextAppearance.AppCompat.Widget.ActionMode.Subtitle" parent="TextAppearance.AppCompat.Widget.Base.ActionMode.Subtitle"/>
+    <style name="TextAppearance.AppCompat.Widget.ActionMode.Subtitle.Inverse" parent="TextAppearance.AppCompat.Widget.Base.ActionMode.Subtitle.Inverse"/>
+    <style name="TextAppearance.AppCompat.Widget.ActionMode.Title" parent="TextAppearance.AppCompat.Widget.Base.ActionMode.Title"/>
+    <style name="TextAppearance.AppCompat.Widget.ActionMode.Title.Inverse" parent="TextAppearance.AppCompat.Widget.Base.ActionMode.Title.Inverse"/>
+    <style name="TextAppearance.AppCompat.Widget.Base.ActionBar.Menu" parent="android:TextAppearance.Small">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/actionMenuTextColor</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.Base.ActionBar.Subtitle" parent="android:TextAppearance.Small">
+        <item name="android:textSize">@dimen/abc_action_bar_subtitle_text_size</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.Base.ActionBar.Subtitle.Inverse" parent="android:TextAppearance.Small.Inverse">
+        <item name="android:textSize">@dimen/abc_action_bar_subtitle_text_size</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.Base.ActionBar.Title" parent="android:TextAppearance.Medium">
+        <item name="android:textSize">@dimen/abc_action_bar_title_text_size</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.Base.ActionBar.Title.Inverse" parent="android:TextAppearance.Medium.Inverse">
+        <item name="android:textSize">@dimen/abc_action_bar_title_text_size</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.Base.ActionMode.Subtitle" parent="android:TextAppearance.Small">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.Base.ActionMode.Subtitle.Inverse" parent="android:TextAppearance.Small.Inverse">
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.Base.ActionMode.Title" parent="android:TextAppearance.Medium"/>
+    <style name="TextAppearance.AppCompat.Widget.Base.ActionMode.Title.Inverse" parent="android:TextAppearance.Medium.Inverse"/>
+    <style name="TextAppearance.AppCompat.Widget.Base.DropDownItem" parent="android:TextAppearance.Small">
+        <item name="android:textColor">?android:attr/textColorPrimaryDisableOnly</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.DropDownItem" parent="TextAppearance.AppCompat.Widget.Base.DropDownItem"/>
+    <style name="TextAppearance.AppCompat.Widget.PopupMenu.Large" parent="TextAppearance.AppCompat.Base.Widget.PopupMenu.Large"/>
+    <style name="TextAppearance.AppCompat.Widget.PopupMenu.Small" parent="TextAppearance.AppCompat.Base.Widget.PopupMenu.Small"/>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.viewpagerindicator/library/2.4.1/res/values/values.xml -->
+    <eat-comment/>
+    <style name="TextAppearance.TabPageIndicator" parent="Widget">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/vpi__dark_theme</item>
+    </style>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <eat-comment/>
+    <style name="TextAppearance.Widget.AppCompat.Base.ExpandedMenu.Item" parent="android:TextAppearance.Medium">
+        <item name="android:textColor">?android:attr/textColorPrimaryDisableOnly</item>
+    </style>
+    <style name="TextAppearance.Widget.AppCompat.ExpandedMenu.Item" parent="TextAppearance.Widget.AppCompat.Base.ExpandedMenu.Item"/>
+    <style name="Theme.AppCompat" parent="Theme.Base.AppCompat">
+        <item name="isLightTheme">false</item>
+
+        <!-- Required for use of support_simple_spinner_dropdown_item.xml -->
+        <item name="spinnerDropDownItemStyle">            @style/Widget.AppCompat.DropDownItem.Spinner</item>
+        <item name="dropdownListPreferredItemHeight">?attr/listPreferredItemHeightSmall</item>
+        <item name="searchResultListItemHeight">58dip</item>
+
+        <!-- Popup Menu styles -->
+        <item name="popupMenuStyle">@style/Widget.AppCompat.PopupMenu</item>
+        <item name="textAppearanceLargePopupMenu">            @style/TextAppearance.AppCompat.Widget.PopupMenu.Large</item>
+        <item name="textAppearanceSmallPopupMenu">            @style/TextAppearance.AppCompat.Widget.PopupMenu.Small</item>
+        <item name="listPopupWindowStyle">@style/Widget.AppCompat.ListPopupWindow</item>
+        <item name="dropDownListViewStyle">@style/Widget.AppCompat.ListView.DropDown</item>
+
+        <!-- SearchView attributes -->
+        <item name="searchDropdownBackground">@drawable/abc_search_dropdown_dark</item>
+        <item name="searchViewTextField">@drawable/abc_textfield_searchview_holo_dark</item>
+        <item name="searchViewTextFieldRight">@drawable/abc_textfield_searchview_right_holo_dark</item>
+        <item name="searchViewCloseIcon">@drawable/abc_ic_clear</item>
+        <item name="searchViewSearchIcon">@drawable/abc_ic_search</item>
+        <item name="searchViewGoIcon">@drawable/abc_ic_go</item>
+        <item name="searchViewVoiceIcon">@drawable/abc_ic_voice_search</item>
+        <item name="searchViewEditQuery">@drawable/abc_ic_commit_search_api_holo_dark</item>
+        <item name="searchViewEditQueryBackground">?attr/selectableItemBackground</item>
+        <item name="searchViewAutoCompleteTextView">            @style/Widget.AppCompat.AutoCompleteTextView</item>
+        <item name="textColorSearchUrl">@color/abc_search_url_text_holo</item>
+        <item name="textAppearanceSearchResultTitle">            @style/TextAppearance.AppCompat.SearchResult.Title</item>
+        <item name="textAppearanceSearchResultSubtitle">            @style/TextAppearance.AppCompat.SearchResult.Subtitle</item>
+        <item name="actionModeShareDrawable">@drawable/abc_ic_menu_share_holo_dark</item>
+
+        <!-- ShareActionProvider attributes -->
+        <item name="activityChooserViewStyle">@style/Widget.AppCompat.ActivityChooserView</item>
+    </style>
+    <style name="Theme.AppCompat.Base.CompactMenu" parent="">
+        <item name="android:itemTextAppearance">            @style/TextAppearance.Widget.AppCompat.ExpandedMenu.Item</item>
+        <item name="android:listViewStyle">@style/Widget.AppCompat.ListView.Menu</item>
+    </style>
+    <style name="Theme.AppCompat.Base.CompactMenu.Dialog" parent="">
+        <item name="android:itemTextAppearance">            @style/TextAppearance.AppCompat.Base.CompactMenu.Dialog</item>
+        <item name="android:listViewStyle">@android:style/Widget.ListView.Menu</item>
+    </style>
+    <style name="Theme.AppCompat.CompactMenu" parent="Theme.AppCompat.Base.CompactMenu"/>
+    <style name="Theme.AppCompat.CompactMenu.Dialog" parent="Theme.AppCompat.Base.CompactMenu.Dialog"/>
+    <style name="Theme.AppCompat.DialogWhenLarge" parent="Theme.Base.AppCompat.DialogWhenLarge"/>
+    <style name="Theme.AppCompat.Light" parent="Theme.Base.AppCompat.Light">
+        <item name="isLightTheme">true</item>
+
+        <!-- Required for use of support_simple_spinner_dropdown_item.xml -->
+        <item name="spinnerDropDownItemStyle">            @style/Widget.AppCompat.Light.DropDownItem.Spinner</item>
+        <item name="dropdownListPreferredItemHeight">?attr/listPreferredItemHeightSmall</item>
+        <item name="searchResultListItemHeight">58dip</item>
+
+        <!-- Popup Menu styles -->
+        <item name="popupMenuStyle">@style/Widget.AppCompat.Light.PopupMenu</item>
+        <item name="textAppearanceLargePopupMenu">            @style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large</item>
+        <item name="textAppearanceSmallPopupMenu">            @style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Small</item>
+        <item name="listPopupWindowStyle">@style/Widget.AppCompat.Light.ListPopupWindow</item>
+        <item name="dropDownListViewStyle">@style/Widget.AppCompat.Light.ListView.DropDown</item>
+
+        <!-- SearchView attributes -->
+        <item name="searchDropdownBackground">@drawable/abc_search_dropdown_light</item>
+        <item name="searchViewTextField">@drawable/abc_textfield_searchview_holo_light</item>
+        <item name="searchViewTextFieldRight">@drawable/abc_textfield_searchview_right_holo_light</item>
+        <item name="searchViewCloseIcon">@drawable/abc_ic_clear_holo_light</item>
+        <item name="searchViewSearchIcon">@drawable/abc_ic_search_api_holo_light</item>
+        <item name="searchViewGoIcon">@drawable/abc_ic_go_search_api_holo_light</item>
+        <item name="searchViewVoiceIcon">@drawable/abc_ic_voice_search_api_holo_light</item>
+        <item name="searchViewEditQuery">@drawable/abc_ic_commit_search_api_holo_light</item>
+        <item name="searchViewEditQueryBackground">?attr/selectableItemBackground</item>
+        <item name="searchViewAutoCompleteTextView">            @style/Widget.AppCompat.Light.AutoCompleteTextView</item>
+        <item name="textColorSearchUrl">@color/abc_search_url_text_holo</item>
+        <item name="textAppearanceSearchResultTitle">            @style/TextAppearance.AppCompat.Light.SearchResult.Title</item>
+        <item name="textAppearanceSearchResultSubtitle">            @style/TextAppearance.AppCompat.Light.SearchResult.Subtitle</item>
+        <item name="actionModeShareDrawable">@drawable/abc_ic_menu_share_holo_light</item>
+
+        <!-- ShareActionProvider attributes -->
+        <item name="activityChooserViewStyle">@style/Widget.AppCompat.Light.ActivityChooserView</item>
+    </style>
+    <style name="Theme.AppCompat.Light.DarkActionBar" parent="Theme.Base.AppCompat.Light.DarkActionBar">
+        <item name="isLightTheme">true</item>
+
+        <!-- Required for use of support_simple_spinner_dropdown_item.xml -->
+        <item name="spinnerDropDownItemStyle">            @style/Widget.AppCompat.Light.DropDownItem.Spinner</item>
+        <item name="dropdownListPreferredItemHeight">?attr/listPreferredItemHeightSmall</item>
+        <item name="searchResultListItemHeight">58dip</item>
+
+        <!-- Popup Menu styles -->
+        <item name="popupMenuStyle">@style/Widget.AppCompat.Light.PopupMenu</item>
+        <item name="textAppearanceLargePopupMenu">            @style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large</item>
+        <item name="textAppearanceSmallPopupMenu">            @style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Small</item>
+        <item name="listPopupWindowStyle">@style/Widget.AppCompat.ListPopupWindow</item>
+        <item name="dropDownListViewStyle">@style/Widget.AppCompat.ListView.DropDown</item>
+
+        <!-- SearchView attributes -->
+        <item name="searchDropdownBackground">@drawable/abc_search_dropdown_dark</item>
+        <item name="searchViewTextField">@drawable/abc_textfield_searchview_holo_dark</item>
+        <item name="searchViewTextFieldRight">@drawable/abc_textfield_searchview_right_holo_dark</item>
+        <item name="searchViewCloseIcon">@drawable/abc_ic_clear</item>
+        <item name="searchViewSearchIcon">@drawable/abc_ic_search</item>
+        <item name="searchViewGoIcon">@drawable/abc_ic_go</item>
+        <item name="searchViewVoiceIcon">@drawable/abc_ic_voice_search</item>
+        <item name="searchViewEditQuery">@drawable/abc_ic_commit_search_api_holo_dark</item>
+        <item name="searchViewEditQueryBackground">?attr/selectableItemBackground</item>
+        <item name="searchViewAutoCompleteTextView">            @style/Widget.AppCompat.AutoCompleteTextView</item>
+        <item name="textColorSearchUrl">@color/abc_search_url_text_holo</item>
+        <item name="textAppearanceSearchResultTitle">            @style/TextAppearance.AppCompat.SearchResult.Title</item>
+        <item name="textAppearanceSearchResultSubtitle">            @style/TextAppearance.AppCompat.SearchResult.Subtitle</item>
+        <item name="actionModeShareDrawable">@drawable/abc_ic_menu_share_holo_dark</item>
+
+        <!-- ShareActionProvider attributes -->
+        <item name="activityChooserViewStyle">@style/Widget.AppCompat.ActivityChooserView</item>
+    </style>
+    <style name="Theme.AppCompat.Light.DialogWhenLarge" parent="Theme.Base.AppCompat.Light.DialogWhenLarge"/>
+    <style name="Theme.Base" parent="android:Theme"/>
+    <style name="Theme.Base.AppCompat" parent="Theme.Base">
+        <item name="windowActionBar">true</item>
+        <!-- Remove system title bars; we will add the action bar ourselves. -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="buttonBarStyle">@android:style/ButtonBar</item>
+        <item name="buttonBarButtonStyle">@android:style/Widget.Button</item>
+        <item name="selectableItemBackground">@drawable/abc_item_background_holo_dark</item>
+        <item name="homeAsUpIndicator">@drawable/abc_ic_ab_back_holo_dark</item>
+        <item name="dividerVertical">@drawable/abc_list_divider_holo_dark</item>
+        <item name="dividerHorizontal">@drawable/abc_list_divider_holo_dark</item>
+        <item name="listPreferredItemHeight">?android:attr/listPreferredItemHeight</item>
+        <item name="listPreferredItemHeightSmall">48dp</item>
+        <item name="listPreferredItemHeightLarge">80dp</item>
+        <item name="listPreferredItemPaddingLeft">8dip</item>
+        <item name="listPreferredItemPaddingRight">8dip</item>
+        <item name="textAppearanceListItem">?android:attr/textAppearanceMedium</item>
+        <item name="textAppearanceListItemSmall">?android:attr/textAppearanceMedium</item>
+        <item name="actionBarTabStyle">@style/Widget.AppCompat.ActionBar.TabView</item>
+        <item name="actionBarTabBarStyle">@style/Widget.AppCompat.ActionBar.TabBar</item>
+        <item name="actionBarTabTextStyle">@style/Widget.AppCompat.ActionBar.TabText</item>
+        <item name="actionButtonStyle">@style/Widget.AppCompat.ActionButton</item>
+        <item name="actionOverflowButtonStyle">@style/Widget.AppCompat.ActionButton.Overflow</item>
+        <item name="actionBarStyle">@style/Widget.AppCompat.ActionBar</item>
+        <item name="actionBarSplitStyle">?attr/actionBarStyle</item>
+        <item name="actionBarWidgetTheme">@null</item>
+        <item name="actionBarSize">@dimen/abc_action_bar_default_height</item>
+        <item name="actionBarDivider">?attr/dividerVertical</item>
+        <item name="actionBarItemBackground">?attr/selectableItemBackground</item>
+        <item name="actionMenuTextAppearance">            @style/TextAppearance.AppCompat.Widget.ActionBar.Menu</item>
+        <item name="actionMenuTextColor">?android:attr/textColorPrimaryDisableOnly</item>
+
+        <!-- Dropdown Spinner Attributes -->
+        <item name="actionDropDownStyle">@style/Widget.AppCompat.Spinner.DropDown.ActionBar</item>
+
+        <!-- Action Mode -->
+        <item name="actionModeStyle">@style/Widget.AppCompat.ActionMode</item>
+        <item name="actionModeBackground">@drawable/abc_cab_background_top_holo_dark</item>
+        <item name="actionModeSplitBackground">@drawable/abc_cab_background_bottom_holo_dark</item>
+        <item name="actionModeCloseDrawable">@drawable/abc_ic_cab_done_holo_dark</item>
+        <item name="actionModeCloseButtonStyle">@style/Widget.AppCompat.ActionButton.CloseMode</item>
+
+        <!-- Panel attributes -->
+        <item name="panelMenuListWidth">@dimen/abc_panel_menu_list_width</item>
+        <item name="panelMenuListTheme">@style/Theme.AppCompat.CompactMenu</item>
+        <item name="android:panelBackground">@drawable/abc_menu_hardkey_panel_holo_dark</item>
+        <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_dark</item>
+    </style>
+    <style name="Theme.Base.AppCompat.Dialog.FixedSize" parent="android:Theme.Dialog">
+        <item name="windowFixedWidthMajor">@dimen/dialog_fixed_width_major</item>
+        <item name="windowFixedWidthMinor">@dimen/dialog_fixed_width_minor</item>
+        <item name="windowFixedHeightMajor">@dimen/dialog_fixed_height_major</item>
+        <item name="windowFixedHeightMinor">@dimen/dialog_fixed_height_minor</item>
+        <item name="windowActionBar">true</item>
+        <!-- Remove system title bars; we will add the action bar ourselves. -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="buttonBarStyle">@android:style/ButtonBar</item>
+        <item name="buttonBarButtonStyle">@android:style/Widget.Button</item>
+        <item name="selectableItemBackground">@drawable/abc_item_background_holo_dark</item>
+        <item name="dividerVertical">@drawable/abc_list_divider_holo_dark</item>
+        <item name="dividerHorizontal">@drawable/abc_list_divider_holo_dark</item>
+        <item name="listPreferredItemHeight">?android:attr/listPreferredItemHeight</item>
+        <item name="listPreferredItemHeightSmall">48dp</item>
+        <item name="listPreferredItemHeightLarge">80dp</item>
+        <item name="listPreferredItemPaddingLeft">8dip</item>
+        <item name="listPreferredItemPaddingRight">8dip</item>
+        <item name="textAppearanceListItem">?android:attr/textAppearanceMedium</item>
+        <item name="textAppearanceListItemSmall">?android:attr/textAppearanceMedium</item>
+
+        <!-- Action Mode -->
+        <item name="actionModeStyle">@style/Widget.AppCompat.ActionMode</item>
+        <item name="actionModeBackground">@drawable/abc_cab_background_top_holo_dark</item>
+        <item name="actionModeSplitBackground">@drawable/abc_cab_background_bottom_holo_dark</item>
+        <item name="actionModeCloseDrawable">@drawable/abc_ic_cab_done_holo_dark</item>
+        <item name="actionModeCloseButtonStyle">@style/Widget.AppCompat.ActionButton.CloseMode</item>
+
+        <!-- Panel attributes -->
+        <item name="panelMenuListWidth">@dimen/abc_panel_menu_list_width</item>
+        <item name="panelMenuListTheme">@style/Theme.AppCompat.CompactMenu</item>
+        <item name="android:panelBackground">@drawable/abc_menu_hardkey_panel_holo_dark</item>
+        <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_dark</item>
+    </style>
+    <style name="Theme.Base.AppCompat.Dialog.Light.FixedSize" parent="Theme.Base.AppCompat.Dialog.FixedSize"/>
+    <style name="Theme.Base.AppCompat.DialogWhenLarge" parent="Theme.Base.AppCompat"/>
+    <style name="Theme.Base.AppCompat.Light" parent="Theme.Base.Light">
+        <item name="windowActionBar">true</item>
+        <!-- Remove system title bars; we will add the action bar ourselves. -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="buttonBarStyle">@android:style/ButtonBar</item>
+        <item name="buttonBarButtonStyle">@android:style/Widget.Button</item>
+        <item name="selectableItemBackground">@drawable/abc_item_background_holo_light</item>
+        <item name="homeAsUpIndicator">@drawable/abc_ic_ab_back_holo_light</item>
+        <item name="dividerVertical">@drawable/abc_list_divider_holo_light</item>
+        <item name="dividerHorizontal">@drawable/abc_list_divider_holo_light</item>
+        <item name="listPreferredItemHeight">?android:attr/listPreferredItemHeight</item>
+        <item name="listPreferredItemHeightSmall">48dp</item>
+        <item name="listPreferredItemHeightLarge">80dp</item>
+        <item name="listPreferredItemPaddingLeft">8dip</item>
+        <item name="listPreferredItemPaddingRight">8dip</item>
+        <item name="textAppearanceListItem">?android:attr/textAppearanceMedium</item>
+        <item name="textAppearanceListItemSmall">?android:attr/textAppearanceMedium</item>
+
+        <!-- Action Bar Styles -->
+        <item name="actionBarTabStyle">@style/Widget.AppCompat.Light.ActionBar.TabView</item>
+        <item name="actionBarTabBarStyle">@style/Widget.AppCompat.Light.ActionBar.TabBar</item>
+        <item name="actionBarTabTextStyle">@style/Widget.AppCompat.Light.ActionBar.TabText</item>
+        <item name="actionButtonStyle">@style/Widget.AppCompat.Light.ActionButton</item>
+        <item name="actionOverflowButtonStyle">            @style/Widget.AppCompat.Light.ActionButton.Overflow</item>
+        <item name="actionBarStyle">@style/Widget.AppCompat.Light.ActionBar</item>
+        <item name="actionBarSplitStyle">?attr/actionBarStyle</item>
+        <item name="actionBarWidgetTheme">@null</item>
+        <item name="actionBarSize">@dimen/abc_action_bar_default_height</item>
+        <item name="actionBarDivider">?attr/dividerVertical</item>
+        <item name="actionBarItemBackground">?attr/selectableItemBackground</item>
+        <item name="actionMenuTextAppearance">            @style/TextAppearance.AppCompat.Widget.ActionBar.Menu</item>
+        <item name="actionMenuTextColor">?android:attr/textColorPrimaryDisableOnly</item>
+
+        <!-- Action Mode -->
+        <item name="actionModeStyle">@style/Widget.AppCompat.ActionMode</item>
+        <item name="actionModeBackground">@drawable/abc_cab_background_top_holo_light</item>
+        <item name="actionModeSplitBackground">@drawable/abc_cab_background_bottom_holo_light</item>
+        <item name="actionModeCloseDrawable">@drawable/abc_ic_cab_done_holo_light</item>
+        <item name="actionModeCloseButtonStyle">@style/Widget.AppCompat.Light.ActionButton.CloseMode</item>
+
+        <!-- Dropdown Spinner Attributes -->
+        <item name="actionDropDownStyle">            @style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar</item>
+
+        <!-- Panel attributes -->
+        <item name="panelMenuListWidth">@dimen/abc_panel_menu_list_width</item>
+        <item name="panelMenuListTheme">@style/Theme.AppCompat.CompactMenu</item>
+        <item name="android:panelBackground">@drawable/abc_menu_hardkey_panel_holo_light</item>
+        <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_light</item>
+    </style>
+    <style name="Theme.Base.AppCompat.Light.DarkActionBar" parent="Theme.Base.AppCompat.Light">
+        <item name="homeAsUpIndicator">@drawable/abc_ic_ab_back_holo_dark</item>
+        <item name="actionOverflowButtonStyle">@style/Widget.AppCompat.ActionButton.Overflow</item>
+        <item name="actionBarStyle">@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse</item>
+        <item name="actionBarWidgetTheme">@style/Theme.AppCompat</item>
+        <item name="actionBarDivider">@drawable/abc_list_divider_holo_dark</item>
+        <item name="actionBarItemBackground">@drawable/abc_item_background_holo_dark</item>
+        <item name="actionBarTabStyle">@style/Widget.AppCompat.Light.ActionBar.TabView.Inverse</item>
+        <item name="actionBarTabBarStyle">@style/Widget.AppCompat.Light.ActionBar.TabBar.Inverse</item>
+        <item name="actionBarTabTextStyle">@style/Widget.AppCompat.Light.ActionBar.TabText.Inverse</item>
+        <item name="actionMenuTextColor">?android:attr/textColorPrimaryInverseDisableOnly</item>
+
+        <!-- Action Mode -->
+        <item name="actionModeStyle">@style/Widget.AppCompat.Light.ActionMode.Inverse</item>
+        <item name="actionModeBackground">@drawable/abc_cab_background_top_holo_dark</item>
+        <item name="actionModeSplitBackground">@drawable/abc_cab_background_bottom_holo_dark</item>
+        <item name="actionModeCloseDrawable">@drawable/abc_ic_cab_done_holo_dark</item>
+        <item name="actionModeCloseButtonStyle">@style/Widget.AppCompat.ActionButton.CloseMode</item>
+
+        <!-- Dropdown Spinner Attributes -->
+        <item name="actionDropDownStyle">@style/Widget.AppCompat.Spinner.DropDown.ActionBar</item>
+
+        <!-- Panel attributes -->
+        <item name="android:panelBackground">@drawable/abc_menu_hardkey_panel_holo_dark</item>
+        <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_dark</item>
+    </style>
+    <style name="Theme.Base.AppCompat.Light.DialogWhenLarge" parent="Theme.Base.AppCompat.Light"/>
+    <style name="Theme.Base.Light" parent="android:Theme.Light"/>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/res/values/values.xml -->
+    <eat-comment/>
+    <style name="Theme.Helpshift" parent="@style/Theme.Helpshift.Base">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowTitleSize">@dimen/hs__actionbar_compat_height</item>
+        <item name="android:windowTitleBackgroundStyle">@style/HSActionBarCompat</item>
+        <item name="android:windowContentOverlay">@drawable/hs__actionbar_shadow</item>
+        <item name="android:editTextStyle">@style/HSEditTextAppTheme</item>
+
+        <!-- Action Bar Menu Item Selectable item background -->
+        <item name="hs__selectableItemBackground">@drawable/hs__actionbar_compat_item</item>
+        <item name="hs__actionbarCompatTitleStyle">@style/HSActionBarCompatTitle</item>
+        <item name="hs__actionbarCompatItemBaseStyle">@style/HSActionBarCompatItemBase</item>
+        <item name="hs__actionBarTabTextStyle">@style/Widget.Helpshift.Base.ActionBar.TabText</item>
+        <item name="hs__actionbarCompatProgressIndicatorStyle">@style/HSActionBarCompatProgressIndicator</item>
+    </style>
+    <style name="Theme.Helpshift.Base" parent="@style/Theme.Helpshift.Light.DarkActionBar"/>
+    <style name="Theme.Helpshift.Light.DarkActionBar" parent="@android:style/Theme.Light"/>
+    <style name="Theme.Helpshift.Translucent" parent="@style/Theme.Helpshift.Base">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.viewpagerindicator/library/2.4.1/res/values/values.xml -->
+    <eat-comment/>
+    <style name="Theme.PageIndicatorDefaults" parent="android:Theme">
+        <item name="vpiIconPageIndicatorStyle">@style/Widget.IconPageIndicator</item>
+        <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>
+    </style>
+    <style name="Widget"/>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <eat-comment/>
+    <style name="Widget.AppCompat.ActionBar" parent="Widget.AppCompat.Base.ActionBar"/>
+    <style name="Widget.AppCompat.ActionBar.Solid" parent="Widget.AppCompat.Base.ActionBar.Solid"/>
+    <style name="Widget.AppCompat.ActionBar.TabBar" parent="Widget.AppCompat.Base.ActionBar.TabBar"/>
+    <style name="Widget.AppCompat.ActionBar.TabText" parent="Widget.AppCompat.Base.ActionBar.TabText"/>
+    <style name="Widget.AppCompat.ActionBar.TabView" parent="Widget.AppCompat.Base.ActionBar.TabView"/>
+    <style name="Widget.AppCompat.ActionButton" parent="Widget.AppCompat.Base.ActionButton"/>
+    <style name="Widget.AppCompat.ActionButton.CloseMode" parent="Widget.AppCompat.Base.ActionButton.CloseMode"/>
+    <style name="Widget.AppCompat.ActionButton.Overflow" parent="Widget.AppCompat.Base.ActionButton.Overflow"/>
+    <style name="Widget.AppCompat.ActionMode" parent="Widget.AppCompat.Base.ActionMode"/>
+    <style name="Widget.AppCompat.ActivityChooserView" parent="Widget.AppCompat.Base.ActivityChooserView"/>
+    <style name="Widget.AppCompat.AutoCompleteTextView" parent="Widget.AppCompat.Base.AutoCompleteTextView"/>
+    <style name="Widget.AppCompat.Base.ActionBar" parent="">
+        <item name="displayOptions">useLogo|showHome|showTitle</item>
+        <item name="divider">?attr/dividerVertical</item>
+        <item name="height">?attr/actionBarSize</item>
+        <item name="homeLayout">@layout/abc_action_bar_home</item>
+        <item name="titleTextStyle">@style/TextAppearance.AppCompat.Widget.ActionBar.Title</item>
+        <item name="subtitleTextStyle">@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle</item>
+        <item name="background">@drawable/abc_ab_transparent_dark_holo</item>
+        <item name="backgroundStacked">@drawable/abc_ab_stacked_transparent_dark_holo</item>
+        <item name="backgroundSplit">@drawable/abc_ab_bottom_transparent_dark_holo</item>
+        <item name="actionButtonStyle">@style/Widget.AppCompat.ActionButton</item>
+        <item name="actionOverflowButtonStyle">@style/Widget.AppCompat.ActionButton.Overflow</item>
+        <item name="progressBarStyle">@style/Widget.AppCompat.ProgressBar.Horizontal</item>
+        <item name="indeterminateProgressStyle">@style/Widget.AppCompat.ProgressBar</item>
+    </style>
+    <style name="Widget.AppCompat.Base.ActionBar.Solid" parent="Widget.AppCompat.Base.ActionBar">
+        <item name="background">@drawable/abc_ab_solid_dark_holo</item>
+        <item name="backgroundStacked">@drawable/abc_ab_stacked_solid_dark_holo</item>
+        <item name="backgroundSplit">@drawable/abc_ab_bottom_solid_dark_holo</item>
+    </style>
+    <style name="Widget.AppCompat.Base.ActionBar.TabBar" parent="">
+        <item name="divider">?attr/actionBarDivider</item>
+        <item name="showDividers">middle</item>
+        <item name="dividerPadding">12dip</item>
+    </style>
+    <style name="Widget.AppCompat.Base.ActionBar.TabText" parent="">
+        <item name="android:textAppearance">@null</item>
+        <item name="android:textColor">?android:attr/textColorPrimaryDisableOnly</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:maxLines">2</item>
+        <item name="textAllCaps">true</item>
+    </style>
+    <style name="Widget.AppCompat.Base.ActionBar.TabView" parent="">
+        <item name="android:background">@drawable/abc_tab_indicator_ab_holo</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingLeft">16dip</item>
+        <item name="android:paddingRight">16dip</item>
+        <item name="android:minWidth">80dip</item>
+    </style>
+    <style name="Widget.AppCompat.Base.ActionButton" parent="">
+        <item name="android:background">?attr/actionBarItemBackground</item>
+        <item name="android:paddingLeft">12dip</item>
+        <item name="android:paddingRight">12dip</item>
+        <item name="android:minWidth">@dimen/abc_action_button_min_width</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">2</item>
+        <item name="textAllCaps">@bool/abc_config_actionMenuItemAllCaps</item>
+    </style>
+    <style name="Widget.AppCompat.Base.ActionButton.CloseMode" parent="Widget.AppCompat.Base.ActionButton"/>
+    <style name="Widget.AppCompat.Base.ActionButton.Overflow" parent="Widget.AppCompat.Base.ActionButton">
+        <item name="android:src">@drawable/abc_ic_menu_moreoverflow_normal_holo_dark</item>
+    </style>
+    <style name="Widget.AppCompat.Base.ActionMode" parent="">
+        <item name="background">?attr/actionModeBackground</item>
+        <item name="backgroundSplit">?attr/actionModeSplitBackground</item>
+        <item name="height">?attr/actionBarSize</item>
+        <item name="titleTextStyle">@style/TextAppearance.AppCompat.Widget.ActionMode.Title</item>
+        <item name="subtitleTextStyle">@style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle</item>
+    </style>
+    <style name="Widget.AppCompat.Base.ActivityChooserView" parent="">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/abc_ab_share_pack_holo_dark</item>
+        <item name="divider">?attr/dividerVertical</item>
+        <item name="showDividers">middle</item>
+        <item name="dividerPadding">6dip</item>
+    </style>
+    <style name="Widget.AppCompat.Base.AutoCompleteTextView" parent="android:Widget.AutoCompleteTextView">
+        <item name="android:textColor">?attr/actionMenuTextColor</item>
+        <item name="android:dropDownSelector">@drawable/abc_list_selector_holo_dark</item>
+        <item name="android:popupBackground">@drawable/abc_menu_dropdown_panel_holo_dark</item>
+    </style>
+    <style name="Widget.AppCompat.Base.DropDownItem.Spinner" parent="">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Widget.DropDownItem</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="Widget.AppCompat.Base.ListPopupWindow" parent="">
+        <item name="android:dropDownSelector">@drawable/abc_list_selector_holo_dark</item>
+        <item name="android:popupBackground">@drawable/abc_menu_dropdown_panel_holo_dark</item>
+        <item name="android:dropDownVerticalOffset">0dip</item>
+        <item name="android:dropDownHorizontalOffset">0dip</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+    </style>
+    <style name="Widget.AppCompat.Base.ListView.DropDown" parent="android:Widget.ListView">
+        <item name="android:listSelector">@drawable/abc_list_selector_holo_dark</item>
+    </style>
+    <style name="Widget.AppCompat.Base.ListView.Menu" parent="android:Widget.ListView.Menu">
+        <item name="android:listSelector">?attr/listChoiceBackgroundIndicator</item>
+        <item name="android:divider">?attr/dividerHorizontal</item>
+    </style>
+    <style name="Widget.AppCompat.Base.PopupMenu" parent="@style/Widget.AppCompat.Base.ListPopupWindow"/>
+    <style name="Widget.AppCompat.Base.ProgressBar" parent="android:Widget.ProgressBar">
+        <item name="android:minWidth">@dimen/abc_action_bar_progress_bar_size</item>
+        <item name="android:maxWidth">@dimen/abc_action_bar_progress_bar_size</item>
+        <item name="android:minHeight">@dimen/abc_action_bar_progress_bar_size</item>
+        <item name="android:maxHeight">@dimen/abc_action_bar_progress_bar_size</item>
+    </style>
+    <style name="Widget.AppCompat.Base.ProgressBar.Horizontal" parent="android:Widget.ProgressBar.Horizontal"/>
+    <style name="Widget.AppCompat.Base.Spinner" parent="">
+        <item name="spinnerMode">dropdown</item>
+        <item name="android:popupBackground">@drawable/abc_menu_dropdown_panel_holo_dark</item>
+        <item name="android:dropDownSelector">@drawable/abc_list_selector_holo_dark</item>
+        <item name="android:dropDownVerticalOffset">0dip</item>
+        <item name="android:dropDownHorizontalOffset">0dip</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/abc_spinner_ab_holo_dark</item>
+    </style>
+    <style name="Widget.AppCompat.DropDownItem.Spinner" parent="Widget.AppCompat.Base.DropDownItem.Spinner"/>
+    <style name="Widget.AppCompat.Light.ActionBar" parent="Widget.AppCompat.Light.Base.ActionBar"/>
+    <style name="Widget.AppCompat.Light.ActionBar.Solid" parent="Widget.AppCompat.Light.Base.ActionBar.Solid"/>
+    <style name="Widget.AppCompat.Light.ActionBar.Solid.Inverse" parent="Widget.AppCompat.Light.Base.ActionBar.Solid.Inverse"/>
+    <style name="Widget.AppCompat.Light.ActionBar.TabBar" parent="Widget.AppCompat.Light.Base.ActionBar.TabBar"/>
+    <style name="Widget.AppCompat.Light.ActionBar.TabBar.Inverse" parent="Widget.AppCompat.Light.Base.ActionBar.TabBar.Inverse"/>
+    <style name="Widget.AppCompat.Light.ActionBar.TabText" parent="Widget.AppCompat.Light.Base.ActionBar.TabText"/>
+    <style name="Widget.AppCompat.Light.ActionBar.TabText.Inverse" parent="Widget.AppCompat.Light.Base.ActionBar.TabText.Inverse"/>
+    <style name="Widget.AppCompat.Light.ActionBar.TabView" parent="Widget.AppCompat.Light.Base.ActionBar.TabView"/>
+    <style name="Widget.AppCompat.Light.ActionBar.TabView.Inverse" parent="Widget.AppCompat.Light.Base.ActionBar.TabView.Inverse"/>
+    <style name="Widget.AppCompat.Light.ActionButton" parent="Widget.AppCompat.Light.Base.ActionButton"/>
+    <style name="Widget.AppCompat.Light.ActionButton.CloseMode" parent="Widget.AppCompat.Light.Base.ActionButton.CloseMode"/>
+    <style name="Widget.AppCompat.Light.ActionButton.Overflow" parent="Widget.AppCompat.Light.Base.ActionButton.Overflow"/>
+    <style name="Widget.AppCompat.Light.ActionMode.Inverse" parent="Widget.AppCompat.Light.Base.ActionMode.Inverse"/>
+    <style name="Widget.AppCompat.Light.ActivityChooserView" parent="Widget.AppCompat.Light.Base.ActivityChooserView"/>
+    <style name="Widget.AppCompat.Light.AutoCompleteTextView" parent="Widget.AppCompat.Light.Base.AutoCompleteTextView"/>
+    <style name="Widget.AppCompat.Light.Base.ActionBar" parent="Widget.AppCompat.Base.ActionBar">
+        <item name="background">@drawable/abc_ab_transparent_light_holo</item>
+        <item name="backgroundStacked">@drawable/abc_ab_stacked_transparent_light_holo</item>
+        <item name="backgroundSplit">@drawable/abc_ab_bottom_transparent_light_holo</item>
+        <item name="actionButtonStyle">@style/Widget.AppCompat.Light.ActionButton</item>
+        <item name="actionOverflowButtonStyle">@style/Widget.AppCompat.Light.ActionButton.Overflow</item>
+        <item name="progressBarStyle">@style/Widget.AppCompat.ProgressBar.Horizontal</item>
+        <item name="indeterminateProgressStyle">@style/Widget.AppCompat.ProgressBar</item>
+    </style>
+    <style name="Widget.AppCompat.Light.Base.ActionBar.Solid" parent="Widget.AppCompat.Light.Base.ActionBar">
+        <item name="background">@drawable/abc_ab_solid_light_holo</item>
+        <item name="backgroundStacked">@drawable/abc_ab_stacked_solid_light_holo</item>
+        <item name="backgroundSplit">@drawable/abc_ab_bottom_solid_light_holo</item>
+    </style>
+    <style name="Widget.AppCompat.Light.Base.ActionBar.Solid.Inverse" parent="Widget.AppCompat.Base.ActionBar.Solid">
+        <item name="titleTextStyle">            @style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse</item>
+        <item name="subtitleTextStyle">            @style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse</item>
+        <item name="actionButtonStyle">@style/Widget.AppCompat.ActionButton</item>
+        <item name="actionOverflowButtonStyle">@style/Widget.AppCompat.ActionButton.Overflow</item>
+    </style>
+    <style name="Widget.AppCompat.Light.Base.ActionBar.TabBar" parent="Widget.AppCompat.Base.ActionBar.TabBar"/>
+    <style name="Widget.AppCompat.Light.Base.ActionBar.TabBar.Inverse" parent="Widget.AppCompat.Light.Base.ActionBar.TabBar"/>
+    <style name="Widget.AppCompat.Light.Base.ActionBar.TabText" parent="Widget.AppCompat.Base.ActionBar.TabText"/>
+    <style name="Widget.AppCompat.Light.Base.ActionBar.TabText.Inverse" parent="Widget.AppCompat.Light.Base.ActionBar.TabText">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverseDisableOnly</item>
+    </style>
+    <style name="Widget.AppCompat.Light.Base.ActionBar.TabView" parent="Widget.AppCompat.Base.ActionBar.TabView"/>
+    <style name="Widget.AppCompat.Light.Base.ActionBar.TabView.Inverse" parent="Widget.AppCompat.Light.Base.ActionBar.TabView"/>
+    <style name="Widget.AppCompat.Light.Base.ActionButton" parent="Widget.AppCompat.Base.ActionButton"/>
+    <style name="Widget.AppCompat.Light.Base.ActionButton.CloseMode" parent="Widget.AppCompat.Light.Base.ActionButton"/>
+    <style name="Widget.AppCompat.Light.Base.ActionButton.Overflow" parent="Widget.AppCompat.Light.Base.ActionButton">
+        <item name="android:src">@drawable/abc_ic_menu_moreoverflow_normal_holo_light</item>
+    </style>
+    <style name="Widget.AppCompat.Light.Base.ActionMode.Inverse" parent="Widget.AppCompat.Base.ActionMode">
+        <item name="titleTextStyle">            @style/TextAppearance.AppCompat.Widget.ActionMode.Title.Inverse</item>
+        <item name="subtitleTextStyle">            @style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle.Inverse</item>
+    </style>
+    <style name="Widget.AppCompat.Light.Base.ActivityChooserView" parent="Widget.AppCompat.Base.ActivityChooserView">
+        <item name="android:background">@drawable/abc_ab_share_pack_holo_light</item>
+    </style>
+    <style name="Widget.AppCompat.Light.Base.AutoCompleteTextView" parent="android:Widget.AutoCompleteTextView">
+        <item name="android:textColor">?attr/actionMenuTextColor</item>
+        <item name="android:dropDownSelector">@drawable/abc_list_selector_holo_light</item>
+        <item name="android:popupBackground">@drawable/abc_menu_dropdown_panel_holo_light</item>
+    </style>
+    <style name="Widget.AppCompat.Light.Base.DropDownItem.Spinner" parent="Widget.AppCompat.Base.DropDownItem.Spinner"/>
+    <style name="Widget.AppCompat.Light.Base.ListPopupWindow" parent="">
+        <item name="android:dropDownSelector">@drawable/abc_list_selector_holo_light</item>
+        <item name="android:popupBackground">@drawable/abc_menu_dropdown_panel_holo_light</item>
+        <item name="android:dropDownVerticalOffset">0dip</item>
+        <item name="android:dropDownHorizontalOffset">0dip</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+    </style>
+    <style name="Widget.AppCompat.Light.Base.ListView.DropDown" parent="android:Widget.ListView">
+        <item name="android:listSelector">@drawable/abc_list_selector_holo_light</item>
+    </style>
+    <style name="Widget.AppCompat.Light.Base.PopupMenu" parent="@style/Widget.AppCompat.Light.Base.ListPopupWindow"/>
+    <style name="Widget.AppCompat.Light.Base.Spinner" parent="Widget.AppCompat.Base.Spinner">
+        <item name="android:dropDownSelector">@drawable/abc_list_selector_holo_light</item>
+        <item name="android:popupBackground">@drawable/abc_menu_dropdown_panel_holo_light</item>
+        <item name="android:background">@drawable/abc_spinner_ab_holo_light</item>
+    </style>
+    <style name="Widget.AppCompat.Light.DropDownItem.Spinner" parent="Widget.AppCompat.Light.Base.DropDownItem.Spinner"/>
+    <style name="Widget.AppCompat.Light.ListPopupWindow" parent="Widget.AppCompat.Light.Base.ListPopupWindow"/>
+    <style name="Widget.AppCompat.Light.ListView.DropDown" parent="Widget.AppCompat.Light.Base.ListView.DropDown"/>
+    <style name="Widget.AppCompat.Light.PopupMenu" parent="Widget.AppCompat.Light.Base.PopupMenu"/>
+    <style name="Widget.AppCompat.Light.Spinner.DropDown.ActionBar" parent="Widget.AppCompat.Light.Base.Spinner"/>
+    <style name="Widget.AppCompat.ListPopupWindow" parent="Widget.AppCompat.Base.ListPopupWindow"/>
+    <style name="Widget.AppCompat.ListView.DropDown" parent="Widget.AppCompat.Base.ListView.DropDown"/>
+    <style name="Widget.AppCompat.ListView.Menu" parent="Widget.AppCompat.Base.ListView.Menu"/>
+    <style name="Widget.AppCompat.PopupMenu" parent="Widget.AppCompat.Base.PopupMenu"/>
+    <style name="Widget.AppCompat.ProgressBar" parent="Widget.AppCompat.Base.ProgressBar"/>
+    <style name="Widget.AppCompat.ProgressBar.Horizontal" parent="Widget.AppCompat.Base.ProgressBar.Horizontal"/>
+    <style name="Widget.AppCompat.Spinner.DropDown.ActionBar" parent="Widget.AppCompat.Base.Spinner"/>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/res/values/values.xml -->
+    <eat-comment/>
+    <style name="Widget.Helpshift.Base.ActionBar.TabText" parent="">
+        <item name="android:textAppearance">@null</item>
+        <item name="android:textColor">?android:attr/textColorPrimaryDisableOnly</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:maxLines">2</item>
+    </style>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.viewpagerindicator/library/2.4.1/res/values/values.xml -->
+    <eat-comment/>
+    <style name="Widget.IconPageIndicator" parent="Widget">
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+    </style>
+    <style name="Widget.TabPageIndicator" parent="Widget">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/vpi__tab_indicator</item>
+        <item name="android:paddingLeft">22dip</item>
+        <item name="android:paddingRight">22dip</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.TabPageIndicator</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/unifi/facebook/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <style name="com_facebook_loginview_default_style" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/com_facebook_button_blue</item>
+        <item name="android:textColor">@color/com_facebook_loginview_text_color</item>
+        <item name="android:textSize">@dimen/com_facebook_loginview_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">@dimen/com_facebook_loginview_padding_left</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="com_facebook_loginview_silver_style" parent="@android:style/Widget.Button">
+        <item name="android:width">205dp</item>
+        <item name="android:height">44dp</item>
+        <item name="android:background">@drawable/com_facebook_loginbutton_silver</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#4B5164</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="tooltip_bubble_text">
+	    <item name="android:textColor">@android:color/white</item>
+	    <item name="android:gravity">left</item>
+	    <item name="android:textSize">12sp</item>
+	    <item name="android:shadowDy">-1</item>
+	    <item name="android:shadowRadius">0.25</item>
+	    <item name="android:shadowColor">#40000000</item>
+    </style>
+</resources>

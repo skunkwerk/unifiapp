@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/content_area"
+        android:textColor="@color/white"
+        android:textSize="23dp"
+        android:layout_weight="20"
+        android:gravity="center"
+        android:text="@string/walkthrough_2_label_connect_wifi"/>
+
+    <FrameLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="52"
+        android:id="@+id/skyline_layout">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/skyline"
+            android:src="@drawable/skyline_small_compressed"/>
+
+        <com.unifiapp.view.PathView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/path"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+    <Space
+        android:layout_height="0dp"
+        android:layout_width="fill_parent"
+        android:layout_weight="28">
+    </Space>
+
+</LinearLayout>
+
+<!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/src/main/res/layout/walkthrough_2_content.xml -->

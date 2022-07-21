@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/res/values-zh-rCN/values.xml -->
+    <eat-comment/>
+    <plurals name="hs__notification_content_title">
+        <item quantity="one">新的消息支持</item>
+        <item quantity="other">%d 新的消息支持</item>
+    </plurals>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values-zh-rCN/values.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"转到主屏幕"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"转到上一层级"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"更多选项"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完成"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"查看全部"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"选择应用"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"清除查询"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"搜索查询"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"搜索"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"提交查询"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"语音搜索"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"分享方式"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"通过%s分享"</string>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.2.65/res/values-zh-rCN/strings.xml -->
+    <eat-comment/>
+    <string msgid="3983201110833868073" name="auth_client_needs_enabling_title">"某个应用要求启用 Google Play 服务。"</string>
+    <string msgid="7999585836145154206" name="auth_client_needs_installation_title">"某个应用要求安装 Google Play 服务。"</string>
+    <string msgid="6488605506794595966" name="auth_client_needs_update_title">"某个应用要求更新 Google Play 服务。"</string>
+    <string msgid="3635065018897986478" name="auth_client_play_services_err_notification_msg">"Google Play 服务出错"</string>
+    <string msgid="6304135633531965756" name="auth_client_requested_by_msg">"由“<ns1:g id="APP_NAME">%1$s</ns1:g>”发出"</string>
+    <string msgid="2534454398764507874" name="auth_client_using_bad_version_title">"某个应用尝试使用的 Google Play 服务版本有误。"</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"启用 Google Play 服务"</string>
+    <string msgid="7627896071867667758" name="common_google_play_services_enable_text">"您必须先启用 Google Play 服务才能运行此应用。"</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"启用 Google Play 服务"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"获取 Google Play 服务"</string>
+    <string msgid="8685301130651051380" name="common_google_play_services_install_text_phone">"您的手机中没有 Google Play 服务，您必须先安装该服务才能运行此应用。"</string>
+    <string msgid="1589957570365247855" name="common_google_play_services_install_text_tablet">"您的平板电脑中没有 Google Play 服务，您必须先安装该服务才能运行此应用。"</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"获取 Google Play 服务"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"此设备上不存在指定的帐户，请选择其他帐户。"</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"无效帐户"</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"您必须有数据网络连接才能接入 Google Play 服务。"</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"网络错误"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Google Play 服务出现未知问题。"</string>
+    <string msgid="3542578567569488671" name="common_google_play_services_unsupported_text">"您的设备不支持部分应用所依赖的 Google Play 服务。请与设备制造商联系，以寻求帮助。"</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Google Play 服务"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"更新"</string>
+    <string msgid="448354684997260580" name="common_google_play_services_update_text">"您必须先更新 Google Play 服务才能运行此应用。"</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"更新 Google Play 服务"</string>
+    <string msgid="9071884888741449141" name="common_signin_button_text">"登录"</string>
+    <string msgid="2429381841831957106" name="common_signin_button_text_long">"使用 Google 帐户登录"</string>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/com.helpshift/android-aar/3.6.0/res/values-zh-rCN/values.xml -->
+    <eat-comment/>
+    <string name="hs__attach_btn">好，附加</string>
+    <string name="hs__attach_screenshot_btn">附上截图</string>
+    <string name="hs__ca_msg">我们很乐意帮忙</string>
+    <string name="hs__change_btn">更改</string>
+    <string name="hs__chat_hint">输入你的消息</string>
+    <string name="hs__confirmation_footer_msg">感谢您向我们发送消息！</string>
+    <string name="hs__confirmation_msg">我们是否已回答您的全部问题？</string>
+    <string name="hs__contact_us_btn">联系我们</string>
+    <string name="hs__conversation_detail_error">请描述你的问题</string>
+    <string name="hs__conversation_end_msg">此会话已结束。</string>
+    <string name="hs__conversation_header">会话</string>
+    <string name="hs__conversation_started_message">    你的信息已收到。感谢联系我们！</string>
+    <string name="hs__cr_msg">我们还有什么可以帮到您？</string>
+    <string name="hs__csat_additonal_feedback_message">有其他反馈吗？（可选）</string>
+    <string name="hs__csat_dislike_message">很不满意</string>
+    <string name="hs__csat_like_message">很满意</string>
+    <string name="hs__csat_message">您对我们的客户支持有何反馈意见？</string>
+    <string name="hs__csat_option_message">或</string>
+    <string name="hs__csat_submit_toast">感谢您为我们评级</string>
+    <string name="hs__data_not_found_msg">数据未找到</string>
+    <string name="hs__default_notification_content_title">扶助</string>
+    <string name="hs__dm_video_loading">正在载入视频…</string>
+    <string name="hs__done_btn">完成</string>
+    <string name="hs__email_hint">电子邮件(可选)</string>
+    <string name="hs__email_required_hint">电子邮件</string>
+    <string name="hs__empty_section">抱歉！此部分无可用问题</string>
+    <string name="hs__faq_header">常见问题</string>
+    <string name="hs__faq_helpful_msg">有帮助</string>
+    <string name="hs__faq_unhelpful_msg">没有帮助</string>
+    <string name="hs__faqs_search_footer">此部分未找到常见问题解答</string>
+    <string name="hs__faqs_updating">正在更新常见问题</string>
+    <string name="hs__faqs_updation_failure">未能更新常见问题集</string>
+    <string name="hs__faqs_uptodate">常见问题已更新</string>
+    <string name="hs__feedback_button">发送反馈</string>
+    <string name="hs__help_header">帮助</string>
+    <string name="hs__invalid_description_error">无效输入</string>
+    <string name="hs__invalid_email_error">请输入一个有效的电子邮件地址</string>
+    <string name="hs__mark_helpful_toast">问题已被标记为帮助</string>
+    <string name="hs__mark_no">否</string>
+    <string name="hs__mark_unhelpful_toast">已被标记为问题没有帮助</string>
+    <string name="hs__mark_yes">是</string>
+    <string name="hs__mark_yes_no_question">这有帮助吗？</string>
+    <string name="hs__network_error_msg">啊呀！出现错误了</string>
+    <string name="hs__network_unavailable_msg">网络不可用</string>
+    <string name="hs__new_conversation_btn">开始一个新会话</string>
+    <string name="hs__new_conversation_header">新会话</string>
+    <string name="hs__new_conversation_hint">有什么问题或反馈吗?</string>
+    <string name="hs__notification_content_text">RE:</string>
+    <string name="hs__privacy_policy">    我们仅在你报告第一个问题时询问你的详情。欲了解详情，请阅读我们 %1$s 的隐私权政策 %2$s</string>
+    <string name="hs__question_header">问题</string>
+    <string name="hs__question_helpful_message">你发现这有帮助。</string>
+    <string name="hs__question_unhelpful_message">你发现这无帮助。</string>
+    <string name="hs__rate_button">评分</string>
+    <string name="hs__review_accepted_message">已接受评价请求</string>
+    <string name="hs__review_btn">好，评价</string>
+    <string name="hs__review_close_button">关闭</string>
+    <string name="hs__review_dialog_msg">    你介意费时评价我们的应用程序吗？这不会超过一分钟。感谢你的支持！</string>
+    <string name="hs__review_dialog_negative_btn">不要再问我</string>
+    <string name="hs__review_dialog_neutral_btn">稍后提醒我</string>
+    <string name="hs__review_dialog_positive_btn">评分并评价</string>
+    <string name="hs__review_message">    如果你喜欢我们的应用，请花点时间在App Store给它评个分</string>
+    <string name="hs__review_request_message">您要评价本应用吗？</string>
+    <string name="hs__review_title">给应用评分</string>
+    <string name="hs__rsc_progress_msg">正在发送屏幕截图。</string>
+    <string name="hs__screenshot_add">附带</string>
+    <string name="hs__screenshot_cloud_attach_error">    错误附加截图。请选择在设备上可用的图像在本地。</string>
+    <string name="hs__screenshot_limit_error">截图的大小不应该超过%.2f MB</string>
+    <string name="hs__screenshot_remove">辙</string>
+    <string name="hs__screenshot_sent_msg">已发送屏幕截图</string>
+    <string name="hs__screenshot_upload_error_msg">屏幕截图上传错误</string>
+    <string name="hs__search_footer">无法找到你在寻找的内容？</string>
+    <string name="hs__search_hint">描述你的问题</string>
+    <string name="hs__search_result_message">可能已为您提供答案的问题</string>
+    <string name="hs__search_result_title">建议</string>
+    <string name="hs__search_title">搜索</string>
+    <string name="hs__send_anyway">仍然发送</string>
+    <string name="hs__send_msg_btn">发送</string>
+    <string name="hs__sending_fail_msg">未送达。点按来重试</string>
+    <string name="hs__sending_msg">正在发送...</string>
+    <string name="hs__solved_btn">是，已解决！</string>
+    <string name="hs__submit_conversation_btn">提交</string>
+    <string name="hs__unsolved_btn">不，未解决</string>
+    <string name="hs__username_blank_error">请输入一个有效的名称</string>
+    <string name="hs__username_hint">姓名</string>
+</resources>

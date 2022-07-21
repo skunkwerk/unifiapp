@@ -1,0 +1,13 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/edit_name"
+    android:layout_width="wrap_content" android:layout_height="match_parent"
+    android:layout_gravity="center" android:orientation="vertical"  >
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minHeight="50dp"
+        android:id="@+id/operator_dropdown_menu">
+    </Spinner>
+
+</LinearLayout>

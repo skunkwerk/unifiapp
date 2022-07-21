@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.unifiapp"
+    android:versionCode="52"
+    android:versionName="52" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <permission
+        android:name="com.unifiapp.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.unifiapp.permission.C2D_MESSAGE" />
+    <!-- Required for Google Maps -->
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:icon="@drawable/logo_rings"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.unifiapp.view.SplashScreen"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.unifiapp.MainActivity"
+            android:hardwareAccelerated="true"
+            android:label="@string/app_name"
+            android:theme="@style/StyledIndicators"
+            android:windowSoftInputMode="adjustPan" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.facebook.LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <intent-filter>
+            <data
+                android:host="open"
+                android:scheme="unifiapp" />
+
+            <action android:name="android.intent.action.VIEW" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+            <category android:name="android.intent.category.BROWSABLE" />
+        </intent-filter>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id" />
+
+        <provider
+            android:name="com.facebook.NativeAppCallContentProvider"
+            android:authorities="com.facebook.app.NativeAppCallContentProvider830154490350849"
+            android:exported="true" />
+
+        <receiver
+            android:name="com.unifiapp.receiver.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.unifiapp" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.unifiapp.receiver.BootReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.unifiapp.service.GcmIntentService" />
+        <service android:name="com.unifiapp.service.ConnectToWifi" />
+        <service android:name="com.unifiapp.service.Statistics" />
+
+        <meta-data
+            android:name="com.crashlytics.ApiKey"
+            android:value="ca5617eacf68a715f4d870a21271c9bc5c362cce" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyAkk7fuZVUm-TaMB903b2UkgS8bp3ZS4LI" />
+        <!--
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyAkk7fuZVUm-TaMB903b2UkgS8bp3ZS4LI" />
+        debug value is AIzaSyAkk7fuZVUm-TaMB903b2UkgS8bp3ZS4LI
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        -->
+
+        <service
+            android:name="com.unifiapp.vpn.logic.VpnStateService"
+            android:exported="false" >
+        </service>
+        <service
+            android:name="com.unifiapp.vpn.logic.CharonVpnService"
+            android:exported="false"
+            android:permission="android.permission.BIND_VPN_SERVICE" >
+            <intent-filter>
+                <action android:name="android.net.VpnService" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="com.unifiapp.vpn.data.LogContentProvider"
+            android:authorities="com.unifiapp.vpn.content.log"
+            android:exported="true" >
+
+            <!--
+                 android:grantUriPermissions="true" combined with a custom permission does
+                 not work (probably too many indirections with ACTION_SEND) so we secure
+                 this provider with a custom ticketing system
+            -->
+        </provider>
+
+        <activity
+            android:name="com.helpshift.HSConversation"
+            android:configChanges="orientation|screenSize|locale|layoutDirection"
+            android:label="@string/hs__conversation_header"
+            android:theme="@style/Theme.Helpshift" />
+        <activity
+            android:name="com.helpshift.HSQuestionsList"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/Theme.Helpshift" />
+        <activity
+            android:name="com.helpshift.HSQuestion"
+            android:configChanges="orientation|screenSize"
+            android:hardwareAccelerated="true"
+            android:label="@string/hs__question_header"
+            android:theme="@style/Theme.Helpshift" />
+        <activity
+            android:name="com.helpshift.HSSection"
+            android:configChanges="orientation|screenSize"
+            android:hardwareAccelerated="true"
+            android:theme="@style/Theme.Helpshift"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.helpshift.HSFaqs"
+            android:configChanges="orientation|screenSize"
+            android:hardwareAccelerated="true"
+            android:label="@string/hs__help_header"
+            android:theme="@style/Theme.Helpshift"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.helpshift.HSReview"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/Theme.Helpshift.Translucent" />
+        <activity
+            android:name="com.helpshift.ScreenshotPreviewActivity"
+            android:theme="@style/Theme.Helpshift" />
+        <activity
+            android:name="com.helpshift.SearchResultActivity"
+            android:theme="@style/Theme.Helpshift" />
+
+        <service
+            android:name="com.helpshift.HSService"
+            android:label="Helpshift Service" >
+        </service>
+        <service
+            android:name="com.helpshift.HSRetryService"
+            android:label="Helpshift Service" >
+        </service>
+    </application>
+
+</manifest>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UnifiApp</string>
+
+    <string name="hs__review_message">If you love our app, please take a moment to rate it and spread the word :)</string>
+    <string name="hs__review_title">Help us increase our coverage in Mumbai</string>
+
+    <string name="permission_not_granted">Unable to perform selected action because permissions were not granted.</string>
+    <string name="app_id">830154490350849</string>
+    <string name="exception">Exception: %1$s</string>
+    
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Wifi Coverage Map</item>
+        <item>Wifi Sharing</item>
+        <item>Leaderboard</item>
+        <item>Settings</item>
+        <item>F.A.Q.</item>
+        <item>Chat with Support</item>
+    </string-array>
+    
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/map</item>
+        <item>@drawable/antenna</item>
+        <item>@drawable/award</item>
+        <item>@drawable/settings</item>
+        <item>@drawable/faq</item>
+        <item>@drawable/ic_whats_hot</item>
+    </array>
+
+    <string name="seen_walkthrough">seen_walkthrough</string>
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="total_karma_points">total karma points:</string>
+    <string name="percent_share_label">You set how much\nyou\'d like to share</string>
+    <string name="walkthrough_2_label_connect_wifi">As you move around, we\'ll\nautomatically connect you to our WiFi networks</string>
+    <string name="points_every_time_share">You get points every time someone connects to your WiFi network</string>
+    <string name="preshare_city_wifi_title">Get free WiFi in Mumbai, in exchange for sharing some of yours</string>
+    <string name="default_network_size">5,015 networks online</string>
+    <string name="verifying_location_connection">Verifying your location \n and connection...</string>
+    <string name="leaderboard_name_title">Name</string>
+    <string name="percent_wifi_share_label">% of your WiFi you\'d like to share:</string>
+    <string name="enter_wifi_password">enter the WiFi password here</string>
+    <string name="karma_points_label">Karma Points</string>
+    <string name="safe_and_secure">It\'s safe and secure</string>
+    <string name="verify_password_button_label">Verify Password</string>
+    <string name="settings_text_size">5</string>
+    <string name="get_more_karma_points">Get more Karma Points!</string>
+    <string name="your_mobile_phone_number">Your mobile phone number</string>
+    <string name="cap_usage_label">Cap usage at (GB/month):</string>
+    <string name="next_step_button_label">Next Step</string>
+    <string name="share_button_label">Share UnifiApp with your Friends</string>
+    <string name="firewall_description">Our firewall prevents misuse</string>
+    <string name="get_directions_button_label">Get Directions</string>
+    <string name="auto_connect_checkbox_label">Automatically connect me to community WiFi hotspots within range</string>
+    <string name="update_password_button_label">Update Password</string>
+    <string name="add_wifi_network_points_label">Add WiFi Network\n+5</string>
+    <string name="access_label">ACCESS:\u0020</string>
+    <string name="invite_friends_points_label">Invite Friends\n+10</string>
+    <string name="thanks_received_points_label">Thanks received</string>
+    <string name="share_more_points_label">Share More\n+5 &amp; up</string>
+    <string name="connections_made_label">Connections made</string>
+    <string name="please_upgrade_title">Please Upgrade</string>
+    <string name="please_upgrade_text">There\'s a newer version of UnifiApp now available - please go to the Play Store app, click the menu, go to \'My Apps\' and click the \'Update\' button next to UnifiApp to upgrade.</string>
+    <string name="send_credit_problem_title">Problem Sending Credit</string>
+    <string name="send_credit_problem_text">We weren\'t able to send you your credit, but we will keep trying to send it every 15 minutes until it gets sent successfully.  Our customer support team will be in touch with you shortly.</string>
+    <string name="sent_credit_title">Your credit has been sent!</string>
+    <string name="sent_credit_text">We\'ve succesfully sent you 50 Rupees to your mobile phone balance.  You will receive an SMS from your carrier shortly.  Please wait at least 5 minutes before adding another network.  Thanks!</string>
+    <string name="send_credit_failed_title">Problem Sending Credit</string>
+    <string name="send_credit_failed_text">We weren\'t able to send you your credit, but we will keep trying to send it every 15 minutes until it gets sent successfully.  Our customer support team will be in touch with you shortly.</string>
+    <string name="update_password_title">Please Update your WiFi Password</string>
+    <string name="update_password_text">We weren\'t able to connect to your WiFi - please update your WiFi password to continue accessing our network</string>
+    <string name="coverage_map_error_title">Error</string>
+    <string name="coverage_map_error_text">We could not display the coverage map - please contact support to get help.</string>
+    <string name="loading">Loading...</string>
+    <string name="unsupported_device_vpn_title">Unsupported Device</string>
+    <string name="unsupported_device_vpn_text">Your device does not support VPN connections, which are needed to ensure security.  Please contact support to get help.</string>
+    <string name="operator_dialog_title">UnifiApp Credit Confirmation</string>
+    <string name="operator_dialog_text">Please select your mobile operator, so we can send you your credit:</string>
+    <string name="home_rotating_title_1">You will be prompted to allow the VPN when we connect you, to ensure security</string>
+    <string name="home_rotating_title_2">\u0020networks online</string>
+    <string name="home_in_range_attempting_connect">In Range of Community WiFi\nAttempting to connect</string>
+    <string name="home_location_timeout_title">Please enable Location</string>
+    <string name="home_location_timeout_text">Sorry, we couldn\'t determine your location.  \nPlease go to your Android Settings app, the Location menu, turn on Location/enable Google Location Services, and try again after restarting.\nIf you need help, please click on \'Chat with Support\' in the menu.</string>
+    <string name="home_waiting_for_location">Waiting for location...</string>
+    <string name="nearest_wifi_prefix">Nearest WiFi\u0020</string>
+    <string name="nearest_wifi_suffix">\u0020meters away</string>
+    <string name="home_scanning_nearby_wifi">Scanning for nearby WiFi \nnetworks to connect to.\nPlease be within 30 meters to connect.</string>
+    <string name="home_connected_community_hotspot">Connected to a UnifiApp \ncommunity hotspot!</string>
+    <string name="home_connected_own_hotspot">Connected to \nyour own WiFi network</string>
+    <string name="home_turn_on_wifi">Please turn on your WiFi so that \nwe can try to connect you to\n nearby networks.  \nPlease click on \'chat with support\' \nin the menu to get help.</string>
+    <string name="home_no_data_connection">Please turn on your 2G/3G \nconnection in order to\n connect to nearby networks.  \nOffline mode is supported, but hasn\'t been synced recently.</string>
+    <string name="home_device_rooted">For security reasons, we do not \nsupport connecting to WiFi networks from rooted devices.  \nPlease click on \'chat with support\' \nin the menu to get help.</string>
+    <string name="home_access">ACCESS:\u0020</string>
+    <string name="friend_referral_points">You\'ll get 10 points when your friend signs up and adds a WiFi network!</string>
+    <string name="leaderboard_competition_dialog_title">Leaderboard Competition</string>
+    <string name="leaderboard_competition_dialog_text">Every month, we give away prizes to the top 3 members on the leaderboard.  This month, we\'re giving away Amazon gift cards, and will be announcing the winners on our Facebook page.</string>
+    <string name="leaderboard_you">You</string>
+    <string name="leaderboard_all_time_points">All-Time Points: </string>
+    <string name="leaderboard_community_tab_title">Commuity</string>
+    <string name="leaderboard_friends_tab_title">Friends</string>
+    <string name="leaderboard_no_friends">You don\'t have any friends on UnifiApp yet - invite them!</string>
+    <string name="report_network_problem_title">Network name:\u0020</string>
+    <string name="report_network_problem_text_1">Click here to report a problem</string>
+    <string name="report_network_problem_text_2">connecting to this network</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_contact_support">Contact Support</string>
+    <string name="dialog_send">Send</string>
+    <string name="dialog_select_operator_label">Select your Mobile Operator</string>
+    <string name="dialog_select_operator_text">Please select your mobile operator, so we can send you your credit:</string>
+
+    <string name="operator_aircel_ap">Aircel AP</string>
+    <string name="operator_aircel_assam">Aircel Assam</string>
+    <string name="operator_aircel_bihar">Aircel Bihar</string>
+    <string name="operator_aircel_chennai">Aircel Chennai</string>
+    <string name="operator_aircel_delhi">Aircel Delhi</string>
+    <string name="operator_aircel_hp">Aircel HP</string>
+    <string name="operator_aircel_jk">Aircel JK</string>
+    <string name="operator_aircel_karnataka">Aircel Karnataka</string>
+    <string name="operator_aircel_kolkata">Aircel Kolkata</string>
+    <string name="operator_aircel_maharashtra">Aircel Maharashtra</string>
+    <string name="operator_aircel_mumbai">Aircel Mumbai</string>
+    <string name="operator_aircel_north_east">Aircel North East</string>
+    <string name="operator_aircel_orissa">Aircel Orissa</string>
+    <string name="operator_aircel_punjab">Aircel Punjab</string>
+    <string name="operator_aircel_rajasthan">Aircel Rajasthan</string>
+    <string name="operator_aircel_tamil_nadu">Aircel Tamil Nadu</string>
+    <string name="operator_aircel_upe">Aircel UPE</string>
+    <string name="operator_aircel_west_bengal">Aircel West Bengal</string>
+    <string name="operator_airtel_india">Airtel India</string>
+    <string name="operator_bsnl">BSNL</string>
+    <string name="operator_idea">IDEA</string>
+    <string name="operator_loop_mobile">Loop Mobile</string>
+    <string name="operator_mtnl_delhi">MTNL Delhi</string>
+    <string name="operator_mtnl_mumbai">MTNL Mumbai</string>
+    <string name="operator_mts">MTS</string>
+    <string name="operator_reliance_cdma">Reliance CDMA</string>
+    <string name="operator_reliance_gsm">Reliance GSM</string>
+    <string name="operator_tata_docomo">Tata Docomo</string>
+    <string name="operator_tata_indicom">Tata Indicom</string>
+    <string name="operator_unicor">Uninor</string>
+    <string name="operator_videocon_gsm">Videocon GSM</string>
+    <string name="operator_vodafone_ap">Vodafone AP</string>
+    <string name="operator_vodafone_bangalore">Vodafone Bangalore</string>
+    <string name="operator_vodafone_bengal">Vodafone Bengal</string>
+    <string name="operator_vodafone_chennai">Vodafone Chennai</string>
+    <string name="operator_vodafone_delhi">Vodafone Delhi</string>
+    <string name="operator_vodafone_gujarat">Vodafone Gujarat</string>
+    <string name="operator_vodafone_haryana">Vodafone Haryana</string>
+    <string name="operator_vodafone_kerala">Vodafone Kerala</string>
+    <string name="operator_vodafone_kolkata">Vodafone Kolkata</string>
+    <string name="operator_vodafone_maharashtra">Vodafone Maharashtra</string>
+    <string name="operator_vodafone_mumbai">Vodafone Mumbai</string>
+    <string name="operator_vodafone_punjab">Vodafone Punjab</string>
+    <string name="operator_vodafone_rajasthan">Vodafone Rajasthan</string>
+    <string name="operator_vodafone_tamil_nadu">Vodafone Tamil Nadu</string>
+    <string name="operator_vodafone_upe">Vodafone UPE</string>
+    <string name="operator_vodafone_upw">Vodafone UPW</string>
+
+    <string name="incorrect_number_dialog_title">Incorrect Number</string>
+    <string name="incorrect_number_dialog_text">Please ensure the phone number you entered is 10 digits long, and try again.</string>
+    <string name="prepaid_number_field_for_credit">Your prepaid mobile # to send 50 Rs. credit to</string>
+    <string name="prepaid_number_field_for_no_credit">Your mobile phone number</string>
+
+    <string name="invite_friends_message">Get free WiFi throughout Mumbai - download UnifiApp at </string>
+    <string name="helpshift_default_message">How can we help?  We are available most hours except between 1:30 - 7:30 PM.  We normally respond within 3 hours, and often sooner.</string>
+    <string name="rs_50_credit">Rs. 50 of mobile credit!</string>
+    <string name="five_karma_points">5 karma points on the leaderboard!</string>
+    <string name="add_wifi_network_title">Add WiFi Network</string>
+    <string name="add_wifi_network_text_prefix">Share access to the </string>
+    <string name="add_wifi_network_text_suffix"> WiFi network for </string>
+
+    <string name="share_could_not_connect_internet">Sorry, we couldn\'t connect to the Internet through this network.  Please try again when you\'re connected to a different network.\nIf you need help, please click on \'Chat with Support\' in the menu.</string>
+    <string name="share_could_not_detect_location">Sorry, we couldn\'t detect your location.  \nPlease go to your Android Settings app, the Location menu, turn on Location, and try again (you may need to restart your device).\nIf you need help, please click on \'Chat with Support\' in the menu.</string>
+    <string name="share_located_outside">Sorry, our service is not currently available outside of Mumbai.  We\'ll let you know when we launch in your city.</string>
+    <string name="share_location_failure">Sorry, we could not retrieve your location.  Please install the Google Play Services app and try again.\nIf you need help, please click on \'Chat with Support\' in the menu.</string>
+    <string name="share_duplicate_found">Sorry, this WiFi network already has been submitted.  Please try again when you\'re connected to a different network.\nIf you need help, please click on \'Chat with Support\' in the menu.</string>
+    <string name="share_tethered">It looks like you\'re currently connected to a network we don\'t support, or a mobile WiFi hotspot (which won\'t always be on, or have unlimited data to share).\nPlease try again later when you\'re connected to a regular WiFi router,\nor click on \'chat with support\' in the menu to get help.</string>
+    <string name="share_password_failure">Sorry, that doesn\'t seem to be correct.  \nPlease try again.\nIf you forgot your password, please click on \'F.A.Q.\' in the menu.\n  Otherwise, click on \'Chat with Support\' to get help.</string>
+    <string name="thanks_bootstrap_inactive">Thanks!  \n\nWe\'ll connect you to our community\'s WiFi as you come within range automatically.\n</string>
+    <string name="thanks_boostrap_active">Thanks!  We\'re sending 50 Rs. to your SIM card now.\nWe\'ll connect you to our community\'s WiFi as you come within range automatically\n\nGet access to another thousand WiFi networks in Mumbai for every friend you invite!\n\n</string>
+    <string name="share_select_operator">Select your Operator</string>
+    <string name="share_select_operator_message">Please select your mobile operator, so we can send you your credit.  Depending on your operator, it may take between a minute to over an hour to process - please go to \'Chat with Support\' in the menu if you haven\'t received it within a few hours.</string>
+    <string name='share_thanks_password_updated'>Thanks!  Your password has been updated.</string>
+    <string name='share_verifying'>Verifying... \n(could take up to 15 seconds)</string>
+    <string name='share_password_length_title'>Password</string>
+    <string name='share_password_length_text_prefix'>Please ensure the password is at least </string>
+    <string name='share_password_length_text_suffix'> letters long, and try again.</string>
+    <string name='share_please_enter_password_prefix'>Please enter in the password to the \'</string>
+    <string name='share_please_enter_password_suffix'>\' WiFi network.\nYou can set the amount you\'d like to share by going to the Settings menu at any time.</string>
+    <string name='share_please_enter_new_password_prefix'>Please enter in the new password to the \'</string>
+    <string name='share_please_enter_new_password_suffix'>\' WiFi network\n in order to update it.</string>
+    <string name='share_exceeded_router_limit'>You\'ve reached the limit of networks you can add (for security reasons, we only want you to submit your own networks, not those of other people).\nPlease click on \'chat with support\' if you have questions.</string>
+    <string name='share_open_network'>You\'re currently connected to an open WiFi network\n that we can\'t verify access to &amp; share with our community.\n\n  Please try again later when you\'re connected to a password-protected network that you\'d like to share, or contact us via the \'Chat with Support\' option in the menu.</string>
+    <string name='share_already_added'>You\'ve already added this WiFi network - please try again later when you\'re connected to a different network.</string>
+    <string name='wifi_check_not_connected_wifi'>"You\'re not connected to a WiFi network.  \nPlease connect to a WiFi network, and try again.\nIf you need help, please click on \'Chat with Support\' in the menu.</string>
+    <string name='wifi_check_wifi_not_enabled'>Please turn on your phone\'s WiFi, connect to a network, and try again.\nIf you need help, please click on \'Chat with Support\' in the menu.</string>
+    <string name='wifi_check_exception'>We could not determine your WiFi connection settings - please click on \'Chat with Support\' in the menu to get help.</string>
+    <string name='splash_screen_believe'>We believe Internet access should be a human right</string>
+    <string name='splash_screen_city'>Help us make Mumbai the first WiFi-sharing city in the world!</string>
+
+</resources>

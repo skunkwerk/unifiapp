@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/build/intermediates/exploded-aar/unifi/facebook/unspecified/res/values-hdpi-v4/values-hdpi-v4.xml -->
+    <eat-comment/>
+    <dimen name="com_facebook_picker_divider_width">1px</dimen>
+</resources>

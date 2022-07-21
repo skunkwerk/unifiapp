@@ -1,0 +1,191 @@
+# view res/layout/leaderboard_fragment.xml #generated:1
+-keep class android.support.v4.app.FragmentTabHost { <init>(...); }
+
+# view res/layout/hs__questions_list.xml #generated:14
+-keep class android.support.v4.view.PagerTabStrip { <init>(...); }
+
+# view res/layout/hs__questions_list.xml #generated:8
+# view res/layout/preshare_fragment.xml #generated:10
+# view res/layout/simple_circles.xml #generated:23
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view res/layout/activity_main.xml #generated:1
+-keep class android.support.v4.widget.DrawerLayout { <init>(...); }
+
+# view res/layout/abc_action_menu_item_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ActionMenuItemView { <init>(...); }
+
+# view res/layout/abc_action_menu_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ActionMenuView { <init>(...); }
+
+# view res/layout/abc_expanded_menu_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ExpandedMenuView { <init>(...); }
+
+# view res/layout/abc_list_menu_item_layout.xml #generated:17
+# view res/layout/abc_popup_menu_item_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ListMenuItemView { <init>(...); }
+
+# view res/layout/abc_action_bar_decor_include.xml #generated:19
+# view res/layout/abc_action_bar_decor_include.xml #generated:47
+# view res/layout/abc_action_bar_decor_overlay.xml #generated:29
+# view res/layout/abc_action_bar_decor_overlay.xml #generated:52
+-keep class android.support.v7.internal.widget.ActionBarContainer { <init>(...); }
+
+# view res/layout/abc_action_bar_decor_include.xml #generated:31
+# view res/layout/abc_action_bar_decor_overlay.xml #generated:40
+# view res/layout/abc_action_mode_bar.xml #generated:19
+-keep class android.support.v7.internal.widget.ActionBarContextView { <init>(...); }
+
+# view res/layout/abc_action_bar_decor_overlay.xml #generated:17
+-keep class android.support.v7.internal.widget.ActionBarOverlayLayout { <init>(...); }
+
+# view res/layout/abc_action_bar_decor_include.xml #generated:25
+# view res/layout/abc_action_bar_decor_overlay.xml #generated:35
+-keep class android.support.v7.internal.widget.ActionBarView { <init>(...); }
+
+# view res/layout/abc_action_bar_home.xml #generated:17
+-keep class android.support.v7.internal.widget.ActionBarView$HomeView { <init>(...); }
+
+# view res/layout/abc_action_bar_tabbar.xml #generated:17
+# view res/layout/abc_activity_chooser_view.xml #generated:19
+-keep class android.support.v7.internal.widget.LinearLayoutICS { <init>(...); }
+
+# view v11/res/layout-v11/abc_action_bar_decor.xml #generated:17
+# view v11/res/layout-v11/abc_simple_decor.xml #generated:17
+-keep class android.support.v7.internal.widget.NativeActionModeAwareLayout { <init>(...); }
+
+# view res/layout/abc_action_bar_tab.xml #generated:17
+-keep class android.support.v7.internal.widget.ScrollingTabContainerView$TabView { <init>(...); }
+
+# view res/layout/abc_search_view.xml #generated:85
+-keep class android.support.v7.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# view res/layout/fragment_settings.xml #generated:86
+# view res/layout/home_fragment.xml #generated:69
+# view res/layout/new_password.xml #generated:40
+# view res/layout/new_password.xml #generated:61
+# view res/layout/preshare_fragment.xml #generated:61
+-keep class com.beardedhen.androidbootstrap.BootstrapButton { <init>(...); }
+
+# view res/layout/new_password.xml #generated:25
+# view res/layout/preshare_fragment.xml #generated:46
+-keep class com.beardedhen.androidbootstrap.BootstrapEditText { <init>(...); }
+
+# view res/layout/home_fragment.xml #generated:108
+# view res/layout/home_fragment.xml #generated:142
+# view res/layout/leaderboard_community_fragment.xml #generated:108
+# view res/layout/leaderboard_community_fragment.xml #generated:140
+# view res/layout/leaderboard_community_fragment.xml #generated:76
+# view res/layout/leaderboard_friends_fragment.xml #generated:108
+# view res/layout/leaderboard_friends_fragment.xml #generated:140
+# view res/layout/leaderboard_friends_fragment.xml #generated:76
+-keep class com.beardedhen.androidbootstrap.FontAwesomeText { <init>(...); }
+
+# view res/layout/bootstrap_thumbnail.xml #generated:18
+# view res/layout/bootstrap_thumbnail_circle.xml #generated:21
+-keep class com.beardedhen.androidbootstrap.utils.AutoResizeTextView { <init>(...); }
+
+# view AndroidManifest.xml #generated:68
+-keep class com.facebook.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:88
+-keep class com.facebook.NativeAppCallContentProvider { <init>(...); }
+
+# view res/layout/com_facebook_usersettingsfragment.xml #generated:48
+# view res/layout/splash_screen.xml #generated:18
+-keep class com.facebook.widget.LoginButton { <init>(...); }
+
+# view res/layout/coverage_map_fragment.xml #generated:7
+-keep class com.google.android.gms.maps.MapView { <init>(...); }
+
+# view res/layout/text_bubble.xml #generated:7
+-keep class com.google.maps.android.ui.RotationLayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:157
+-keep class com.helpshift.HSConversation { <init>(...); }
+
+# view AndroidManifest.xml #generated:178
+-keep class com.helpshift.HSFaqs { <init>(...); }
+
+# view res/layout/hs__faqs.xml #generated:9
+-keep class com.helpshift.HSFaqsFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:166
+-keep class com.helpshift.HSQuestion { <init>(...); }
+
+# view res/layout/hs__question.xml #generated:7
+-keep class com.helpshift.HSQuestionFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:162
+-keep class com.helpshift.HSQuestionsList { <init>(...); }
+
+# view AndroidManifest.xml #generated:200
+-keep class com.helpshift.HSRetryService { <init>(...); }
+
+# view AndroidManifest.xml #generated:185
+-keep class com.helpshift.HSReview { <init>(...); }
+
+# view AndroidManifest.xml #generated:172
+-keep class com.helpshift.HSSection { <init>(...); }
+
+# view AndroidManifest.xml #generated:196
+-keep class com.helpshift.HSService { <init>(...); }
+
+# view AndroidManifest.xml #generated:189
+-keep class com.helpshift.ScreenshotPreviewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:192
+-keep class com.helpshift.SearchResultActivity { <init>(...); }
+
+# view res/layout/hs__actionbar_compat_home.xml #generated:2
+-keep class com.helpshift.app.ActionBarHelperBase$HomeView { <init>(...); }
+
+# view res/layout/hs__csat_holder.xml #generated:2
+-keep class com.helpshift.widget.CSATView { <init>(...); }
+
+# view res/layout/hs__simple_search_view.xml #generated:2
+-keep class com.helpshift.widget.SimpleSearchView { <init>(...); }
+
+# view res/layout/home_fragment.xml #generated:38
+-keep class com.pascalwelsch.holocircularprogressbar.HoloCircularProgressBar { <init>(...); }
+
+# view AndroidManifest.xml #generated:58
+-keep class com.unifiapp.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:103
+-keep class com.unifiapp.receiver.BootReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:93
+-keep class com.unifiapp.receiver.GcmBroadcastReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:113
+-keep class com.unifiapp.service.ConnectToWifi { <init>(...); }
+
+# view AndroidManifest.xml #generated:112
+-keep class com.unifiapp.service.GcmIntentService { <init>(...); }
+
+# view AndroidManifest.xml #generated:114
+-keep class com.unifiapp.service.Statistics { <init>(...); }
+
+# view res/layout/walkthrough_2_content.xml #generated:32
+-keep class com.unifiapp.view.PathView { <init>(...); }
+
+# view AndroidManifest.xml #generated:48
+-keep class com.unifiapp.view.SplashScreen { <init>(...); }
+
+# view AndroidManifest.xml #generated:145
+-keep class com.unifiapp.vpn.data.LogContentProvider { <init>(...); }
+
+# view AndroidManifest.xml #generated:136
+-keep class com.unifiapp.vpn.logic.CharonVpnService { <init>(...); }
+
+# view AndroidManifest.xml #generated:132
+-keep class com.unifiapp.vpn.logic.VpnStateService { <init>(...); }
+
+# view res/layout/preshare_fragment.xml #generated:37
+# view res/layout/simple_circles.xml #generated:29
+-keep class com.viewpagerindicator.CirclePageIndicator { <init>(...); }
+
+# view res/layout/leaderboard_listview_parent.xml #generated:23
+-keep class de.hdodenhof.circleimageview.CircleImageView { <init>(...); }
+

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:id="@+id/placeholder"
+        android:background="@android:color/transparent">
+        </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="100"
+        >
+
+            <Space
+                android:layout_height="0dp"
+                android:layout_width="wrap_content"
+                android:layout_weight="96">
+                </Space>
+
+            <com.viewpagerindicator.CirclePageIndicator
+                android:id="@+id/indicator"
+                android:padding="10dp"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_gravity="center_horizontal|bottom"
+                style="@style/StyledIndicators"
+                />
+
+            <com.beardedhen.androidbootstrap.BootstrapEditText
+                android:id="@+id/phone_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/your_mobile_phone_number"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@null"
+                bootstrapbutton:be_roundedCorners="true"
+                android:layout_gravity="center_horizontal|bottom"
+                bootstrapbutton:be_state="success"
+                android:inputType="phone"
+                android:imeOptions="actionDone"
+                android:layout_marginBottom="10dp"
+                />
+
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/next_step_button_label"
+                android:id="@+id/preshare_next"
+                android:layout_gravity="center_horizontal|bottom"
+                bootstrapbutton:bb_type="success"
+                bootstrapbutton:bb_roundedCorners="true"
+                bootstrapbutton:bb_icon_right="fa-chevron-right">
+            </com.beardedhen.androidbootstrap.BootstrapButton>
+
+
+    </LinearLayout>
+</FrameLayout>

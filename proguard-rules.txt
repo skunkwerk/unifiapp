@@ -1,0 +1,147 @@
+-dontusemixedcaseclassnames
+-dontskipnonpubliclibraryclasses
+-verbose
+-printseeds seeds.txt
+-printusage unused.txt
+-printmapping mapping.txt
+-libraryjars libs
+
+-keep public class * extends android.app.Activity
+-keep public class * extends android.app.Application
+-keep public class * extends android.app.Service
+-keep public class * extends android.content.BroadcastReceiver
+-keep public class * extends android.content.ContentProvider
+-keep public class * extends android.app.backup.BackupAgentHelper
+-keep public class * extends android.preference.Preference
+-keep public class com.android.vending.licensing.ILicensingService
+
+-dontwarn com.google.android.gms.**
+
+# for crashlytics
+-keep class com.crashlytics.** { *; }
+-keepattributes SourceFile,LineNumberTable
+
+# for support
+-keep class android.support.v4.app.** { *; }
+-keep interface android.support.v4.app.** { *; }
+
+# for viewpagerindicator
+-keep class com.viewpagerindicator.** { *; }
+-keep interface com.viewpagerindicator.** { *; }
+
+# for facebook
+-keep class com.facebook.** { *; }
+
+# for segment analytics
+-keep class com.segment.** { *; }
+-dontwarn com.segment.analytics.**
+
+#for realm
+-keep class io.realm.** { *; }
+-dontwarn io.realm.**
+-dontwarn com.squareup.javawriter.**
+-dontwarn javax.**
+
+# for retrofit & okhttp
+-keepattributes *Annotation*
+-keepattributes Signature
+-keep class com.squareup.okhttp.** { *; }
+-keep interface com.squareup.okhttp.** { *; }
+-dontwarn com.squareup.okhttp.**
+-dontwarn okio.**
+-dontwarn rx.**
+-dontwarn retrofit.**
+-dontwarn com.squareup.okhttp.**
+-dontwarn org.w3c.dom.bootstrap.DOMImplementationRegistry
+-keep class retrofit.** { *; }
+-keepclasseswithmembers class * {
+    @retrofit.http.* <methods>;
+}
+-keep class com.unifiapp.model.* { *; }
+
+# for google play services
+-keep class * extends java.util.ListResourceBundle {
+    protected Object[][] getContents();
+}
+
+-keep public class com.google.android.gms.common.internal.safeparcel.SafeParcelable {
+    public static final *** NULL;
+}
+
+-keepnames @com.google.android.gms.common.annotation.KeepName class *
+-keepclassmembernames class * {
+    @com.google.android.gms.common.annotation.KeepName *;
+}
+
+-keepnames class * implements android.os.Parcelable {
+    public static final ** CREATOR;
+}
+
+# for GSON
+-keepattributes Signature
+-keep class sun.misc.Unsafe { *; }
+-keep class org.joda.time.** { *; }
+-keep interface org.joda.time.** { *; }
+-keep class org.joda.convert.** { *; }
+-keep interface org.joda.convert.** { *; }
+
+# for Guava
+-dontwarn javax.annotation.**
+-dontwarn javax.inject.**
+-dontwarn sun.misc.Unsafe
+
+# for eventbus
+-keepclassmembers class ** {
+    public void onEvent*(**);
+}
+
+# to remove debug logs
+-assumenosideeffects class android.util.Log {
+    public static *** d(...);
+    public static *** v(...);
+}
+
+#Maintain enums
+-keepclassmembers enum * {
+     public static **[] values();
+     public static ** valueOf(java.lang.String);
+}
+
+#To keep parcelable classes (to serialize - deserialize objects to sent through Intents)
+-keep class * implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator *;
+}
+
+-keepclassmembers class * implements java.io.Serializable {
+    private static final java.io.ObjectStreamField[] serialPersistentFields;
+    private void writeObject(java.io.ObjectOutputStream);
+    private void readObject(java.io.ObjectInputStream);
+    java.lang.Object writeReplace();
+    java.lang.Object readResolve();
+}
+
+# for Jackson
+-keep public class com.unifiapp.** {
+  public void set*(***);
+  public *** get*();
+}
+-keepnames class com.fasterxml.jackson.** { *; }
+-dontwarn com.fasterxml.jackson.databind.**
+
+# for UnifiApp itself
+-keepattributes JavascriptInterface
+-keepclassmembers class * {
+    @android.webkit.JavascriptInterface <methods>;
+}
+
+# for the bootstrap buttons
+-keepclasseswithmembers class * {
+ public void onClick(android.view.View);
+ }
+
+-keepclasseswithmembers class * {
+    public <init>(android.content.Context, android.util.AttributeSet, int);
+}
+
+# for the VPN
+-keep class com.unifiapp.vpn.** { *; }

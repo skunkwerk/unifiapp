@@ -1,0 +1,126 @@
+<html>
+    <head>
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+        <script src="jquery.min.js"></script>
+        <script type="text/javascript" src="odometer.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="odometer-theme-car.css"/>
+        <script>
+        $(document).ready(function()
+        {
+            window.odometerOptions = {
+              auto: true, // Don't automatically initialize everything with class 'odometer'
+              duration: 3000, // Change how long the javascript expects the CSS animation to take
+              theme: 'car', // Specify the theme (if you have more than one theme css file on the page)
+            };
+            var window_height = $(window).height();
+            var window_width = $(window).width();
+            if (window_height>window_width)
+            {
+                circle_width = window_width * .9;//$("#mumbai_circle_city")
+            }
+            else
+            {
+                circle_width = window_height * .9;//$("#mumbai_circle_city")                
+            }
+            var left_margin = circle_width/2;
+            $("#map").css("margin-left",($(window).width()/2)-left_margin);
+            $("#map").show();
+            //when the page first loads, call these two
+            start_odometer();
+            start_drawing_map_circles();
+        });
+        function start_odometer()
+        {
+            /*$.ajax({
+              url: "https://www.unifiapp.com/count_routers",
+              dataType: "jsonp",
+              success: function (data) 
+              {
+                parsed = jQuery.parseJSON(data);
+                console.log(parsed.count);
+              }
+            }, "json");*/
+            var final_value = Android.getCount();
+            $(".odometer").html(0);
+            var left_margin = $(window).width()/2;
+            $("#counter").css("margin-left",left_margin - 30);
+            $("#odometer_label").css("margin-left",left_margin - 75);
+            $("#counter").show();
+            setTimeout(function(){ $('.odometer').html(final_value); }, 500);
+        }
+        function start_drawing_map_circles()
+        {
+            console.log('drawing map circles');
+            circles_added = 0;
+            $("#hotspot_overlay").height(circle_width);
+            $("#hotspot_overlay").width(circle_width);
+            interval_fn = window.setInterval("animate_circles_on_map();", 10);
+        }
+        function animate_circles_on_map()
+        {
+            var radius = circle_width/2;
+            if (Math.random()>0.5)
+            {
+                var x_coord = radius + Math.floor((Math.random() * radius) + 1);
+            }
+            else
+            {
+                var x_coord = radius - Math.floor((Math.random() * radius) + 1);
+            }
+            if (Math.random()>0.5)
+            {
+                var y_coord = radius + Math.floor((Math.random() * radius) + 1);
+            }
+            else
+            {
+                var y_coord = radius - Math.floor((Math.random() * radius) + 1);
+            }
+            // check if we're inside the circle or not
+            // x^2 + y^2 = r^2
+            // so take each point, sum = x^2 + y^2, if it's less than 300^2, then add.  otherwise ignore it
+            if (Math.pow(x_coord-radius,2) + Math.pow(y_coord-radius,2) < (.7*Math.pow(radius,2)))
+            {
+                var circle_html = "<svg class='img-responsive image_back hotspot' alt='img' style='z-index: 6; position: absolute;'><circle cx='" + x_coord + "' cy='" + y_coord + "' r='2' fill='red'></circle></svg>";
+                $("#hotspot_overlay").append(circle_html); //jquery append to div above map
+                circles_added += 1;
+            }
+            if(circles_added>500)
+            {
+                circles_added = 0;
+                clearInterval(interval_fn);
+                //start over again
+            }
+        }
+        </script>
+        <style>
+        #mumbai_circle_city
+        {
+            max-width:90%;
+            max-height:90%;
+        }
+        #mumbai_circle_water
+        {
+            max-width:90%;
+            max-height:90%;
+        }
+        #counter
+        {
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+        .odometer
+        {
+            font-size: large;
+        }
+        </style>
+    </head>
+    <body leftmargin="0" topmargin="0" rightmargin="0" bottommargin="0">
+        <div id='counter' class='odometer' style='margin-left:45%; display:none;'>0</div>
+        <div id='odometer_label' style='color:white'>networks & growing!</div>
+        <div id='map' style='display:none;'>
+            <img src="new_mumbai_city_circle_compressed.png" id='mumbai_circle_city' style="position:absolute; z-index: 5;">
+            <svg xmlns="http://www.w3.org/2000/svg" id='hotspot_overlay' style="position:absolute; z-index:7;">
+            <img src="new_mumbai_water_circle_compressed.png" id='mumbai_circle_water' style="position:absolute; z-index: 7;">
+        </div>
+    </body>
+</html>

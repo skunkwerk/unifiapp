@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:id="@+id/content_area"
+        android:textColor="@color/white"
+        android:textSize="23dp"
+        android:gravity="center"
+        android:text="@string/preshare_city_wifi_title"/>
+
+    <WebView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="60"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center_horizontal|bottom"
+        android:id="@+id/walkthrough_webview"
+        />
+
+    <Space
+        android:layout_height="0dp"
+        android:layout_width="fill_parent"
+        android:layout_weight="20">
+    </Space>
+
+</LinearLayout><!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/src/main/res/layout/walkthrough_1_content.xml -->

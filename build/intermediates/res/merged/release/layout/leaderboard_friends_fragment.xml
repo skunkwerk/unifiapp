@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fontawesometext="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/community_layout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:weightSum="100">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:weightSum="100"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="50"
+            android:layout_height="fill_parent"
+            android:id="@+id/leaderboard_header_left"
+            android:text="@string/leaderboard_name_title"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="9sp"
+            android:background="@color/tan"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="50"
+            android:layout_height="fill_parent"
+            android:id="@+id/leaderboard_header_right"
+            android:text="@string/karma_points_label"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="9sp"
+            android:background="@color/tan"/>
+    </LinearLayout>
+
+    <ExpandableListView
+        android:id="@+id/friends_listview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="72">
+    </ExpandableListView>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:text="@string/get_more_karma_points"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/list_background_pressed"
+        android:background="@color/tan"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="18"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:background="@color/tan">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="5"></View>
+
+        <LinearLayout
+            android:layout_height="fill_parent"
+            android:layout_width="0dp"
+            android:layout_weight="30"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <com.beardedhen.androidbootstrap.FontAwesomeText
+                fontawesometext:fa_icon="fa-plus"
+                android:id="@+id/add_router_button"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="60"
+                android:textSize="40sp"
+                android:clickable="true"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:layout_marginLeft="40dp"
+                android:textColor="@color/list_background_pressed"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="40"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:text="@string/add_wifi_network_points_label"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="fill_parent"
+            android:layout_width="0dp"
+            android:layout_weight="30"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <com.beardedhen.androidbootstrap.FontAwesomeText
+                fontawesometext:fa_icon="fa-users"
+                android:id="@+id/invite_friends_button"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="55"
+                android:textSize="40sp"
+                android:clickable="true"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:layout_marginLeft="40dp"
+                android:textColor="@color/list_background_pressed"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="45"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:text="@string/invite_friends_points_label"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="fill_parent"
+            android:layout_width="0dp"
+            android:layout_weight="30"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <com.beardedhen.androidbootstrap.FontAwesomeText
+                fontawesometext:fa_icon="fa-share-alt"
+                android:id="@+id/share_more_button"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="60"
+                android:textSize="40sp"
+                android:clickable="true"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:layout_marginLeft="40dp"
+                android:textColor="@color/list_background_pressed"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="40"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:text="@string/share_more_points_label"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="5"></View>
+
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/Volumes/Backup%20Original%201/final%20june/Code/android/unifi/unifi/src/main/res/layout/leaderboard_friends_fragment.xml -->

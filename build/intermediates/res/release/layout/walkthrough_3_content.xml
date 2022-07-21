@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:text="@string/percent_share_label"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="23dp"/>
+
+    <SeekBar
+        android:id="@+id/percentShare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="15"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:orientation="horizontal"
+        android:weightSum="100">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="50"
+            android:text="It's safe and secure"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="23dp" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="50"
+            android:layout_marginRight="20dp"
+            android:id="@+id/norton_secured"/>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="22"
+        android:orientation="horizontal"
+        android:weightSum="100">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:textColor="#000000"
+            android:textSize="50sp"
+            android:gravity="center"
+            android:id="@+id/stop_sign"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="50"
+            android:text="@string/firewall_description"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="23dp" />
+    </LinearLayout>
+
+    <Space
+        android:layout_height="0dp"
+        android:layout_width="fill_parent"
+        android:layout_weight="18">
+    </Space>
+
+</LinearLayout><!-- From: file:/Users/imran/Code/android/unifi/unifi/src/main/res/layout/walkthrough_3_content.xml -->

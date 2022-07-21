@@ -1,0 +1,61 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent_row"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/leaderboard_item_border"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/edit_name"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    android:background="@color/white"
+    android:weightSum="100">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_picture"
+        android:layout_margin="5dp"
+        android:layout_weight="10"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:src="@drawable/skyline_small_compressed"
+        app:border_width="0dp"/>
+
+    <!--?android:attr/listPreferredItemHeight-->
+    <CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/textViewParent"
+        android:layout_weight="70"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:gravity="left"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:layout_gravity="center"
+    />
+
+    <TextView
+        android:id="@+id/right_text"
+        android:layout_weight="20"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center">
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/Users/imran/Code/android/unifi/unifi/src/main/res/layout/leaderboard_listview_parent.xml -->
